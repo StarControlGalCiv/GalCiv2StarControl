@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<CUSTOMPLANETS>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName,Texture,TerrainPalette,Moon,PercentOfStarSize,Rings,Orbit,InnerRadius,OuterRadius</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<StarSystem Name="Sol">
+		<DisplayName>Sol</DisplayName>
+		<Texture>gfx/planets/sol.png</Texture>
+		<Planet Name="Earth">
+			<DisplayName>Earth</DisplayName>
+			<Class>10</Class>
+			<Texture>gfx/planets/earth.png</Texture>
+			<RAWTerrain>earth.raw</RAWTerrain>
+			<TerrainPalette>Testing123</TerrainPalette>
+			<Moon>gfx/planets/m00.png</Moon>
+			<PercentOfStarSize>0.50</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Mars">
+			<DisplayName>Mars</DisplayName>
+			<Class>4</Class>
+			<Texture>gfx/planets/mars.png</Texture>
+			<TerrainPalette>RedPlanet</TerrainPalette>
+			<PercentOfStarSize>0.40</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Mercury">
+			<DisplayName>Mercury</DisplayName>
+			<Class>0</Class>
+			<Texture>gfx/planets/M10.png</Texture>
+			<TerrainPalette>JustRockPlanet</TerrainPalette>
+			<PercentOfStarSize>0.15</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Jupiter">
+			<DisplayName>Jupiter</DisplayName>
+			<Class>0</Class>
+			<Texture>gfx/planets/jupiter.png</Texture>
+			<TerrainPalette>DesertPlanets1</TerrainPalette>
+			<PercentOfStarSize>0.80</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Saturn">
+			<DisplayName>Saturn</DisplayName>
+			<Class>0</Class>
+			<Texture>gfx/planets/saturn.png</Texture>
+			<PercentOfStarSize>0.60</PercentOfStarSize>
+			<Rings>gfx/planets/r00.png</Rings>
+			<Orbit>1.25</Orbit>
+			<InnerRadius>0.2</InnerRadius>
+			<OuterRadius>15</OuterRadius>
+		</Planet>
+		<AsteroidField Name="SolarAsteroidBelt">
+			<DisplayName>Solar Asteroid Belt</DisplayName>
+			<Size>4</Size>
+		</AsteroidField>
+	</StarSystem>
+<!-- 	<StarSystem Name="Altaris">
+		<DisplayName>Altaris</DisplayName>
+		<Planet Name="Altaria">
+			<DisplayName>Altaria</DisplayName>
+			<Class>12</Class>
+			<Texture>gfx/planets/Altaria.png</Texture>
+			<RAWTerrain>Altaria.raw</RAWTerrain>
+			<Moon>gfx/planets/m03.png</Moon>
+		</Planet>
+		<Planet Name="Epas">
+			<DisplayName>Epas</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Imoth">
+			<DisplayName>Imoth</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Po">
+			<DisplayName>Po</DisplayName>
+			<Texture>gfx/planets/M04.png</Texture>
+			<PercentOfStarSize>0.20</PercentOfStarSize>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Wisp">
+			<DisplayName>Wisp</DisplayName>
+			<Class>3</Class>
+		</Planet>
+		<AsteroidField Name="DrenginAsteroidField">
+			<DisplayName>Altarian Asteroid Cluster</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem> -->
+	<StarSystem Name="CustomDefault">
+		<Planet Name="Homeworld">
+			<Class>10</Class>
+			<Moon>gfx/planets/m00.png</Moon>
+			<PercentOfStarSize>0.50</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Planet2">
+			<Class>4</Class>
+			<PercentOfStarSize>0.40</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Planet3">
+			<Class>0</Class>
+			<PercentOfStarSize>0.15</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Planet4">
+			<Class>0</Class>
+			<PercentOfStarSize>0.80</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Planet5">
+			<Class>0</Class>
+			<PercentOfStarSize>0.60</PercentOfStarSize>
+			<Rings>gfx/planets/r00.png</Rings>
+		</Planet>
+		<AsteroidField>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+</CUSTOMPLANETS>

@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+
+<TechTrees>
+	<TechTree InternalName="Krynn_TechTree">
+		<DataChecksum NoParse="1">
+			<Ignore>DisplayName,Description,Details,Model,xmlns</Ignore>
+			<Translate>DisplayName,Description,Details</Translate>
+		</DataChecksum>
+		<DisplayName>Krynn</DisplayName>
+		<Culture ID="Xeno Communications">
+			<DisplayName>Xeno Communications</DisplayName>
+		</Culture>
+		<Culture ID="UniversalTranslator">
+			<DisplayName>Universal Translator</DisplayName>
+		</Culture>
+		<Culture ID="InterGov">
+			<DisplayName>Interstellar Governments</DisplayName>
+		</Culture>
+		<Culture ID="Alliances">
+			<Category>Sensor</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>86</WillingnessToTrade>
+		</Culture>
+		<Culture ID="StarRep">
+			<DisplayName>Interstellar Republic</DisplayName>
+		</Culture>
+		<Culture ID="StarDem">
+			<DisplayName>Star Democracy</DisplayName>
+		</Culture>
+		<Culture ID="StarFed">
+			<DisplayName>Star Federation</DisplayName>
+		</Culture>
+		<Culture ID="Diplomatic Relations">
+			<DisplayName>Diplomatic Relations</DisplayName>
+		</Culture>
+		<Culture ID="Advanced Diplomacy">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Expert Diplomacy">
+			<DisplayName>Expert Diplomacy</DisplayName>
+		</Culture>
+		<Culture ID="Trade">
+			<Alignment>None</Alignment>
+			<Requires>UniversalTranslator</Requires>
+		</Culture>
+		<Culture ID="Advanced Trade">
+			<Category>Radioactive Terraforming</Category>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Master Trade">
+			<DisplayName>Master Trade</DisplayName>
+		</Culture>
+		<Culture ID="Neutral Shipping">
+			<DisplayName>Neutral Shipping</DisplayName>
+		</Culture>
+		<Culture ID="Counter Espionage">
+			<DisplayName>Counter Espionage</DisplayName>
+		</Culture>
+		<Culture ID="Xeno Ethics">
+			<DisplayName>Xeno Ethics</DisplayName>
+		</Culture>
+		<Culture ID="Good and Evil">
+			<DisplayName>Good and Evil</DisplayName>
+		</Culture>
+		<Culture ID="Concepts of Righteousness">
+			<DisplayName>Concepts of Righteousness</DisplayName>
+		</Culture>
+		<Culture ID="Balanced Vision">
+			<DisplayName>Balanced Vision</DisplayName>
+		</Culture>
+		<Culture ID="Concepts of Malice">
+			<DisplayName>Concepts of Malice</DisplayName>
+		</Culture>
+		<Computing ID="FusionReactors">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Propulsion ID="HyperDrive">
+			<DisplayName>Hyper Drive</DisplayName>
+			<Category>Communications</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>FusionReactors</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="NewPropulsion">
+			<DisplayName>New Propulsion Techniques</DisplayName>
+		</Propulsion>
+		<Propulsion ID="IonDrive">
+			<DisplayName>Ion Drive</DisplayName>
+		</Propulsion>
+		<Propulsion ID="ImpulseDrive">
+			<DisplayName>Impulse Drive</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Impulse Drive Mark II">
+			<DisplayName>Impulse Drive Mark II</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Impulse Drive Mark III">
+			<DisplayName>Impulse Drive Mark III</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive">
+			<DisplayName>Warp Drive</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive II">
+			<DisplayName>Warp Drive II</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive III">
+			<DisplayName>Warp Drive III</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive IV">
+			<DisplayName>Warp Drive IV</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive V">
+			<DisplayName>Warp Drive V</DisplayName>
+		</Propulsion>
+		<Computing ID="ArtificialGravity">
+			<Details>Artificial Gravity is a technology that is the direct result of having immense amounts of energy at hand.  The applications of artificial gravity are both obvious and subtle.||The obvious application is that ships can now travel for extended periods through space with native gravity levels without compromising the ship design with fragile and unreliable physical motion devices (i.e. ships do not have to spin their hulls to maintain gravity).||The historical fleets of the Drengin Empire and the Arcean Empire in the pre-artificial gravity era are very obvious. Their hulls spin on a super conducting pivot powered by regulated micro bursts of thrust to keep the spinning consistent.  Needless to say, these ships would not be reliable in battle.||The Drengin fleet that conquered the Torian home world in the pre-hyperdrive era were all without artificial gravity and relied on a stargate that still resulted in a travel time of nearly a year.  Two of the troop carriers in that journey had a malfunction in their rotational axis control during the journey resulting in having over 25,000 Drengin shock troops having to live out their remaining lives in space. ||Fortunately, the lives of those Drengin shock troops was short since they were soon converted into fuel.  Another key use is that it can be used to channel gravity on planets which allows for more serious planetary improvements.</Details>
+			<Group>None</Group>
+			<PopulationGrowthAbility>5</PopulationGrowthAbility>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Logistics ID="Basic Logistics">
+			<Requires>ArtificialGravity</Requires>
+		</Logistics>
+		<Logistics ID="Enhanced Logistics">
+			<DisplayName>Enhanced Logistics</DisplayName>
+		</Logistics>
+		<Logistics ID="Advanced Logistics">
+			<Category>Biological Warfare</Category>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Expert Logistics">
+			<DisplayName>Expert Logistics</DisplayName>
+		</Logistics>
+		<Logistics ID="Ultimate Logistics">
+			<DisplayName>Ultimate Logistics</DisplayName>
+		</Logistics>
+		<Logistics ID="Basic Life Support">
+			<Requires>EnhancedAdaptation</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Extended Life Support">
+			<DisplayName>Extended Life Support</DisplayName>
+		</Logistics>
+		<Logistics ID="Advanced Life Support">
+			<Category>Medical</Category>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Ultra Life Support">
+			<DisplayName>Ultra Life Support</DisplayName>
+		</Logistics>
+		<Biology ID="PlanetaryImprovements">
+			<Requires>ArtificialGravity</Requires>
+		</Biology>
+		<Industry ID="XenoEconomics">
+			<DisplayName>Xeno Economics</DisplayName>
+		</Industry>
+		<Industry ID="Xeno Trade Centers">
+			<DisplayName>Xeno Trade Centers</DisplayName>
+		</Industry>
+		<Industry ID="Xeno Bank Construction">
+			<DisplayName>Xeno Bank Construction</DisplayName>
+		</Industry>
+		<Industry ID="Galactic Stock Exchanges">
+			<DisplayName>Galactic Stock Exchanges</DisplayName>
+		</Industry>
+		<Biology ID="Xeno Farm Construction">
+			<Requires>EnhancedAdaptation</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Xeno Farm Construction II">
+			<DisplayName>Xeno Farm Construction II</DisplayName>
+		</Biology>
+		<Biology ID="Xeno Farm Construction III">
+			<DisplayName>Xeno Farm Construction III</DisplayName>
+		</Biology>
+		<Computing ID="Advanced Computing">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Deeper Knowledge">
+			<Details>There are fundamental truths in the universe that we could scarcely understand before.  Most civilizations have concluded in their sciences that what we can see and feel and touch -- the physical world -- is all there is.||Most of the races understand that 95% of the universe is made up of something else but refer to it with names like "Dark matter" or "Dark energy".  What we are coming to understand is that the universe as we know it is a mirage. Our limited sentience inhibits our ability to perceive the universe as it really is.  As a result, we only truly perceive a tiny portion of it.||Greater Knowledge takes us down a new path to truly perceive the universe as it is and by doing so, allows us to manipulate it in ways that were previously unconsidered.</Details>
+			<Category>Biology</Category>
+			<Cost>2600</Cost>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>TheWay</Requires>
+			<ResearchAbility>5</ResearchAbility>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Galactic Understanding">
+			<Group>None</Group>
+			<ResearchAbility>5</ResearchAbility>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Near Omniscience">
+			<Group>None</Group>
+			<ResearchAbility>5</ResearchAbility>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Beyond Mortality">
+			<Group>None</Group>
+			<ResearchAbility>5</ResearchAbility>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Technology Victory">
+			<DisplayName>Technology Victory</DisplayName>
+		</Computing>
+		<Computing ID="Neutrality Learning Center">
+			<Cost>10000</Cost>
+			<Group>None</Group>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Computing>
+		<Computing ID="StellarCartography">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Industry ID="XenoIndustrialTheory">
+			<DisplayName>Xeno Industrial Theory</DisplayName>
+		</Industry>
+		<Industry ID="Xeno Factory Construction">
+			<DisplayName>Xeno Factory Construction</DisplayName>
+		</Industry>
+		<Industry ID="Manufacturing Centers">
+			<DisplayName>Manufacturing Centers</DisplayName>
+		</Industry>
+		<Industry ID="Industrial Sector">
+			<Description>Superior Factory Construction</Description>
+			<Details>Industrial Sectors take the concept of industrialization to a whole new level. Imagine not a city but an entire region of a world that is dominated by highly efficient industrial machinery. ||Industrial Sectors use massive amounts of automation in order to produce incredible levels of products and goods.</Details>
+			<Group>None</Group>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Fusion Power Plants">
+			<DisplayName>Fusion Power Plants</DisplayName>
+		</Industry>
+		<Industry ID="Anti-Matter Power Plants">
+			<DisplayName>Anti-Matter Power Plants</DisplayName>
+		</Industry>
+		<Industry ID="Quantum Power Plants">
+			<DisplayName>Quantum Power Plants</DisplayName>
+		</Industry>
+		<Biology ID="ExtremeColonization">
+			<Group>None</Group>
+			<Requires>EnhancedAdaptation</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Biology>
+		<Biology ID="AquaticWorldColonization">
+			<Alignment>None</Alignment>
+			<CourageAbility>2</CourageAbility>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Biology>
+		<Biology ID="AdvancedAquaticWorldColonization">
+			<DisplayName>Advanced Aquatic World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="HeavyGravityColonization">
+			<DisplayName>Heavy Gravity Colonization</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedHeavyGravityColonization">
+			<DisplayName>Advanced Heavy Gravity Colonization</DisplayName>
+		</Biology>
+		<Biology ID="ToxicAtmosphereReductor">
+			<DisplayName>Toxic Atmosphere Reductor</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedToxicAtmosphereReductor">
+			<DisplayName>Advanced Toxic Atmosphere Reductor</DisplayName>
+		</Biology>
+		<Biology ID="BarrenWorldColonization">
+			<DisplayName>Barren World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedBarrenWorldColonization">
+			<DisplayName>Advanced Barren World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="RadioactiveWorldColonization">
+			<DisplayName>Radioactive World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedRadioactiveWorldColonization">
+			<DisplayName>Advanced Radioactive World Colonization</DisplayName>
+		</Biology>
+		<Industry ID="InterstellarConstruction">
+			<Description>Allows for construction of more advanced ships (difficult for this race)</Description>
+			<Details>Large scale engineering has remained a challenge for our civilization. Advanced technologies were thrust upon us when we were conquered and enslaved by the Drengin.||When the Drengin Empire arrived on our world, we were a pre-industrial people. We do not have the tradition of engineering that other races have.||However, after much toil, we have mastered the concept of interstellar construction which will open the door to new avenues of research.</Details>
+			<Category>Hull</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<Requires>Xeno Engineering</Requires>
+			<HitpointsAbility>3</HitpointsAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Industry>
+		<Computing ID="Basic Miniaturization">
+			<Alignment>None</Alignment>
+			<Requires>InterstellarConstruction</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Enhanced Miniaturization">
+			<DisplayName>Enhanced Miniaturization</DisplayName>
+		</Computing>
+		<Computing ID="Advanced Miniaturization">
+			<Category>Armor</Category>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>20</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Expert Miniaturization">
+			<DisplayName>Expert Miniaturization</DisplayName>
+		</Computing>
+		<Computing ID="Ultimate Miniaturization">
+			<DisplayName>Ultimate Miniaturization</DisplayName>
+		</Computing>
+		<Computing ID="Supreme Miniaturization">
+			<DisplayName>Supreme Miniaturization</DisplayName>
+		</Computing>
+		<Industry ID="Advanced Hulls">
+			<Category>Colonization</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>RobustHulls</Requires>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Industry>
+		<Logistics ID="Medium Scale Building">
+			<Description>Allows us to begin construction of medium hulled starships. (difficult for this race)</Description>
+			<Details>Being able to build larger ships that can move through warped space is non-trivial. Once you move beyond small-sized ships, you are looking at having to provide a sub-space field in order for them to maintain hull integrity.|a|Medium-sized ships are a significant advancement in our ability to design vessels. We can fit a lot more on a medium-sized ship and it can absorb a great deal more damage.</Details>
+			<Cost>1000</Cost>
+		</Logistics>
+		<Logistics ID="Superior Hulls">
+			<DisplayName>Superior Hulls</DisplayName>
+		</Logistics>
+		<Logistics ID="Large Scale Building">
+			<Cost>4000</Cost>
+		</Logistics>
+		<Logistics ID="Master Hull Building">
+			<DisplayName>Master Hull Building</DisplayName>
+		</Logistics>
+		<Logistics ID="Massive Scale Building">
+			<DisplayName>Massive Scale Building</DisplayName>
+		</Logistics>
+		<Logistics ID="Reinforced Hull Design">
+			<DisplayName>Reinforced Hull Design</DisplayName>
+		</Logistics>
+		<Logistics ID="Hardened Hull Design">
+			<DisplayName>Hardened Hull Design</DisplayName>
+		</Logistics>
+		<Computing ID="StarScanner">
+			<Requires>InterstellarConstruction</Requires>
+		</Computing>
+		<Computing ID="StarScanner2">
+			<DisplayName>Sensors Mark II</DisplayName>
+		</Computing>
+		<Computing ID="Sensor2">
+			<DisplayName>Sensors Mark III</DisplayName>
+		</Computing>
+		<Computing ID="Sensor3">
+			<DisplayName>Sensors Mark IV</DisplayName>
+		</Computing>
+		<Weapons ID="Galactic Warfare">
+			<DisplayName>Interstellar Warfare</DisplayName>
+		</Weapons>
+		<Weapons ID="Space Militarization">
+			<Details>We know that the galaxy is filled with those who would annihilate and enslave others. Having been enslaved ourselves, we must take the path of defending the galaxy against those who would conquer.||</Details>
+			<Alignment>None</Alignment>
+		</Weapons>
+		<Weapons ID="Space Weapons">
+			<MilitaryProductionAbility>5</MilitaryProductionAbility>
+		</Weapons>
+		<Weapons ID="Beam Weapon theory">
+			<DisplayName>Beam Weapon Research</DisplayName>
+			<Category>Trade</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser">
+			<DisplayName>Laser</DisplayName>
+		</Weapons>
+		<Weapons ID="Laser II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser IV">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser V">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="ParticleBeams">
+			<DisplayName>Particle Beams I</DisplayName>
+			<Category>Trade</Category>
+			<Cost>1000</Cost>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Plasma Weapons">
+			<Alignment>None</Alignment>
+			<Requires>ParticleBeams3</Requires>
+		</Weapons>
+		<Weapons ID="Plasma Weapons II">
+			<DisplayName>Plasma Weapons II</DisplayName>
+		</Weapons>
+		<Weapons ID="Plasma Weapons III">
+			<DisplayName>Plasma Weapons III</DisplayName>
+		</Weapons>
+		<Weapons ID="Doom Ray">
+			<Requires>Disruptors III</Requires>
+		</Weapons>
+		<Weapons ID="Psyonic Beam">
+			<Group>None</Group>
+			<Requires>Disruptors</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Mass Driver Theory">
+			<DisplayName>Mass Driver Research</DisplayName>
+			<Category>Beam</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="MiniBalls">
+			<DisplayName>Basic Rail Guns</DisplayName>
+		</Weapons>
+		<Weapons ID="MiniBalls II">
+			<DisplayName>Enhanced Rail Guns</DisplayName>
+		</Weapons>
+		<Weapons ID="Mass Drivers">
+			<DisplayName>Mass Drivers</DisplayName>
+		</Weapons>
+		<Weapons ID="Mass Drivers II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Mass Drivers III">
+			<DisplayName>Mass Drivers III</DisplayName>
+		</Weapons>
+		<Weapons ID="PulseCannons">
+			<Category>Beam</Category>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Graviton Driver">
+			<Alignment>None</Alignment>
+			<Requires>PulseCannons3</Requires>
+		</Weapons>
+		<Weapons ID="Graviton Driver II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Graviton Driver III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Graviton Driver IV">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Quantum Driver">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Quantum Driver II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Quantum Driver III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Black Hole Gun">
+			<Requires>Quantum Driver III</Requires>
+		</Weapons>
+		<Weapons ID="Psyonic Shredder">
+			<DisplayName>Psionic Shredder</DisplayName>
+		</Weapons>
+		<Weapons ID="Missile Weapon Theory">
+			<DisplayName>Missile Weapon Theory</DisplayName>
+		</Weapons>
+		<Weapons ID="Stinger">
+			<DisplayName>Stinger</DisplayName>
+		</Weapons>
+		<Weapons ID="Stinger II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Stinger III">
+			<DisplayName>Stinger III</DisplayName>
+		</Weapons>
+		<Weapons ID="Stinger IV">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Harpoon">
+			<Category>PD</Category>
+			<Cost>1500</Cost>
+			<Alignment>None</Alignment>
+		</Weapons>
+		<Weapons ID="Harpoon II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Harpoon III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Pysonic Missile">
+			<Group>None</Group>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photonic Torpedo">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photonic Torpedo II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photon Torpedo">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photon Torpedo II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photon Torpedo III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="NightmareTorpedo">
+			<DisplayName>Nightmare Torpedo</DisplayName>
+		</Weapons>
+		<Weapons ID="StarbaseMilitarization">
+			<Group>None</Group>
+			<Requires>Starbase Fortification Mark III</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="StarbaseMobilization">
+			<DisplayName>Starbase Mobilization</DisplayName>
+		</Weapons>
+		<Weapons ID="StarbaseProjection">
+			<DisplayName>Starbase Projection</DisplayName>
+		</Weapons>
+		<Weapons ID="StarbaseDomination">
+			<DisplayName>Superior Starbase Defense Systems</DisplayName>
+		</Weapons>
+		<Weapons ID="StarbaseConquestStrategy">
+			<DisplayName>Starbase Conquest Strategy</DisplayName>
+		</Weapons>
+		<Defenses ID="StarshipDefenses">
+			<Alignment>None</Alignment>
+		</Defenses>
+		<Defenses ID="Armor Theory">
+			<DisplayName>Armor Theory</DisplayName>
+		</Defenses>
+		<Defenses ID="Titanitum Armor">
+			<DisplayName>Titanium Armor</DisplayName>
+		</Defenses>
+		<Defenses ID="Titanium Armor II">
+			<DisplayName>Titanium Armor II</DisplayName>
+		</Defenses>
+		<Defenses ID="Titanium Armor III">
+			<DisplayName>Titanium Armor III</DisplayName>
+		</Defenses>
+		<Defenses ID="Duranthium">
+			<DisplayName>Duranthium</DisplayName>
+		</Defenses>
+		<Defenses ID="Duranthium II">
+			<DisplayName>Duranthium II</DisplayName>
+		</Defenses>
+		<Defenses ID="Duranthium III">
+			<DisplayName>Duranthium III</DisplayName>
+		</Defenses>
+		<Defenses ID="Tri-Strontium">
+			<DisplayName>Tri-Strontium</DisplayName>
+		</Defenses>
+		<Defenses ID="Enhanced Tri-Strontium">
+			<Description>Superior armor defense</Description>
+			<Details>The argument over whether we needed Enhanced Tri-Strontium remains in place. The corporation that creates the Tri-Strontium material has been on the verge of bankruptcy for some time since only the military makes use of this material.||However, here it is. Our tax dollars at work.</Details>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Superior Tri-Strontium">
+			<DisplayName>Superior Tri-Strontium</DisplayName>
+		</Defenses>
+		<Defenses ID="Kanvium">
+			<DisplayName>Kanvium</DisplayName>
+		</Defenses>
+		<Defenses ID="Kanvium II">
+			<DisplayName>Kanvium II</DisplayName>
+		</Defenses>
+		<Defenses ID="Kanvium III">
+			<DisplayName>Kanvium III</DisplayName>
+		</Defenses>
+		<Defenses ID="Duralthene Armor">
+			<Details>Duralthene armor is our prototype attempt to create a type of armor making use of a new element called Adamantium. Adamantium doesn't exist naturally. Rather, it is a derivative of an extremely rare element found occasionally in asteroids that have been recently struck by large comets.||Adamantium is the result of taking that rare material and subjecting it to an intense energy field. The result is a material that actually isn't completely in-sync with normal space. Duralthene armor is essentially taking the old Tri-Strontium alloy and coating it with trace amounts of this Adamantium material.||When a mass driver comes into contact with the Adamantium, the material of the mass driver is dissipated into the sub-dimensions of the Adamantium. It's difficult to explain but most of the mass is instantly moved out of our normal space and into a slightly out of sync dimension. The remaining material of the mass driver weapon is then absorbed through the traditional Tri-Strontium alloy.</Details>
+		</Defenses>
+		<Defenses ID="Adamantium Armor">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Adamantium II">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Ultimate Adamantium">
+			<DisplayName>Ultimate Adamantium</DisplayName>
+		</Defenses>
+		<Defenses ID="Zero-Point Armor">
+			<DisplayName>Zero-Point Armor</DisplayName>
+		</Defenses>
+		<Defenses ID="Arnorian Battle Armor">
+			<DisplayName>Arnorian Battle Armor</DisplayName>
+		</Defenses>
+		<Defenses ID="Missile Defense Theory">
+			<DisplayName>Missile Defense Research</DisplayName>
+			<Category>Shields</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Chaff">
+			<DisplayName>Chaff</DisplayName>
+		</Defenses>
+		<Defenses ID="Smart Chaff">
+			<DisplayName>Smart Chaff</DisplayName>
+		</Defenses>
+		<Defenses ID="ECM">
+			<DisplayName>ECM</DisplayName>
+		</Defenses>
+		<Defenses ID="ECM II">
+			<DisplayName>ECM II</DisplayName>
+		</Defenses>
+		<Defenses ID="ECM III">
+			<DisplayName>ECM III</DisplayName>
+		</Defenses>
+		<Defenses ID="Point Defense">
+			<DisplayName>Point Defense</DisplayName>
+		</Defenses>
+		<Defenses ID="Point Defense II">
+			<DisplayName>Point Defense II</DisplayName>
+		</Defenses>
+		<Defenses ID="Point Defense III">
+			<DisplayName>Point Defense III</DisplayName>
+		</Defenses>
+		<Defenses ID="PD Combo">
+			<DisplayName>PD Combo</DisplayName>
+		</Defenses>
+		<Defenses ID="PD Combo II">
+			<DisplayName>PD Combo II</DisplayName>
+		</Defenses>
+		<Defenses ID="PD Combo III">
+			<DisplayName>PD Combo III</DisplayName>
+		</Defenses>
+		<Defenses ID="Droid Sentries">
+			<DisplayName>Droid Sentries</DisplayName>
+		</Defenses>
+		<Defenses ID="Droid Sentries II">
+			<DisplayName>Droid Sentries II</DisplayName>
+		</Defenses>
+		<Defenses ID="Droid Sentries III">
+			<DisplayName>Droid Sentries III</DisplayName>
+		</Defenses>
+		<Defenses ID="Aereon Missile Defense">
+			<DisplayName>Aereon Missile Defense</DisplayName>
+		</Defenses>
+		<Defenses ID="Telepathic Defense">
+			<DisplayName>Telepathic Defense</DisplayName>
+		</Defenses>
+		<Defenses ID="Shield Defense Theory">
+			<DisplayName>Shield Defense Theory</DisplayName>
+		</Defenses>
+		<Defenses ID="Deflectors">
+			<DisplayName>Deflectors</DisplayName>
+		</Defenses>
+		<Defenses ID="EnhDeflectors">
+			<DisplayName>Enhanced Deflectors</DisplayName>
+		</Defenses>
+		<Defenses ID="ADvDeflectors">
+			<DisplayName>Advanced Deflectors</DisplayName>
+		</Defenses>
+		<Defenses ID="Superior Defs">
+			<DisplayName>Superior Deflectors</DisplayName>
+		</Defenses>
+		<Defenses ID="Shields">
+			<DisplayName>Shields</DisplayName>
+		</Defenses>
+		<Defenses ID="Shields II">
+			<DisplayName>Shields II</DisplayName>
+		</Defenses>
+		<Defenses ID="Shields III">
+			<DisplayName>Shields III</DisplayName>
+		</Defenses>
+		<Defenses ID="Barriers">
+			<DisplayName>Barriers</DisplayName>
+		</Defenses>
+		<Defenses ID="Barriers II">
+			<DisplayName>Barriers II</DisplayName>
+		</Defenses>
+		<Defenses ID="Barriers III">
+			<DisplayName>Barriers III</DisplayName>
+		</Defenses>
+		<Defenses ID="Force Fields">
+			<DisplayName>Force Fields</DisplayName>
+		</Defenses>
+		<Defenses ID="Advanced Force Fields">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Superior Force Fields">
+			<DisplayName>Superior Force Fields</DisplayName>
+		</Defenses>
+		<Defenses ID="Invulnerability Field">
+			<DisplayName>Invulnerability Field</DisplayName>
+		</Defenses>
+		<Defenses ID="Invulnerability Field II">
+			<DisplayName>Invulnerability Field II</DisplayName>
+		</Defenses>
+		<Defenses ID="Ultimate Invulnerability">
+			<DisplayName>Ultimate Invulnerability</DisplayName>
+		</Defenses>
+		<Defenses ID="Dynamic Shielding">
+			<DisplayName>Dynamic Shielding</DisplayName>
+		</Defenses>
+		<Defenses ID="Subspace Rebounder">
+			<DisplayName>Subspace Rebounder</DisplayName>
+		</Defenses>
+		<Defenses ID="Starbase Fortification">
+			<Requires>AdvancedStarbaseConstruction</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Starbase Fortification Mark II">
+			<DisplayName>Starbase Fortification Mark II</DisplayName>
+		</Defenses>
+		<Defenses ID="Starbase Fortification Mark III">
+			<DisplayName>Starbase Fortification Mark III</DisplayName>
+		</Defenses>
+		<Weapons ID="Planetary Invasion">
+			<Category>Space Mining</Category>
+			<Cost>1800</Cost>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Planetary Bombardment">
+			<DisplayName>Planetary Bombardment</DisplayName>
+		</Weapons>
+		<Weapons ID="Space Marines">
+			<Group>None</Group>
+			<Requires>Tidal Disruption</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Advanced Troop Mods">
+			<Category>Space Mining</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Tidal Disruption">
+			<DisplayName>Tidal Disruption</DisplayName>
+		</Weapons>
+		<Weapons ID="Planetary Defense">
+			<DisplayName>Planetary Defense</DisplayName>
+		</Weapons>
+		<Weapons ID="Adv. Planetary Defense">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Supreme Planetary Defense">
+			<DisplayName>Supreme Planetary Defense</DisplayName>
+		</Weapons>
+		<Biology ID="Xeno Biology">
+			<Group>None</Group>
+			<Requires>EnhancedAdaptation</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Xeno Medicine">
+			<DisplayName>Xeno Medicine</DisplayName>
+		</Biology>
+		<Biology ID="Fertility Accleration">
+			<DisplayName>Fertility Acceleration</DisplayName>
+		</Biology>
+		<Industry ID="Xeno Engineering">
+			<Group>None</Group>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Industry>
+		<Logistics ID="Space Mining">
+			<Requires>EnhancedAdaptation</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Space Mining2">
+			<DisplayName>Space Mining II</DisplayName>
+		</Logistics>
+		<Logistics ID="Space Mining3">
+			<DisplayName>Space Mining III</DisplayName>
+		</Logistics>
+		<Biology ID="Soil Enhancement">
+			<Group>none</Group>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Habitat Improvement">
+			<Group>none</Group>
+		</Biology>
+		<Biology ID="Terraforming">
+			<Group>none</Group>
+		</Biology>
+		<Weapons ID="TerrorStar0">
+			<Requires>AdvancedStarbaseConstruction</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="TerrorStar1">
+			<DisplayName>Terror Star II</DisplayName>
+		</Weapons>
+		<Weapons ID="TerrorStar2">
+			<DisplayName>Terror Star III</DisplayName>
+		</Weapons>
+		<Weapons ID="TerrorStar3">
+			<DisplayName>Terror Star IV</DisplayName>
+		</Weapons>
+		<Weapons ID="TerrorStar4">
+			<DisplayName>Terror Star V</DisplayName>
+		</Weapons>
+		<Defenses ID="AdvancedStarbaseConstruction">
+			<Description>Allows the construction of militarized starbases</Description>
+			<Details>Starbases are so much more capable than simply producing economic or cultural benefit. The military has been demanding more emphasis on the military aspects of starbase construction.||To that end, we have produced a series of proposals that will allow us to construct starbases of immense destructive potential.</Details>
+			<Cost>300</Cost>
+			<Alignment>None</Alignment>
+		</Defenses>
+		<Biology ID="EnhancedAdaptation">
+			<DisplayName>Interstellar Expansion</DisplayName>
+			<Description>Better prepare for our expansion into the unknown.</Description>
+			<Details>People of the [YOUREMPIRENAME] are well known for their ability to adapt and survive, but when faced with the daunting unknown of space, we can never rest on past victories.|By studying key flexibility mechanisms of the [YOURSHORTCIVNAME] brain and [YOURSHORTCIVNAME] body, we open the door for technologies that will allow us to survive in various, and possibly dangerous, conditions.|</Details>
+			<Category>Culture</Category>
+			<Cost>150</Cost>
+			<Group>None</Group>
+			<AIValue>35</AIValue>
+			<Model>terraform0</Model>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<PlanetQualityAbility>8</PlanetQualityAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Biology>
+		<Weapons ID="Disruptors">
+			<Category>Missile</Category>
+			<Requires>Plasma Weapons III</Requires>
+		</Weapons>
+		<Weapons ID="Disruptors II">
+			<Category>Missile</Category>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Disruptors III">
+			<Category>Missile</Category>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Culture ID="JihadOfKrynn">
+			<DisplayName>Jihad of Krynn</DisplayName>
+			<Description>Increases civilization influence</Description>
+			<Details>The sad narrative of our galaxy is that races seem inclined to commit genocide against other races on their home worlds. The Altarians and Drath once shared a home world. The Yor and Iconians once shared a home world. The Drengin and Korath once shared a home world. The Arnor and Dread Lords used to share a home world when they were known as the Precursors. Even the diplomatic humans shared a home world with the Neanderthals who were exterminated prior to the rise of modern human civilization.||But the Krynn are different. The Krynn home world started out with multiple sentient races. The Krynn, you see, are not a race but rather a people made up of many different sentient species. Tied together with a unifying culture, the Krynn (which loosely translates into "the way") believe they have unlocked the secrets to the universe and are on a holy mission to share these secrets with the universe.||The Jihad of Krynn is split between three technological branches. The first branch outlines the laws and order of the Krynn. These allow the construction of powerful centers for indoctrination which uniquely increase morale while spreading influence. The second branch spreads the way into the galaxy in extremely powerful influence modules for starbases. ||The third technology branch expands on the espionage super ability of the Krynn. Because the Krynn is a faith and not a species, they have, by far, the best spies in the galaxy. The human or Arcean or even Drengin you see at a star port could, in fact, by a spy for the Krynn because a any race could be a Krynn.||What the Krynn may lack in technological sophistication they make up for in their ability to convert other species to their way. They can, after all, make the case that the Krynn have learned to share their world successfully for eons. With the galaxy full of evidence that other species, even the peaceful Altarians, ultimately fall into genocidal tendencies, the Krynn way of life has a growing appeal in a hostile galaxy.</Details>
+			<Category>Logistics</Category>
+			<Cost>50</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>omnicom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<CultureAbility>5</CultureAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Culture ID="LawsOfKrynn">
+			<DisplayName>Laws of Krynn</DisplayName>
+			<Description>Allows for the Temple of Krynn to be build on planets.</Description>
+			<Details>The Law of Krynn is a series of rules that outline how a society should live out its life. It is quite militant in nature and yet is extremely tolerant and compassionate for those who are members of the Krynn.||The Temple of Krynn can be built on each Krynn world and provides both immense morale and influence making it exceptionally powerful.</Details>
+			<Category>Economics</Category>
+			<Cost>100</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>omnicom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>JihadOfKrynn</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Culture ID="OrderOfKrynn">
+			<DisplayName>Order of Krynn</DisplayName>
+			<Description>Allows construction of the Order of Krynn</Description>
+			<Details>The Order of Krynn represents the underlying philosophy of the Krynn. Whereas the Law of Krynn tells people how to live, the Order of Krynn provides a deeper understanding of why people should live this way.||The fundamental tenet of the faith of the Krynn is that the law and order of the Krynn holds up under both scientific and religious scrutiny. It is internally consistent.||Put another way, the Krynn believe that faith is only required to those who only have an imperfect understanding of the Krynn. As ones grasp of the Krynn improves, the need for faith decreases.  The Order of the Krynn is the step between following the law of the Krynn on faith and truly knowing "the way" as being a fundamental truth of the universe.||The Order of the Krynn can now be constructed on all of our worlds and provides immense morale (approval rating) increases as well as influence increases.</Details>
+			<Category>Economics</Category>
+			<Cost>1000</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>omnicom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>LawsOfKrynn</Requires>
+			<CultureAbility>5</CultureAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Culture ID="TheWay">
+			<DisplayName>The Way</DisplayName>
+			<Description>Provides a greater understanding of the universe.</Description>
+			<Details>The Way represents the ultimate direction for people to live their lives. The Krynn believe in a supreme being (what humans would call "God") who created the universe and then sent 4 guardians to safeguard the universe. ||These guardians looked over the a massive crystal that the creator has put into the universe for the time when life would be added to the universe. The crystal would be used at a time when the universe was ready for life to exist. However, a 5th entity, a demon, came into the universe and attempted to corrupt the crystal. In doing so, the crystal was shattered and every tiny fragment of the crystal that came into contact with the right conditions began life across the universe.||The Krynn have put this belief to the test and have proven to their satisfaction the existence of what others call "dark energy". It is the invisible energy that the Precursors use. Their belief also predicted the existence of a "big bang" long before the science existed to provide rationale for that theory. ||The Krynn believe that only through intensifying their sentience can they achieve salvation. Salvation, to the Krynn, means being able to exist as a sentient being of energy after the body has perished. The only way to intensify ones sentience is through converting others to The Way. The Krynn believe that all Krynn are connected and thus the more Krynn there are, the more intense the connections between them. ||The existence of machinery that can harness the sentient energy of creatures (such as what the Drengin and Korath have) helps prove (according to the Krynn) that The Way ultimately requires no faith once one has full understanding.||Therefore, the Krynn must convert all sentient beings into being the Krynn even if it means bloodshed. The very afterlife of the Krynn is dependent on bringing the universe over to The Way. Even those who have long perished in body gain in sentience when new converts are added. Thus, the Krynn do not convert merely to save their own souls but to save the souls of all the Krynn who have ever lived.</Details>
+			<Category>Logistics</Category>
+			<Cost>2000</Cost>
+			<Group>None</Group>
+			<AIValue>50</AIValue>
+			<Model>omnicom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>OrderOfKrynn</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Culture ID="InterstellarMissionaries">
+			<DisplayName>Interstellar Missionaries</DisplayName>
+			<Description>Provides starbase modules for spreading influence</Description>
+			<Details>Spreading the gospel of the Krynn into the universe requires more than just intense faith. It also requires real-world logistical support in the form of starbases.||Krynn Influence Starbases can now be staffed with support for Interstellar Missionaries who can go out and help spread the word of the Krynn into the universe.</Details>
+			<Category>Economics</Category>
+			<Cost>100</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>instantcom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>JihadOfKrynn</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Culture ID="KrynniacConversion">
+			<DisplayName>Krynniac Conversion</DisplayName>
+			<Description>Advanced influence modules for starbases</Description>
+			<Details>Krynniac Conversion has traditionally been done only on the homeworld of the Krynn.  Now, the way can be learned right on board starbases through specially designed starbase modules.</Details>
+			<Category>Economics</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>instantcom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>InterstellarMissionaries</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Culture ID="KrynniacDisciples">
+			<DisplayName>Krynniac Disciples</DisplayName>
+			<Description>Powerful culture starbase modules</Description>
+			<Details>Now converts to the Krynn can return to their home worlds to spread the way of the Krynn to their people in the hopes of converting them to The Way.  The Krynniac Disciple Chamber is a special starbase module that aids and supports disciples of the Krynn on their mission back to their worlds.r</Details>
+			<Category>Logistics</Category>
+			<Cost>1500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>instantcom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>KrynniacConversion</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Computing ID="XenoResearch">
+			<Category>Biology</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>PlanetaryImprovements</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Research Center">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Research Academy">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Discovery Sphere">
+			<Category>Pure Research</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Invention Matrix">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Weapons ID="ParticleBeams2">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="ParticleBeams3">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="PulseCannons2">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="PulseCannons3">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Defenses ID="RighteousFleets">
+			<DisplayName>Righteous Fleets</DisplayName>
+			<Description>Provides fleet wide defense modules</Description>
+			<Details>Most fleet-wide defense technologies are both expensive and use a great deal of space.  But Righteous fleets are able to get around these issues because of the native advantages of our people.</Details>
+			<Category>Biological Warfare</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>deflector0</Model>
+			<Alignment>None</Alignment>
+			<Requires>Space Militarization</Requires>
+			<LogisticsAbility>1</LogisticsAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="HastyFleets">
+			<DisplayName>Hasty Fleets</DisplayName>
+			<Description>Module that speeds up the entire fleet</Description>
+			<Details>We can now move ships that are in a fleet at a faster rate than ever before.</Details>
+			<Category>Biological Warfare</Category>
+			<Cost>1000</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>deflector0</Model>
+			<Alignment>None</Alignment>
+			<Requires>RighteousFleets</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="VengefulFleets">
+			<DisplayName>Vengeful Fleets</DisplayName>
+			<Description>Add fleet-wide weapon enhancements</Description>
+			<Details>We can now add new modules to our ships that make our fleets more deadly when fighting together.</Details>
+			<Category>Biological Warfare</Category>
+			<Cost>1500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>deflector0</Model>
+			<Alignment>None</Alignment>
+			<Requires>HastyFleets</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Industry ID="RobustHulls">
+			<DisplayName>Robust Hulls</DisplayName>
+			<Description>Modules that improve the hit points for our hulls</Description>
+			<Details>Now we can equip our ships with a new module that will increase the strenght of our ships. Robust hulls is a unique technology that can make the difference between life and death in a space battle.</Details>
+			<Category>Ethics</Category>
+			<Cost>300</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>lrgbuilding0</Model>
+			<Alignment>None</Alignment>
+			<Requires>InterstellarConstruction</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Industry>
+		<Industry ID="SuperiorEspionage">
+			<DisplayName>Superior Espionage</DisplayName>
+			<Description>Increases our espionage ability</Description>
+			<Details>Superior Espionage helps amplify our native advantage in spying -- our civilization is not made up of a single species. Anyone can be a member of our civilization thus anyone can be a spy for us.||We can now build the Super Spy Training Complex on our planets. This unique super project brings in technology points stolen from other civilizations while increasing our espionage ability.</Details>
+			<Category>Culture</Category>
+			<Cost>200</Cost>
+			<Group>None</Group>
+			<AIValue>30</AIValue>
+			<Alignment>None</Alignment>
+			<Requires>JihadOfKrynn</Requires>
+			<WillingnessToTrade>27</WillingnessToTrade>
+		</Industry>
+		<Industry ID="UltimateEspionage">
+			<DisplayName>Master Spies</DisplayName>
+			<Description>Allows the creation of Master Spies</Description>
+			<Details>On one of our worlds we can now build the Temple of Espionage. This special building will produce a handful of Master Spies which can wreak havoc on the galaxy.</Details>
+			<Category>Biology</Category>
+			<Cost>1000</Cost>
+			<Group>None</Group>
+			<AIValue>30</AIValue>
+			<Alignment>None</Alignment>
+			<Requires>SuperiorEspionage</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Industry>
+		<Culture ID="ThePath">
+			<DisplayName>The Path</DisplayName>
+			<Description>The history of the Krynn</Description>
+			<Details>The path is the road that the Krynn have traveled thus far. They know the way, they know the destination. For the Krynn, their destiny is set in front of them. Every single person of The Krynn, regardless of races or species knows they are part of a great consulate. They are parts of a single entity that exists only to spread the word of The Way (Krynn).||Only through the conversion of all beings in the universe will the souls of all Krynn be saved for all eternity.</Details>
+			<Category>Biological Warfare</Category>
+			<Cost>5</Cost>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Culture ID="GreaterTolerance">
+			<DisplayName>Greater Tolerance</DisplayName>
+			<Description>Greatly improves our diplomatic ability</Description>
+			<Details>The challenge of spreading The Way is that other civilizations find alien influence to be threatening.  Greater Tolerance provides a doctrine in which we can more easily build our influence star bases without other civilizations taking quite as much offense at them.||Moreover, it will greatly improve our ability to negotiate with other civilizations because we will seem very unthreatening to them.</Details>
+			<Category>Manufacturing</Category>
+			<Cost>3000</Cost>
+			<Group>None</Group>
+			<AIValue>50</AIValue>
+			<Alignment>None</Alignment>
+			<Requires>KrynniacDisciples</Requires>
+			<DiplomacyAbility>50</DiplomacyAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Culture ID="IndustrialRevolution">
+			<Category>Military</Category>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+		</Culture>
+		<Culture ID="TraditionalResearch">
+			<DisplayName>Traditional Research</DisplayName>
+			<Category>Military</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+	</TechTree>
+</TechTrees>

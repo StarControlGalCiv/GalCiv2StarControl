@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+
+<TechTrees>
+	<TechTree InternalName="Thalan_TechTree">
+		<DataChecksum NoParse="1">
+			<Ignore>DisplayName,Description,Details,Model,xmlns</Ignore>
+			<Translate>DisplayName,Description,Details</Translate>
+		</DataChecksum>
+		<DisplayName>Thalan</DisplayName>
+		<Culture ID="Xeno Communications">
+			<Group>None</Group>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Culture>
+		<Culture ID="UniversalTranslator">
+			<Details>The aliens of this space-time have a fairly predictable pattern of speech. Other than the robotic race, these races communicate by moving flesh on their faces that are connected to an organ that can manipulate the flow of air which produces noise.||With this in mind, we have created the means for us to understand and communicate with them.</Details>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Culture ID="InterGov">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>XenoAnthropology</Requires>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Alliances">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>XenoAnthropology</Requires>
+			<WillingnessToTrade>88</WillingnessToTrade>
+		</Culture>
+		<Culture ID="StarRep">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>InterGov</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Culture ID="StarDem">
+			<DisplayName>Star Democracy</DisplayName>
+		</Culture>
+		<Culture ID="StarFed">
+			<DisplayName>Star Federation</DisplayName>
+		</Culture>
+		<Culture ID="Diplomatic Relations">
+			<Cost>200</Cost>
+			<Alignment>None</Alignment>
+			<Requires>XenoAnthropology</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Advanced Diplomacy">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Expert Diplomacy">
+			<DisplayName>Expert Diplomacy</DisplayName>
+		</Culture>
+		<Culture ID="Majesty">
+			<Group>None</Group>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Total Majesty">
+			<Group>None</Group>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Trade">
+			<Cost>400</Cost>
+			<Alignment>None</Alignment>
+			<Requires>XenoAnthropology</Requires>
+			<WillingnessToTrade>80</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Advanced Trade">
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Master Trade">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Counter Espionage">
+			<DisplayName>Counter Espionage</DisplayName>
+		</Culture>
+		<Culture ID="Xeno Ethics">
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>50</AIValue>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Computing ID="FusionReactors">
+			<DisplayName>Hyper Fusion Reactors</DisplayName>
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Computing>
+		<Propulsion ID="HyperDrive">
+			<Requires>FusionReactors</Requires>
+		</Propulsion>
+		<Propulsion ID="NewPropulsion">
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="IonDrive">
+			<Group>None</Group>
+			<AIValue>10</AIValue>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>77</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="ImpulseDrive">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="Impulse Drive Mark II">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="Impulse Drive Mark III">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="Warp Drive">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="Warp Drive II">
+			<DisplayName>Warp Drive II</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive III">
+			<DisplayName>Warp Drive III</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive IV">
+			<DisplayName>Warp Drive IV</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive V">
+			<DisplayName>Warp Drive V</DisplayName>
+		</Propulsion>
+		<Propulsion ID="HyperWarp">
+			<DisplayName>HyperWarp</DisplayName>
+		</Propulsion>
+		<Propulsion ID="HyperWarp II">
+			<DisplayName>HyperWarp II</DisplayName>
+		</Propulsion>
+		<Propulsion ID="HyperWarp III">
+			<DisplayName>HyperWarp III</DisplayName>
+		</Propulsion>
+		<Industry ID="ArtificialGravity">
+			<Details>Artificial Gravity is a technology that is the direct result of having immense amounts of energy at hand.  The applications of artificial gravity are both obvious and subtle.||The obvious application is that ships can now travel for extended periods through space with native gravity levels without compromising the ship design with fragile and unreliable physical motion devices (i.e. ships do not have to spin their hulls to maintain gravity).||The historical fleets of the Drengin Empire and the Arcean Empire in the pre-artificial gravity era are very obvious. Their hulls spin on a super conducting pivot powered by regulated micro bursts of thrust to keep the spinning consistent.  Needless to say, these ships would not be reliable in battle.||The Drengin fleet that conquered the Torian home world in the pre-hyperdrive era were all without artificial gravity and relied on a stargate that still resulted in a travel time of nearly a year.  Two of the troop carriers in that journey had a malfunction in their rotational axis control during the journey resulting in having over 25,000 Drengin shock troops having to live out their remaining lives in space. ||Fortunately, the lives of those Drengin shock troops was short since they were soon converted into fuel.  Another key use is that it can be used to channel gravity on planets which allows for more serious planetary improvements.</Details>
+			<Category>Biology</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<PopulationGrowthAbility>5</PopulationGrowthAbility>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Logistics ID="Basic Logistics">
+			<Alignment>None</Alignment>
+			<Requires>AdvancedGravitronics</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Enhanced Logistics">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Advanced Logistics">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Expert Logistics">
+			<Cost>4400</Cost>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Ultimate Logistics">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Basic Life Support">
+			<DisplayName>General Life Support</DisplayName>
+		</Logistics>
+		<Logistics ID="Extended Life Support">
+			<DisplayName>Extended Life Support</DisplayName>
+		</Logistics>
+		<Logistics ID="Advanced Life Support">
+			<DisplayName>Advanced Life Support</DisplayName>
+		</Logistics>
+		<Logistics ID="Ultra Life Support">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Logistics>
+		<Industry ID="XenoEconomics">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>StellarProduction</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Xeno Trade Centers">
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Xeno Bank Construction">
+			<DisplayName>Xeno Bank Construction</DisplayName>
+		</Industry>
+		<Industry ID="Galactic Stock Exchanges">
+			<Group>None</Group>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Industry>
+		<Computing ID="Advanced Computing">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>TechnologyAdaptation1</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Beyond Mortality">
+			<Cost>30000</Cost>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>NearOmnipotence</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Technology Victory">
+			<DisplayName>Technology Victory</DisplayName>
+		</Computing>
+		<Computing ID="StellarCartography">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Biology ID="ExtremeColonization">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>AlienSoilStudies</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Biology>
+		<Biology ID="AquaticWorldColonization">
+			<Details>By stimulating volcanic activity on the ocean floor, we can bring forth small islands above the water. From this, we can build cities that use these small islands as their foundation.</Details>
+			<CourageAbility>2</CourageAbility>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Biology>
+		<Biology ID="AdvancedAquaticWorldColonization">
+			<DisplayName>Advanced Aquatic World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="HeavyGravityColonization">
+			<DisplayName>Heavy Gravity Colonization</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedHeavyGravityColonization">
+			<DisplayName>Advanced Heavy Gravity Colonization</DisplayName>
+		</Biology>
+		<Biology ID="ToxicAtmosphereReductor">
+			<DisplayName>Toxic Atmosphere Reductor</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedToxicAtmosphereReductor">
+			<DisplayName>Advanced Toxic Atmosphere Reductor</DisplayName>
+		</Biology>
+		<Biology ID="BarrenWorldColonization">
+			<DisplayName>Barren World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedBarrenWorldColonization">
+			<DisplayName>Advanced Barren World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="RadioactiveWorldColonization">
+			<DisplayName>Radioactive World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedRadioactiveWorldColonization">
+			<DisplayName>Advanced Radioactive World Colonization</DisplayName>
+		</Biology>
+		<Industry ID="InterstellarConstruction">
+			<Description>Alows construction of ships designed for interstellar travel.</Description>
+			<Details>The ability to design containers that are required to travel immense distances and survive extended periods of time in the vacuum of space is no trivial task.||Prior to space travel, civilizations with a lively tradition of science fiction tended to downplay or completely ignore what precisely was involved in producing things that travel from star to star.||Space, as is well known, is big.  It's mind boggling big.  But it is not nearly as empty as people believe. As early space explorers learned, often the hard way, traveling even between planets is hazardous.||Many early engineers focused almost totally on the propulsion of a ship rather than the actual construction of a ship.  To many engineers, space travel was essentially putting either robots or organic travelers into a metal box and attaching propulsion.  Not so at all.||First, these metal tubes in the vacuum of space are subjected to radiations that could scarcely be imagined by terrestrial scientists.  Secondly, once outside the gravity well of a planet system, the metal tubes were routinely subjected to micro meteorites.   Flecks of asteroids or bits of metal flying through space at hundreds of meters per second.  ||The intersection of a space ship and flecks of high speed metal resulted in the shredding of said space ship.||Interstellar construction is a technology that allows for the construction of better, more efficient, and more durable star ships.</Details>
+			<Category>Hull</Category>
+			<Group>None</Group>
+			<WillingnessToTrade>77</WillingnessToTrade>
+		</Industry>
+		<Computing ID="Basic Miniaturization">
+			<Alignment>None</Alignment>
+			<Requires>AdvancedGravitronics</Requires>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Enhanced Miniaturization">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Advanced Miniaturization">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Expert Miniaturization">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Ultimate Miniaturization">
+			<WillingnessToTrade>2</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Supreme Miniaturization">
+			<DisplayName>Supreme Miniaturization</DisplayName>
+		</Computing>
+		<Industry ID="Advanced Hulls">
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>AdvancedGravitronics</Requires>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Industry>
+		<Logistics ID="Medium Scale Building">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Superior Hulls">
+			<DisplayName>Superior Hulls</DisplayName>
+		</Logistics>
+		<Logistics ID="Large Scale Building">
+			<Group>None</Group>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Master Hull Building">
+			<DisplayName>Master Hull Building</DisplayName>
+		</Logistics>
+		<Logistics ID="Massive Scale Building">
+			<Group>None</Group>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Computing ID="StarScanner">
+			<Alignment>None</Alignment>
+			<Requires>AdvancedGravitronics</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Computing>
+		<Computing ID="StarScanner2">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Sensor2">
+			<DisplayName>Sensors Mark III</DisplayName>
+		</Computing>
+		<Computing ID="Sensor3">
+			<DisplayName>Sensors Mark IV</DisplayName>
+		</Computing>
+		<Weapons ID="Laser">
+			<Alignment>None</Alignment>
+			<Requires>Space Weapons</Requires>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser II">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser III">
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser IV">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser V">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="ParticleBeams">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="ParticleBeams2">
+			<DisplayName>Particle Beams II</DisplayName>
+		</Weapons>
+		<Weapons ID="ParticleBeams3">
+			<DisplayName>Particle Beams III</DisplayName>
+		</Weapons>
+		<Weapons ID="Plasma Weapons">
+			<Requires>ParticleBeams3</Requires>
+		</Weapons>
+		<Weapons ID="Plasma Weapons II">
+			<DisplayName>Plasma Weapons II</DisplayName>
+		</Weapons>
+		<Weapons ID="Plasma Weapons III">
+			<DisplayName>Plasma Weapons III</DisplayName>
+		</Weapons>
+		<Weapons ID="Doom Ray">
+			<Alignment>None</Alignment>
+			<Requires>Disruptors III</Requires>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Psyonic Beam">
+			<Group>None</Group>
+			<Requires>Disruptors</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="MiniBalls">
+			<Alignment>None</Alignment>
+			<Requires>Space Weapons</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="MiniBalls II">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Mass Drivers">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Mass Drivers II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Mass Drivers III">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="PulseCannons">
+			<DisplayName>Pulse Cannons</DisplayName>
+		</Weapons>
+		<Weapons ID="PulseCannons2">
+			<DisplayName>Pulse Cannons II</DisplayName>
+		</Weapons>
+		<Weapons ID="PulseCannons3">
+			<DisplayName>Pulse Cannons III</DisplayName>
+		</Weapons>
+		<Weapons ID="Quantum Driver">
+			<Alignment>None</Alignment>
+			<Requires>Singularity Driver IV</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Quantum Driver II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Quantum Driver III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Black Hole Gun">
+			<Alignment>None</Alignment>
+			<Requires>Quantum Driver III</Requires>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Stinger">
+			<Alignment>None</Alignment>
+			<Requires>Space Weapons</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Stinger II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Stinger III">
+			<DisplayName>Stinger III</DisplayName>
+		</Weapons>
+		<Weapons ID="Stinger IV">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Harpoon">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Harpoon II">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Harpoon III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Pysonic Missile">
+			<Group>None</Group>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photonic Torpedo">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photonic Torpedo II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photon Torpedo">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photon Torpedo II">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photon Torpedo III">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="NightmareTorpedo">
+			<DisplayName>Nightmare Torpedo</DisplayName>
+		</Weapons>
+		<Defenses ID="Duranthium">
+			<Alignment>None</Alignment>
+			<Requires>StarshipDefenses</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Duranthium II">
+			<DisplayName>Duranthium II</DisplayName>
+		</Defenses>
+		<Defenses ID="Duranthium III">
+			<DisplayName>Duranthium III</DisplayName>
+		</Defenses>
+		<Defenses ID="Tri-Strontium">
+			<DisplayName>Tri-Strontium</DisplayName>
+		</Defenses>
+		<Defenses ID="Enhanced Tri-Strontium">
+			<Description>Superior armor defense</Description>
+			<Details>The argument over whether we needed Enhanced Tri-Strontium remains in place. The corporation that creates the Tri-Strontium material has been on the verge of bankruptcy for some time since only the military makes use of this material.||However, here it is. Our tax dollars at work.</Details>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Superior Tri-Strontium">
+			<DisplayName>Superior Tri-Strontium</DisplayName>
+		</Defenses>
+		<Defenses ID="Kanvium">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Kanvium II">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Kanvium III">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Duralthene Armor">
+			<Details>Duralthene armor is our prototype attempt to create a type of armor making use of a new element called Adamantium. Adamantium doesn't exist naturally. Rather, it is a derivative of an extremely rare element found occasionally in asteroids that have been recently struck by large comets.||Adamantium is the result of taking that rare material and subjecting it to an intense energy field. The result is a material that actually isn't completely in-sync with normal space. Duralthene armor is essentially taking the old Tri-Strontium alloy and coating it with trace amounts of this Adamantium material.||When a mass driver comes into contact with the Adamantium, the material of the mass driver is dissipated into the sub-dimensions of the Adamantium. It's difficult to explain but most of the mass is instantly moved out of our normal space and into a slightly out of sync dimension. The remaining material of the mass driver weapon is then absorbed through the traditional Tri-Strontium alloy.</Details>
+		</Defenses>
+		<Defenses ID="Adamantium Armor">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Adamantium II">
+			<DisplayName>Adamantium II</DisplayName>
+		</Defenses>
+		<Defenses ID="Ultimate Adamantium">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Zero-Point Armor">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Arnorian Battle Armor">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="ECM">
+			<Alignment>None</Alignment>
+			<Requires>StarshipDefenses</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="ECM II">
+			<DisplayName>ECM II</DisplayName>
+		</Defenses>
+		<Defenses ID="ECM III">
+			<DisplayName>ECM III</DisplayName>
+		</Defenses>
+		<Defenses ID="Point Defense">
+			<DisplayName>Point Defense</DisplayName>
+		</Defenses>
+		<Defenses ID="Point Defense II">
+			<DisplayName>Point Defense II</DisplayName>
+		</Defenses>
+		<Defenses ID="Point Defense III">
+			<DisplayName>Point Defense III</DisplayName>
+		</Defenses>
+		<Defenses ID="PD Combo">
+			<DisplayName>PD Combo</DisplayName>
+		</Defenses>
+		<Defenses ID="PD Combo II">
+			<DisplayName>PD Combo II</DisplayName>
+		</Defenses>
+		<Defenses ID="PD Combo III">
+			<DisplayName>PD Combo III</DisplayName>
+		</Defenses>
+		<Defenses ID="Droid Sentries">
+			<DisplayName>Droid Sentries</DisplayName>
+		</Defenses>
+		<Defenses ID="Droid Sentries II">
+			<DisplayName>Droid Sentries II</DisplayName>
+		</Defenses>
+		<Defenses ID="Droid Sentries III">
+			<DisplayName>Droid Sentries III</DisplayName>
+		</Defenses>
+		<Defenses ID="Aereon Missile Defense">
+			<DisplayName>Aereon Missile Defense</DisplayName>
+		</Defenses>
+		<Defenses ID="Telepathic Defense">
+			<DisplayName>Telepathic Defense</DisplayName>
+		</Defenses>
+		<Defenses ID="Shields">
+			<Alignment>None</Alignment>
+			<Requires>StarshipDefenses</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Shields II">
+			<DisplayName>Shields II</DisplayName>
+		</Defenses>
+		<Defenses ID="Shields III">
+			<DisplayName>Shields III</DisplayName>
+		</Defenses>
+		<Defenses ID="Barriers">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Barriers II">
+			<DisplayName>Barriers II</DisplayName>
+		</Defenses>
+		<Defenses ID="Barriers III">
+			<DisplayName>Barriers III</DisplayName>
+		</Defenses>
+		<Defenses ID="Force Fields">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Advanced Force Fields">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>24</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Superior Force Fields">
+			<DisplayName>Superior Force Fields</DisplayName>
+		</Defenses>
+		<Defenses ID="Invulnerability Field">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Invulnerability Field II">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Ultimate Invulnerability">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Dynamic Shielding">
+			<DisplayName>Dynamic Shielding</DisplayName>
+		</Defenses>
+		<Defenses ID="Subspace Rebounder">
+			<DisplayName>Subspace Rebounder</DisplayName>
+		</Defenses>
+		<Weapons ID="Planetary Invasion">
+			<Cost>1600</Cost>
+			<Group>None</Group>
+			<AIValue>60</AIValue>
+			<Alignment>None</Alignment>
+			<Requires>DefenseIndustries</Requires>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Advanced Troop Mods">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>Planetary Invasion</Requires>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Weapons>
+		<Biology ID="Xeno Biology">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Xeno Medicine">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Biology>
+		<Industry ID="Xeno Engineering">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>AdvancedGravitronics</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Logistics ID="Space Mining">
+			<Requires>Xeno Engineering</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Space Mining2">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Space Mining3">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Biology ID="Soil Enhancement">
+			<Group>none</Group>
+			<Alignment>None</Alignment>
+			<Requires>AlienSoilStudies</Requires>
+			<WillingnessToTrade>61</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Habitat Improvement">
+			<Cost>1000</Cost>
+			<Group>none</Group>
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Terraforming">
+			<Group>none</Group>
+		</Biology>
+		<Weapons ID="TerrorStar0">
+			<Alignment>None</Alignment>
+			<Requires>HyperionStarbases</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="TerrorStar1">
+			<DisplayName>Terror Star II</DisplayName>
+		</Weapons>
+		<Weapons ID="TerrorStar2">
+			<DisplayName>Terror Star III</DisplayName>
+		</Weapons>
+		<Weapons ID="TerrorStar3">
+			<DisplayName>Terror Star IV</DisplayName>
+		</Weapons>
+		<Weapons ID="TerrorStar4">
+			<DisplayName>Terror Star V</DisplayName>
+		</Weapons>
+		<Weapons ID="Singularity Driver">
+			<Alignment>None</Alignment>
+			<Requires>PulseCannons3</Requires>
+		</Weapons>
+		<Weapons ID="Singularity Driver II">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Singularity Driver III">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Singularity Driver IV">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Disruptors">
+			<Alignment>None</Alignment>
+			<Requires>Plasma Weapons III</Requires>
+		</Weapons>
+		<Weapons ID="Disruptors II">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Disruptors III">
+			<Alignment>None</Alignment>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Culture ID="XenoAnthropology">
+			<DisplayName>Xeno Anthropology</DisplayName>
+			<Description>Learn about the civilizations of the present galaxy</Description>
+			<Details>The galaxy is populated by a series of humanoidic species. Only the Thalan break from this pattern with its multiple appendages. ||The different humanoids of the galaxy are remarkably similar in terms of what they are interested in, what their goals are, and what influences them. It is our belief that this is caused by the direct influence of the Precursor civilization who manifested themselves as humanoids.||Our goal has to be to learn what we can about these civilizations in order to best prevent them from ultimately destroying the universe itself. The fact that creatures of this particular galaxy, of the millions of galaxies in the cosmos are so similar cannot be a coincidence.</Details>
+			<Category>Culture</Category>
+			<Cost>50</Cost>
+			<Group>None</Group>
+			<AIValue>25</AIValue>
+			<Model>genmap0</Model>
+			<Alignment>None</Alignment>
+			<Requires>UniversalTranslator</Requires>
+			<CultureAbility>20</CultureAbility>
+			<MoraleAbility>10</MoraleAbility>
+			<WillingnessToTrade>5</WillingnessToTrade>
+		</Culture>
+		<Biology ID="XenoColonization">
+			<DisplayName>Xeno Colonization</DisplayName>
+			<Description>Increases population growth</Description>
+			<Details>The planets in the galaxy are truly alien to our species. When the colonization fleet entered this space-time, we had overlooked a number of key factors that in hindsight should have been obvious. For one thing, our species has had little experience dealing with the surface of worlds. In our time, in a dying universe, the ability to exist on the surface of planets in an unprotected environment is unthinkable. As a result, none of our equipment is well suited for being used in an untamed environment. ||Xeno Colonization begins the process of adapting our equipment and strategies to working on untamed planets. As a result, our population growth will increase by 10%.|</Details>
+			<Category>Colonization</Category>
+			<Cost>300</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>artificial planet0</Model>
+			<Alignment>None</Alignment>
+			<Requires>PlanetaryAdaptation</Requires>
+			<PopulationGrowthAbility>10</PopulationGrowthAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Biology>
+		<Biology ID="AlienSoilStudies">
+			<DisplayName>Alien Soil Studies</DisplayName>
+			<Description>Increases population growth</Description>
+			<Details>Now that we have begun to colonize planets, we are quickly discovering that we are not adapted to the various kinds of bacteria and fungi that exists on different plants. While we are inoculated against most diseases carried by animals and planets, we did not take into account the kinds of bacteria that exist in the soils. Alien Soil Studies will decrease our sensitivity to the bacteria we come across.  This will improve our population growth rating by 10%.</Details>
+			<Category>Terraforming</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>terraform0</Model>
+			<Alignment>None</Alignment>
+			<Requires>XenoColonization</Requires>
+			<PopulationGrowthAbility>10</PopulationGrowthAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Biology>
+		<Industry ID="StellarProduction">
+			<DisplayName>Stellar Production</DisplayName>
+			<Description>Allows us to begin building infrastructure on other planets</Description>
+			<Details>The logistical underpinnings of our civilization were based on a premise that does not exist in this space-time. That premise is cheap, nearly unlimited energy. The Apocalypse that originates in this space-time in their near future does not reach our space-time for a considerable amount of time. As a result, we have developed energy sources that are far beyond anything that is present here.||Unfortunately, the Hyperion Matrix we brought with us, the source of our advanced technology, is all based on what would be called "Expert Gravitronics". This is a technology that simply does not exist in any form and would require decades for us to re-invent.  As a result, we have to make use of portable fusion reactors that we buy on the open market or manufacture ourselves.||Stellar Production is the adaptation of our tools for technological and manufacturing production to use fusion reactors as opposed to Gravitronic Reactors. The side-effect is that while our production will be far beyond what anyone else is capable of, the maintenance of our systems will be an order of magnitude greater as well.|</Details>
+			<Category>Manufacturing</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>100</AIValue>
+			<Model>drone0</Model>
+			<Alignment>None</Alignment>
+			<Requires>PlanetaryAdaptation</Requires>
+			<EconomicsAbility>10</EconomicsAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="TechnologyAdaptation1">
+			<DisplayName>Technology Adaptation I</DisplayName>
+			<Description>Improves Research capability</Description>
+			<Details>While the other civilizations of this galaxy make use of various means to research new technologies, those means are not consistent with the way we've evolved to research new technologies. That isn't to say we can't use "Research Labs". It is that we simply do not fully grasp how a bunch of individuals can simply come up with new ideas. ||Technological Adaptation involves taking our Hyperion Matrix to form a Technology Matrix which makes use of vast amounts of energy to take existing technologies and automatically generate, over time, improvements to them using advanced probability systems to determine the likelihood of acceptable improvement to a given technology.  The down side is that they require immense amounts of energy to operate which requires the relatively inefficient fusion reactors. ||As a result, our Technology Matrices will be very productive but very expensive resulting in us probably not being able to make full use of them.|</Details>
+			<Category>Research</Category>
+			<Cost>500</Cost>
+			<Group>Technology Adaptation</Group>
+			<AIValue>25</AIValue>
+			<Model>thoughtpolice0</Model>
+			<Alignment>None</Alignment>
+			<Requires>StellarProduction</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="TechnologyAdaptation2">
+			<DisplayName>Technology Adaptation II</DisplayName>
+			<Description>Improves Research capability</Description>
+			<Details>This is the on-going struggle to improve the efficiency of our Technology Matrices so that we can bring the cost down.|||</Details>
+			<Category>Research</Category>
+			<Cost>3500</Cost>
+			<Group>Technology Adaptation</Group>
+			<AIValue>15</AIValue>
+			<Model>thoughtpolice0</Model>
+			<Alignment>None</Alignment>
+			<Requires>TechnologyAdaptation1</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="TechnologyAdaptation3">
+			<DisplayName>Technology Adaptation III</DisplayName>
+			<Description>Final research improvements</Description>
+			<Details>This is the final level of adaptation to our Technological Matrices that make use of fusion based power systems. They are still very expensive to operate but are superior to most other research systems in the galaxy.</Details>
+			<Category>Research</Category>
+			<Cost>7500</Cost>
+			<Group>Technology Adaptation</Group>
+			<AIValue>15</AIValue>
+			<Model>thoughtpolice0</Model>
+			<Alignment>None</Alignment>
+			<Requires>TechnologyAdaptation2</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="IndustrialAdaptation1">
+			<DisplayName>Industrial Adaptation I</DisplayName>
+			<Description>Improves manufacturing capabilities</Description>
+			<Details>Like most of our core technologies, our manufacturing capacity is based on the assumption of the availability of massive amounts of cheap power. Our Industrial Matrices operate by channeling immense amounts of power to replicate a pre-designed item.  The amount of power needed to do this is understood even by relatively primitive civilizations (E = MC^2). Our Industrial Matrices can produce a great number of things but the energy requirements mean that they are relatively cost ineffective.||Our Adaptation systems rely on us finding more efficient uses of fusion based power while we try to supplement our power with gravitronic-based energy sources.|</Details>
+			<Category>Manufacturing</Category>
+			<Cost>800</Cost>
+			<Group>Industrial Adaptation</Group>
+			<AIValue>25</AIValue>
+			<Model>nanometal0</Model>
+			<Alignment>None</Alignment>
+			<Requires>StellarProduction</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="IndustrialAdaptation2">
+			<DisplayName>Industrial Adaptation II</DisplayName>
+			<Description>Improves manufacturing capabilities</Description>
+			<Details>Through efficient use of power, we have managed to drop the maintenance costs of our Industrial Matrices by a considerable amount.</Details>
+			<Category>Manufacturing</Category>
+			<Cost>3500</Cost>
+			<Group>Industrial Adaptation</Group>
+			<AIValue>25</AIValue>
+			<Model>nanometal0</Model>
+			<Alignment>None</Alignment>
+			<Requires>IndustrialAdaptation1</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="IndustrialAdaptation3">
+			<DisplayName>Industrial Adaptation III</DisplayName>
+			<Description>Improves manufacturing capabilities</Description>
+			<Details>We have improved our energy efficiency about as far as we can get. But the results seem reasonably satisfactory until we can make use of Gravitronic power.</Details>
+			<Category>Manufacturing</Category>
+			<Cost>6500</Cost>
+			<Group>Industrial Adaptation</Group>
+			<AIValue>10</AIValue>
+			<Model>nanometal0</Model>
+			<Alignment>None</Alignment>
+			<Requires>IndustrialAdaptation2</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="TemporalMechanics">
+			<DisplayName>Temporal Mechanics</DisplayName>
+			<Description>Background of the Thalan</Description>
+			<Details>Our universe exists in 11 dimensions. There are also a near-infinite number of universes that are connected to each of those 11 dimensions. Destroying a universe is a non-trivial effort.  And yet, somehow, the primitive species of this space time have managed to do just that. Specifically, the species known as humans, in their near-future, manage to create such utter destruction that the resulting ruin feeds upon itself and permeates all of creation throughout every dimension.||The only bright side to this is that this destruction travels at the speed of light. The downside is that the destruction moves at the speed of light through folded space which means it will engulf the universe in far less than the 13 billion of their years that it would otherwise require.||We have thus brought a single strike force through dimension 4 to this particular universe in the hopes of averting this apocalypse. Thus far, the humans do not seem to be the type to unleash the kind of destruction that they apparently destined to do. But they are not what they seem to be either.  The humans in their government, the Terran Alliance, attempt to provide a diplomatic, peaceful coexistent front-end to their activities. They genuinely seem to be interested in living in peace.||And yet, these same peaceful humans are incredibly ruthless when motivated.  For example, we have learned that only 10 years (human years) ago, the humans wiped out a civilization known as the Xendar. The humans fight what they call "total wars" which is in contrast to the skirmishes that other civilizations seem to fight.  That is, humans seem to resist war to a point but once a threshold has been passed, the humans fight to win for all time.||In the current time, the galaxy is beset by an immense war with multiple factions. The most powerful faction is called the Drengin Empire. They are a ruthless, evil civilization whose motivation is control and conquest.  Their brethren, the Korath, are xenophobic and wish to wipe out all non-Drengin life.  The two are struggling for control.  The Korath are quite obviously being manipulated by the remnants of a the malevolent Arnor civilization called "Dread Lords" who lack the numbers to conquer the galaxy through open arms but are potent enough to use pawns to accomplish their ends.||At the same time, the main human fleet has disappeared to where we do not know. But not before leaving Earth protected by an Arnorian shield that nothing can penetrate leaving the Drengin frustrated in their attempts to final victory over the Terran Alliance.  The Terran Alliance still has a handful of task forces in the galaxy who are quite capable of being every bit as brutal as the Drengin when necessary.||And then there are the other civilizations who have chosen sides.  Our concern is with the humans.  Our goal is to build up enough of a force so that when we identify the cause of the ruin, we can act.|</Details>
+			<Category>Manufacturing</Category>
+			<Cost>10</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>regen0</Model>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="HyperionPackages">
+			<DisplayName>Hyperion Matrix</DisplayName>
+			<Description>The key package of Thalan knowledge</Description>
+			<Details>Every advanced civilization has played the hypothetical game of what if you could go back in time 1,000 years. What would you bring with you? We have done just that. And what we brought with us is the Hyperion Matrix, the store-house of our knowledge as well as enough equipment to get us on our feet.||We have enough equipment on hand to ensure that our capital world will be virtually unconquerable by anything but the most massive of forces.  The problem, however, is that we completely lack the infrastructure to replicate our equipment as-is.  Our objective is to research technologies that will aid us in making use of our vast technological advantages before external threats overcome us.|</Details>
+			<Category>Manufacturing</Category>
+			<Cost>50</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>regen0</Model>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="AdvancedGravitronics">
+			<DisplayName>Basic Gravitronics</DisplayName>
+			<Description>Key energy and matter technology</Description>
+			<Details>Gravitrons are the elementary particle of the universe. The universe exists in 11 dimensions. Some of the civilizations have a basic understanding of what they call "String Theory". In String theory, all matter is produced based on different frequencies of sub-atomic particles called strings.  What they do not yet understand is that these strings all rest on an arbitrary edge of an even more elementary particle called a Gravitron.  While they are correct that vibrating strings create all matter and energy, they do not yet realize that these strings are not arbitrarily positioned. The gravitron is 11-sided -- one for each dimension of the universe and each edge has its own strings.  Beings of a given dimension can only perceive a limited number of these edges (beings in the third dimension can perceive 3 sides but do not realize that all strings they are aware of are directed in one of three predictable angles because they cannot perceive the other 8 angles).||Gravitronics matters because once gravitrons (not to be confused with gravitons) can be harnessed, any conventional power system can be easily enhanced to produce 2^8th more power than it would normally produce. ||Basic Gravitronics is about as far as we can get in this space-time because while our scientists on hand know the basics of Gravitronics, our colonization fleet did not bring anyone with an expert level understanding of gravitronics.||All of our key material and energy research rests on our understanding of how the universe actually works. The net benefit is that our ability to research technologies that other civilizations have equivalents of will take less time because they are making use of trial and error in their experiments where-as we are approaching our technological achievements through a more thorough understanding of the universe.|</Details>
+			<Category>Manufacturing</Category>
+			<Cost>600</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>controlgrav0</Model>
+			<Alignment>None</Alignment>
+			<Requires>Remedial Materials</Requires>
+			<SocialProductionAbility>20</SocialProductionAbility>
+			<MilitaryProductionAbility>20</MilitaryProductionAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="ExpertGravityChanneling">
+			<DisplayName>Expert Gravity Channeling</DisplayName>
+			<Description>Improves ship speed</Description>
+			<Details>Every interstellar civilization has some form of artificial gravity. Artificial gravity is merely the basic channeling of gravitational forces. Gravity is, after all, simply the indention of mass into space-time. The unified theory of force that all civilizations at this stage have recognizes that energy can be used to shift the gravity that is exhibited by mass in different ways.||However, what no other civilization grasps yet is just how much can be done with gravity provided that enough power is available. Basic Gravitronics allows us to shift the gravitational outline of a ship in ways that enable our ships to move more quickly through hyperspace. As a result, our ships gain a speed bonus.|</Details>
+			<Category>Biology</Category>
+			<Cost>3500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>controlgrav0</Model>
+			<Alignment>None</Alignment>
+			<Requires>AdvancedGravitronics</Requires>
+			<SpeedAbility>10</SpeedAbility>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Industry>
+		<Industry ID="HyperionHullDesign">
+			<DisplayName>Hyperion Hull Design</DisplayName>
+			<Description>Provides a ship module that improves hitpoints</Description>
+			<Details>Hyperion Hull Points make use of expert gravity channeling to constantly shift the gravitational center of a ship in such a way that even if the ship takes damage, it remains structurally sound far beyond the damage point where most other ships would be destroyed. While expensive, they will provide our civilization with a significant advantage when so equipped.</Details>
+			<Category>Hull</Category>
+			<Cost>1500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>lrgbuilding0</Model>
+			<Alignment>None</Alignment>
+			<Requires>ExpertGravityChanneling</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Computing ID="4DPhasing">
+			<DisplayName>4D Phasing</DisplayName>
+			<Description>Improves factory production</Description>
+			<Details>4D Phasing allows us to increase the output of our fusion reactors by a considerable amount by making use of an additional dimension of energy. As a result, our ship building factories will see a significant boost in production.</Details>
+			<Category>Pure Research</Category>
+			<Cost>3500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>lrgbuilding0</Model>
+			<Alignment>None</Alignment>
+			<Requires>AdvancedGravitronics</Requires>
+			<MilitaryProductionAbility>10</MilitaryProductionAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Computing>
+		<Computing ID="DimensionalExploitation">
+			<DisplayName>Dimensional Exploitation</DisplayName>
+			<Description>Improves Weapons</Description>
+			<Details>We have begun to integration our knowledge of 4D Phasing into our weapon systems which will result in those weapons producing additional damage.</Details>
+			<Category>Pure Research</Category>
+			<Cost>1500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>spacerift0</Model>
+			<Alignment>None</Alignment>
+			<Requires>4DPhasing</Requires>
+			<WeaponsAbility>10</WeaponsAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Computing>
+		<Computing ID="DimensionalWeaponry">
+			<DisplayName>Dimensional Weaponry</DisplayName>
+			<Description>Improves weapons further</Description>
+			<Details>With the success we've seen with dimensional exploitation, we have focused on producing weapon systems that explicitly take advantage of 4D phasing (as opposed to merely a byproduct of other research). As a result, our weapons have become increasingly powerful.</Details>
+			<Category>Pure Research</Category>
+			<Cost>3500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>spacephase0</Model>
+			<Alignment>None</Alignment>
+			<Requires>DimensionalExploitation</Requires>
+			<WeaponsAbility>10</WeaponsAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Computing>
+		<Computing ID="NearOmnipotence">
+			<DisplayName>Near Omnipotence</DisplayName>
+			<Description>Improves weapons</Description>
+			<Details>We have embarked on the path to conquer this galaxy through technological victory. For us, this means to recapture our full technological advantage. It will require immense amounts of scientific research to put together the necessary infrastructure to dominate the galaxy with incredible weapons, but we believe this is the best path to take.</Details>
+			<Category>Pure Research</Category>
+			<Cost>20500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>wormhole10</Model>
+			<Alignment>None</Alignment>
+			<Requires>DimensionalWeaponry</Requires>
+			<WeaponsAbility>20</WeaponsAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Computing>
+		<Industry ID="HyperionStarbases">
+			<DisplayName>Hyperion Starbases</DisplayName>
+			<Description>Provides assortment of modules for starbases</Description>
+			<Details>Other civilizations we have observed have a myriad of technologies that enable them to learn how to make the most out of starbases.  Luckily, this is a path our civilization took long ago.  With Basic Gravitronics in hand, we can now produce starbases with significant advantages in all conceivable areas in a single stroke.</Details>
+			<Category>Starbase</Category>
+			<Cost>3800</Cost>
+			<Group>None</Group>
+			<AIValue>15</AIValue>
+			<Model>planetconstruct0</Model>
+			<Alignment>None</Alignment>
+			<Requires>AdvancedGravitronics</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Weapons ID="MechanizedWarriors">
+			<DisplayName>Mechanized Warriors</DisplayName>
+			<Description>Incredibly powerful robotic soldiers</Description>
+			<Details>While other civilizations seem to insist on training their citizens to die en masse in battle, we do not have that luxury. There simply are enough of us to spare as canon fodder.  Mechanized warriors are armies of robotic troops that can be controlled from afar. As a result, our troops are immensely powerful per man.</Details>
+			<Category>Invasion</Category>
+			<Cost>3500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>planetdefense0</Model>
+			<Alignment>None</Alignment>
+			<Requires>Advanced Troop Mods</Requires>
+			<SoldieringAbility>30</SoldieringAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Weapons>
+		<Defenses ID="DefenseIndustries">
+			<DisplayName>Defense Industries</DisplayName>
+			<Description>Provides access to weapons and defenses for ships.</Description>
+			<Details>Like the other civilizations, our weapons are broken up between mass based weapons, missile based weapons, and beam weapons. Unfortunately, all of our weapon designs rely on a manufacturing infrastructure that is simply not present in this space-time. We knew this would be a problem.  The challenge in traveling to this space-time meant that certain sacrifices would have to be made. We are able to skip some of the rudimentary weapon and defense systems that other civilizations apparently must go through, but in the end, we are going to be dealing with the same basic technologies -- except that ours will be of higher quality.</Details>
+			<Category>Military</Category>
+			<Cost>300</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>sheilds0</Model>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<DefenseAbility>10</DefenseAbility>
+			<WeaponsAbility>10</WeaponsAbility>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>14</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="HyperionDefense">
+			<DisplayName>Hyperion Defense</DisplayName>
+			<Description>Provides new defense module for ships</Description>
+			<Details>The Hyperion Defense Module allows our ships to be nearly invulnerable when attacked in friendly territory provided that the ships already have a reasonable base defense.</Details>
+			<Category>Military</Category>
+			<Cost>1500</Cost>
+			<Group>None</Group>
+			<AIValue>10</AIValue>
+			<Model>event70</Model>
+			<Alignment>Good</Alignment>
+			<Requires>Xeno Ethics</Requires>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Defenses>
+		<Weapons ID="Fanatics">
+			<DisplayName>Fanatics</DisplayName>
+			<Description>Allows the training of fanatical soldiers</Description>
+			<Details>We now can build the Church of Valor which can produce soldier fanatics.</Details>
+			<Category>Invasion</Category>
+			<Cost>3000</Cost>
+			<Group>None</Group>
+			<AIValue>25</AIValue>
+			<Model>event80</Model>
+			<Alignment>Good</Alignment>
+			<Requires>HyperionDefense</Requires>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Weapons>
+		<Biology ID="GaiaTheory">
+			<DisplayName>Gaia Theory</DisplayName>
+			<Description>Allows us to construct the Gaia Vortex</Description>
+			<Details>The Gaia Vortex produces a type of life giving energy that can be transported across all our worlds. What is amazing about it is that the Gaia Vortex only need to be built on a single world for all our worlds to benefit.</Details>
+			<Category>Terraforming</Category>
+			<Cost>2500</Cost>
+			<Group>None</Group>
+			<AIValue>25</AIValue>
+			<Model>event10</Model>
+			<Alignment>Good</Alignment>
+			<Requires>Fanatics</Requires>
+			<WillingnessToTrade>20</WillingnessToTrade>
+		</Biology>
+		<Culture ID="XenoInfluence">
+			<DisplayName>Xeno Influence</DisplayName>
+			<Description>Provides powerful influence star base module</Description>
+			<Details>There are many ways to conquer a galaxy. With our study of the aliens of this galaxy, we can now find new ways to win them over.</Details>
+			<Category>Culture</Category>
+			<Cost>3000</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>event30</Model>
+			<Alignment>Good</Alignment>
+			<Requires>GaiaTheory</Requires>
+			<CultureAbility>10</CultureAbility>
+			<WillingnessToTrade>4</WillingnessToTrade>
+		</Culture>
+		<Propulsion ID="HyperionPropulsion">
+			<DisplayName>Hyperion Propulsion</DisplayName>
+			<Description>Improves ship speed</Description>
+			<Details>Hyperion Propulsion takes advantage of the ripples that exist in folded space to improve our ship speed considerably.</Details>
+			<Category>Propulsion</Category>
+			<Cost>1500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>antimatdrive0</Model>
+			<Alignment>Neutral</Alignment>
+			<Requires>Xeno Ethics</Requires>
+			<SpeedAbility>10</SpeedAbility>
+			<WillingnessToTrade>8</WillingnessToTrade>
+		</Propulsion>
+		<Weapons ID="SpaceSuperiority">
+			<DisplayName>Space Superiority</DisplayName>
+			<Description>Magnifies the weapons on our ships</Description>
+			<Details>Space Superiority makes our weaponry vastly more powerful than previously.</Details>
+			<Category>Military</Category>
+			<Cost>2500</Cost>
+			<Group>None</Group>
+			<AIValue>25</AIValue>
+			<Model>spacephase0</Model>
+			<Alignment>Neutral</Alignment>
+			<Requires>Hyperion Fabrication</Requires>
+			<WeaponsAbility>20</WeaponsAbility>
+			<WillingnessToTrade>4</WillingnessToTrade>
+		</Weapons>
+		<Computing ID="UltimateCreativity">
+			<DisplayName>Ultimate Creativity</DisplayName>
+			<Description>Greatly increases our creativity ability</Description>
+			<Details>Every time we research a technology, there is a small chance we will suddenly just figure it out. This is known as creativity and we have just found a way to look at technologies in a whole new way that will increase our creativity by 20%.</Details>
+			<Category>Pure Research</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>bistront0</Model>
+			<Alignment>Neutral</Alignment>
+			<Requires>SpaceSuperiority</Requires>
+			<CreativityAbility>20</CreativityAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Computing>
+		<Weapons ID="HyperionDomination">
+			<DisplayName>Hyperion Domination</DisplayName>
+			<Description>Increases ship hit points.</Description>
+			<Details>Hyperion Domination incorporates a number of various tweaks to ship design that results in a 10% bonus to ship hit points.  Unfortunately, the work to do this is very dangerous. Luckily, the steady supply of slaves abducted across the galaxy to work on these special ship design improvements ensures our ships will remain in peek condition.</Details>
+			<Category>Military</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>event70</Model>
+			<Alignment>Evil</Alignment>
+			<Requires>Xeno Ethics</Requires>
+			<HitpointsAbility>10</HitpointsAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="XenoBrainwashing">
+			<DisplayName>Xeno Brainwashing</DisplayName>
+			<Description>Provides Brain Washing Centers</Description>
+			<Details>Having studied the way the humanoid species of this time period think, we have devised new ways of making more money from their tourism while at the same time greatly increasing a planet's influence in the galaxy.</Details>
+			<Category>Military</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>replicator0</Model>
+			<Alignment>Evil</Alignment>
+			<Requires>HyperionDomination</Requires>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>20</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="WeaponMagnifier">
+			<DisplayName>Weapon Magnifier</DisplayName>
+			<Description>Increase weapon damage</Description>
+			<Details>By making use of an unstable energy source, the weapons on our ships now gain a 10% boost to their damage.  The only downside, if it can be called such, is that the lifespan of those on board will be shortened and it causes increasing pain over time to those who work the weapons. However, we have staffed the most dangerous parts of the ship with lowly abductees from other worlds.</Details>
+			<Category>Military</Category>
+			<Cost>2200</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>spacerift0</Model>
+			<Alignment>Evil</Alignment>
+			<Requires>XenoBrainwashing</Requires>
+			<WeaponsAbility>10</WeaponsAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="ExtremeSoldiers">
+			<DisplayName>Extreme Soldiers</DisplayName>
+			<Description>Make your soldiers lethal</Description>
+			<Details>We may be few in number, but we are incredibly powerful at what we do.</Details>
+			<Category>Invasion</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>replicator0</Model>
+			<Alignment>Evil</Alignment>
+			<Requires>WeaponMagnifier</Requires>
+			<SoldieringAbility>20</SoldieringAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Weapons>
+		<Propulsion ID="Hyperion Fabrication">
+			<DisplayName>Hyperion Fabrication</DisplayName>
+			<Description>Lowers cost to instantly purchase from contractors</Description>
+			<Details>The Hyperion Fabricator is a key technology that we brought to this time. It is what makes much of our unique technologies possible.||For obvious reasons, the fabricator remains incredibly secret.  However, as has become apparent, our powerful technologies are expensive to manufacture and maintain. As a result, we are reliant on third-party contractors more so than other civilizations.||To this end, we have found a way to provide a secure version of the Hyperion Fabrication technique to key third-party contractors. In exchange, we have received a significant discount in the cost to purchase things immediately.</Details>
+			<Category>Propulsion</Category>
+			<Cost>2000</Cost>
+			<Group>None</Group>
+			<AIValue>22</AIValue>
+			<Alignment>Neutral</Alignment>
+			<Requires>HyperionPropulsion</Requires>
+			<InterestRatesAbility>25</InterestRatesAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Propulsion>
+		<Industry ID="PlanetaryAdaptation">
+			<DisplayName>Planetary Adaptation</DisplayName>
+			<Description>Makes it easier to colonize new planets</Description>
+			<Details>We have brought with us enough equipment and materials to make one incredibly powerful world. But, as we are quickly realizing, additional worlds we colonize do not have the benefit of this equipment.  As a result, we find ourselves in a relatively poor circumstance.||To improve our capabilities on these new planets, we must learn to adapt our various technologies to surviving in more hostile environments than what they were originally intended.</Details>
+			<Category>Manufacturing</Category>
+			<Cost>150</Cost>
+			<Group>None</Group>
+			<AIValue>100</AIValue>
+			<Alignment>None</Alignment>
+			<Requires>ArtificialGravity</Requires>
+			<MoraleAbility>15</MoraleAbility>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Remedial Materials">
+			<DisplayName>Remedial Engineering</DisplayName>
+			<Description>A refresher course on basic engineering</Description>
+			<Details>Picture if you will the case if you went back 1000 years with your state of the art electronics gear. What would you do to repair it? What would you do to build more of them? Let's assume you brought plans with you on how to construct all of your equipment and materials. How would you go about building them?||The challenge we face is that our technological underpinnings work on assumptions that do not exist in this space-time. We must relearn some basic -- more primitive -- engineering principles in order to adapt our various technlogical methods to what can realistically be constructed or traded for.</Details>
+			<Category>Miniaturization</Category>
+			<Cost>150</Cost>
+			<Group>None</Group>
+			<AIValue>10</AIValue>
+			<Alignment>None</Alignment>
+			<Requires>InterstellarConstruction</Requires>
+			<ResearchAbility>5</ResearchAbility>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Industry>
+		<Culture ID="Xeno Public Relations">
+			<DisplayName>Xeno Public Relations</DisplayName>
+			<Description>Expands our influence</Description>
+			<Details>Xeno Public Relations allows us to broadcast influential content into the galaxy. The Thalan tend not to be as big on building starbases as they do not want too much contact with other races. Xeno PR solves mcuh of this.</Details>
+			<Category>Communications</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>10</AIValue>
+			<Alignment>None</Alignment>
+			<Requires>XenoAnthropology</Requires>
+			<CultureAbility>20</CultureAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Computing ID="Space Weapons">
+			<Category>Pure Research</Category>
+			<Cost>50</Cost>
+			<Alignment>None</Alignment>
+			<Requires>DefenseIndustries</Requires>
+		</Computing>
+		<Computing ID="StarshipDefenses">
+			<DisplayName>StarshipDefenses</DisplayName>
+			<Category>Pure Research</Category>
+			<Cost>50</Cost>
+			<Alignment>None</Alignment>
+			<Requires>DefenseIndustries</Requires>
+		</Computing>
+	</TechTree>
+</TechTrees>

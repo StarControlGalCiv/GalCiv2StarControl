@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+
+<TechTrees>
+	<TechTree InternalName="Korx_TechTree">
+		<DataChecksum NoParse="1">
+			<Ignore>DisplayName,Description,Details,Model,xmlns</Ignore>
+			<Translate>DisplayName,Description,Details</Translate>
+		</DataChecksum>
+		<DisplayName>Korx</DisplayName>
+		<Culture ID="Xeno Communications">
+			<Group>None</Group>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Culture>
+		<Culture ID="UniversalTranslator">
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Culture ID="InterGov">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>Diplomatic Relations</Requires>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Alliances">
+			<Group>None</Group>
+			<WillingnessToTrade>88</WillingnessToTrade>
+		</Culture>
+		<Culture ID="StarRep">
+			<DisplayName>Interstellar Republic</DisplayName>
+		</Culture>
+		<Culture ID="StarDem">
+			<DisplayName>Star Democracy</DisplayName>
+		</Culture>
+		<Culture ID="StarFed">
+			<DisplayName>Star Federation</DisplayName>
+		</Culture>
+		<Culture ID="Diplomatic Relations">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Advanced Diplomacy">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Expert Diplomacy">
+			<DisplayName>Expert Diplomacy</DisplayName>
+		</Culture>
+		<Culture ID="Majesty">
+			<Group>None</Group>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Total Majesty">
+			<Group>None</Group>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Trade">
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<WillingnessToTrade>80</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Advanced Trade">
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Master Trade">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Neutral Shipping">
+			<DisplayName>Neutral Shipping</DisplayName>
+		</Culture>
+		<Culture ID="Counter Espionage">
+			<DisplayName>Counter Espionage</DisplayName>
+		</Culture>
+		<Culture ID="Xeno Ethics">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>Xeno Business</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Good and Evil">
+			<DisplayName>Good and Evil</DisplayName>
+		</Culture>
+		<Culture ID="Concepts of Righteousness">
+			<DisplayName>Concepts of Righteousness</DisplayName>
+		</Culture>
+		<Culture ID="Balanced Vision">
+			<DisplayName>Balanced Vision</DisplayName>
+		</Culture>
+		<Culture ID="Concepts of Malice">
+			<DisplayName>Concepts of Malice</DisplayName>
+		</Culture>
+		<Computing ID="FusionReactors">
+			<DisplayName>Hyper Fusion Reactors</DisplayName>
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Computing>
+		<Propulsion ID="HyperDrive">
+			<Requires>FusionReactors</Requires>
+		</Propulsion>
+		<Propulsion ID="NewPropulsion">
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="IonDrive">
+			<Group>None</Group>
+			<WillingnessToTrade>77</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="ImpulseDrive">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="Impulse Drive Mark II">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="Impulse Drive Mark III">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="Warp Drive">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Propulsion>
+		<Propulsion ID="Warp Drive II">
+			<DisplayName>Warp Drive II</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive III">
+			<DisplayName>Warp Drive III</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive IV">
+			<DisplayName>Warp Drive IV</DisplayName>
+		</Propulsion>
+		<Propulsion ID="Warp Drive V">
+			<DisplayName>Warp Drive V</DisplayName>
+		</Propulsion>
+		<Propulsion ID="HyperWarp">
+			<DisplayName>HyperWarp</DisplayName>
+		</Propulsion>
+		<Propulsion ID="HyperWarp II">
+			<DisplayName>HyperWarp II</DisplayName>
+		</Propulsion>
+		<Propulsion ID="HyperWarp III">
+			<DisplayName>HyperWarp III</DisplayName>
+		</Propulsion>
+		<Industry ID="ArtificialGravity">
+			<Details>Artificial Gravity is a technology that is the direct result of having immense amounts of energy at hand.  The applications of artificial gravity are both obvious and subtle.||The obvious application is that ships can now travel for extended periods through space with native gravity levels without compromising the ship design with fragile and unreliable physical motion devices (i.e. ships do not have to spin their hulls to maintain gravity).||The historical fleets of the Drengin Empire and the Arcean Empire in the pre-artificial gravity era are very obvious. Their hulls spin on a super conducting pivot powered by regulated micro bursts of thrust to keep the spinning consistent.  Needless to say, these ships would not be reliable in battle.||The Drengin fleet that conquered the Torian home world in the pre-hyperdrive era were all without artificial gravity and relied on a stargate that still resulted in a travel time of nearly a year.  Two of the troop carriers in that journey had a malfunction in their rotational axis control during the journey resulting in having over 25,000 Drengin shock troops having to live out their remaining lives in space. ||Fortunately, the lives of those Drengin shock troops was short since they were soon converted into fuel.  Another key use is that it can be used to channel gravity on planets which allows for more serious planetary improvements.</Details>
+			<Category>Biology</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<PopulationGrowthAbility>5</PopulationGrowthAbility>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Logistics ID="Basic Logistics">
+			<Requires>ArtificialGravity</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Enhanced Logistics">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Advanced Logistics">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Expert Logistics">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Ultimate Logistics">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Basic Life Support">
+			<DisplayName>General Life Support</DisplayName>
+		</Logistics>
+		<Logistics ID="Extended Life Support">
+			<DisplayName>Extended Life Support</DisplayName>
+		</Logistics>
+		<Logistics ID="Advanced Life Support">
+			<DisplayName>Advanced Life Support</DisplayName>
+		</Logistics>
+		<Logistics ID="Ultra Life Support">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Logistics>
+		<Industry ID="PlanetaryImprovements">
+			<Category>Military</Category>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>ArtificialGravity</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Industry ID="XenoEconomics">
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Xeno Trade Centers">
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Xeno Bank Construction">
+			<DisplayName>Xeno Bank Construction</DisplayName>
+		</Industry>
+		<Industry ID="Galactic Stock Exchanges">
+			<Group>None</Group>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Industry>
+		<Biology ID="Xeno Farm Construction">
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Xeno Farm Construction II">
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Xeno Farm Construction III">
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Biology>
+		<Computing ID="XenoResearch">
+			<Group>None</Group>
+			<Requires>PlanetaryImprovements</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Advanced Computing">
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Research Center">
+			<DisplayName>Research Centers</DisplayName>
+		</Computing>
+		<Computing ID="Research Academy">
+			<DisplayName>Research Academies</DisplayName>
+		</Computing>
+		<Computing ID="Invention Matrix">
+			<Group>None</Group>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Discovery Sphere">
+			<Group>None</Group>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Deeper Knowledge">
+			<DisplayName>Deeper Knowledge</DisplayName>
+		</Computing>
+		<Computing ID="Galactic Understanding">
+			<DisplayName>Galactic Understanding</DisplayName>
+		</Computing>
+		<Computing ID="Near Omniscience">
+			<DisplayName>Near Omniscience</DisplayName>
+		</Computing>
+		<Computing ID="Beyond Mortality">
+			<DisplayName>Beyond Mortality</DisplayName>
+		</Computing>
+		<Computing ID="Technology Victory">
+			<DisplayName>Technology Victory</DisplayName>
+		</Computing>
+		<Computing ID="Neutrality Learning Center">
+			<Group>None</Group>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Computing>
+		<Computing ID="StellarCartography">
+			<DisplayName>Stellar Cartography</DisplayName>
+		</Computing>
+		<Industry ID="XenoIndustrialTheory">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Xeno Factory Construction">
+			<Group>None</Group>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Manufacturing Centers">
+			<DisplayName>Manufacturing Centers</DisplayName>
+		</Industry>
+		<Industry ID="Industrial Sector">
+			<Description>Superior Factory Construction</Description>
+			<Details>Industrial Sectors take the concept of industrialization to a whole new level. Imagine not a city but an entire region of a world that is dominated by highly efficient industrial machinery. ||Industrial Sectors use massive amounts of automation in order to produce incredible levels of products and goods.</Details>
+			<Group>None</Group>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Fusion Power Plants">
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Anti-Matter Power Plants">
+			<Group>None</Group>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Quantum Power Plants">
+			<DisplayName>Quantum Power Plants</DisplayName>
+		</Industry>
+		<Biology ID="ExtremeColonization">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>PlanetaryImprovements</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Biology>
+		<Biology ID="AquaticWorldColonization">
+			<Details>By stimulating volcanic activity on the ocean floor, we can bring forth small islands above the water. From this, we can build cities that use these small islands as their foundation.</Details>
+			<CourageAbility>2</CourageAbility>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Biology>
+		<Biology ID="AdvancedAquaticWorldColonization">
+			<DisplayName>Advanced Aquatic World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="HeavyGravityColonization">
+			<DisplayName>Heavy Gravity Colonization</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedHeavyGravityColonization">
+			<DisplayName>Advanced Heavy Gravity Colonization</DisplayName>
+		</Biology>
+		<Biology ID="ToxicAtmosphereReductor">
+			<DisplayName>Toxic Atmosphere Reductor</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedToxicAtmosphereReductor">
+			<DisplayName>Advanced Toxic Atmosphere Reductor</DisplayName>
+		</Biology>
+		<Biology ID="BarrenWorldColonization">
+			<DisplayName>Barren World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedBarrenWorldColonization">
+			<DisplayName>Advanced Barren World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="RadioactiveWorldColonization">
+			<DisplayName>Radioactive World Colonization</DisplayName>
+		</Biology>
+		<Biology ID="AdvancedRadioactiveWorldColonization">
+			<DisplayName>Advanced Radioactive World Colonization</DisplayName>
+		</Biology>
+		<Culture ID="Xeno Business">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>XenoMercantilism</Requires>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Cultural Domination">
+			<DisplayName>Cultural Domination</DisplayName>
+		</Culture>
+		<Culture ID="Historical Assimilation">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Xeno Cultural Trends">
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Culture>
+		<Culture ID="Cultural Insurrection">
+			<DisplayName>Cultural Insurrection</DisplayName>
+		</Culture>
+		<Culture ID="Cultural Conquest">
+			<DisplayName>Cultural Conquest</DisplayName>
+		</Culture>
+		<Industry ID="InterstellarConstruction">
+			<Description>Alows construction of ships designed for interstellar travel.</Description>
+			<Details>The ability to design containers that are required to travel immense distances and survive extended periods of time in the vacuum of space is no trivial task.||Prior to space travel, civilizations with a lively tradition of science fiction tended to downplay or completely ignore what precisely was involved in producing things that travel from star to star.||Space, as is well known, is big.  It's mind boggling big.  But it is not nearly as empty as people believe. As early space explorers learned, often the hard way, traveling even between planets is hazardous.||Many early engineers focused almost totally on the propulsion of a ship rather than the actual construction of a ship.  To many engineers, space travel was essentially putting either robots or organic travelers into a metal box and attaching propulsion.  Not so at all.||First, these metal tubes in the vacuum of space are subjected to radiations that could scarcely be imagined by terrestrial scientists.  Secondly, once outside the gravity well of a planet system, the metal tubes were routinely subjected to micro meteorites.   Flecks of asteroids or bits of metal flying through space at hundreds of meters per second.  ||The intersection of a space ship and flecks of high speed metal resulted in the shredding of said space ship.||Interstellar construction is a technology that allows for the construction of better, more efficient, and more durable star ships.</Details>
+			<Category>Hull</Category>
+			<Group>None</Group>
+			<Requires>ArtificialGravity</Requires>
+			<WillingnessToTrade>77</WillingnessToTrade>
+		</Industry>
+		<Computing ID="Basic Miniaturization">
+			<Requires>InterstellarConstruction</Requires>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Enhanced Miniaturization">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Advanced Miniaturization">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Expert Miniaturization">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Ultimate Miniaturization">
+			<WillingnessToTrade>2</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Supreme Miniaturization">
+			<DisplayName>Supreme Miniaturization</DisplayName>
+		</Computing>
+		<Industry ID="Advanced Hulls">
+			<Group>None</Group>
+			<Requires>InterstellarConstruction</Requires>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Industry>
+		<Logistics ID="Medium Scale Building">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Superior Hulls">
+			<DisplayName>Superior Hulls</DisplayName>
+		</Logistics>
+		<Logistics ID="Large Scale Building">
+			<Group>None</Group>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Master Hull Building">
+			<DisplayName>Master Hull Building</DisplayName>
+		</Logistics>
+		<Logistics ID="Massive Scale Building">
+			<Group>None</Group>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Advanced Materials">
+			<Description>Allows for the research of materials that enhance ship integrity.</Description>
+			<Details>The ability for a ship to survive in space is well understood. But has been more difficult to understand is how ensure survival when another party is actively attempting to destroy that ship. While many defenses are being contemplated, another area of research is how to make the ship, tougher.||All ships are assigned a hull potential value (HP) also known as hit points to the military. This determines how much damage a ship can take without being destroyed. The advanced materials tree will allow scientists to find new ways to increase the HP of ships.</Details>
+			<Group>None</Group>
+			<AIValue>20</AIValue>
+			<WillingnessToTrade>9</WillingnessToTrade>
+		</Logistics>
+		<Computing ID="StarScanner">
+			<Requires>InterstellarConstruction</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Computing>
+		<Computing ID="StarScanner2">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Computing>
+		<Computing ID="Sensor2">
+			<DisplayName>Sensors Mark III</DisplayName>
+		</Computing>
+		<Computing ID="Sensor3">
+			<DisplayName>Sensors Mark IV</DisplayName>
+		</Computing>
+		<Weapons ID="Galactic Warfare">
+			<DisplayName>Interstellar Warfare</DisplayName>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Space Militarization">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Space Weapons">
+			<Category>PD</Category>
+			<AIValue>120</AIValue>
+			<Alignment>None</Alignment>
+			<MilitaryProductionAbility>5</MilitaryProductionAbility>
+			<WillingnessToTrade>100</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Beam Weapon theory">
+			<Group>None</Group>
+			<WillingnessToTrade>80</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser">
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser II">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser III">
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser IV">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Laser V">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="ParticleBeams">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="ParticleBeams2">
+			<DisplayName>Particle Beams II</DisplayName>
+		</Weapons>
+		<Weapons ID="ParticleBeams3">
+			<DisplayName>Particle Beams III</DisplayName>
+		</Weapons>
+		<Weapons ID="Plasma Weapons">
+			<Requires>ParticleBeams3</Requires>
+		</Weapons>
+		<Weapons ID="Plasma Weapons II">
+			<DisplayName>Plasma Weapons II</DisplayName>
+		</Weapons>
+		<Weapons ID="Plasma Weapons III">
+			<DisplayName>Plasma Weapons III</DisplayName>
+		</Weapons>
+		<Weapons ID="Phasors">
+			<DisplayName>Phasors</DisplayName>
+		</Weapons>
+		<Weapons ID="Phasors II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Phasors III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Phasors IV">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Phasors V">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Phasors VI">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Phasors VII">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Doom Ray">
+			<Requires>Phasors VII</Requires>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Psyonic Beam">
+			<Group>None</Group>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Mass Driver Theory">
+			<Group>None</Group>
+			<WillingnessToTrade>79</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="MiniBalls">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="MiniBalls II">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Mass Drivers">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Mass Drivers II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Mass Drivers III">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="PulseCannons">
+			<DisplayName>Pulse Cannons</DisplayName>
+		</Weapons>
+		<Weapons ID="PulseCannons2">
+			<DisplayName>Pulse Cannons II</DisplayName>
+		</Weapons>
+		<Weapons ID="PulseCannons3">
+			<DisplayName>Pulse Cannons III</DisplayName>
+		</Weapons>
+		<Weapons ID="Graviton Driver">
+			<Requires>PulseCannons3</Requires>
+		</Weapons>
+		<Weapons ID="Graviton Driver II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Graviton Driver III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Graviton Driver IV">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Quantum Driver">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Quantum Driver II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Quantum Driver III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Black Hole Gun">
+			<Requires>Quantum Driver III</Requires>
+		</Weapons>
+		<Weapons ID="Psyonic Shredder">
+			<DisplayName>Psionic Shredder</DisplayName>
+		</Weapons>
+		<Weapons ID="Missile Weapon Theory">
+			<Group>None</Group>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Stinger">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Stinger II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Stinger III">
+			<DisplayName>Stinger III</DisplayName>
+		</Weapons>
+		<Weapons ID="Stinger IV">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Harpoon">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Harpoon II">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Harpoon III">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Pysonic Missile">
+			<Group>None</Group>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photonic Torpedo">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photonic Torpedo II">
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photon Torpedo">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photon Torpedo II">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Photon Torpedo III">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="NightmareTorpedo">
+			<DisplayName>Nightmare Torpedo</DisplayName>
+		</Weapons>
+		<Weapons ID="StarbaseMilitarization">
+			<Group>None</Group>
+			<Requires>Starbase Fortification Mark III</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="StarbaseMobilization">
+			<DisplayName>Starbase Mobilization</DisplayName>
+		</Weapons>
+		<Weapons ID="StarbaseProjection">
+			<DisplayName>Starbase Projection</DisplayName>
+		</Weapons>
+		<Weapons ID="StarbaseDomination">
+			<DisplayName>Superior Starbase Defense Systems</DisplayName>
+		</Weapons>
+		<Weapons ID="StarbaseConquestStrategy">
+			<DisplayName>Starbase Conquest Strategy</DisplayName>
+		</Weapons>
+		<Weapons ID="FleetBattleTactics">
+			<Details>There are some types of ship modifications that can indeed help a given ship immensely in battle but are so bulky in size that their benefit to a single ship is greatly diminished.  However, there are also ship modifications that can be adapted to help friendly ships near by just as much as the ship that is carrying it.        ||The kinds of modifications that affect all the ships in a fleet are called Fleet Battle Tactics.  A series of ship components that benefit all ships in a given fleet.</Details>
+			<Group>None</Group>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="TulonWeaponFocus">
+			<Details>Tulon Weapon Focus is named after the researcher who discovered it -- Dr. Viliak Tulon.  Tulon Weapon Focus is an immensely complex artificial intelligence algorithm that allows the various weapons on a ship to work more in concert to do more damage.|      |The downside of Tulon Weapon Focus is the Hyper Computer required to run it.  It is immense in size.  Thus, equipping a single ship with Tulon weapon focus will indeed increase the effectiveness of its weapons but is foolish because of all the space it uses.||The plus side is that Tulon Weapon Focus can be used to control the weapon systems of friendly ships in a fleet allowing them all to gain this benefit.</Details>
+			<Group>None</Group>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Defenses ID="StarshipDefenses">
+			<Alignment>None</Alignment>
+		</Defenses>
+		<Defenses ID="Armor Theory">
+			<Group>None</Group>
+			<WillingnessToTrade>78</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Titanitum Armor">
+			<DisplayName>Titanium Armor</DisplayName>
+		</Defenses>
+		<Defenses ID="Titanium Armor II">
+			<DisplayName>Titanium Armor II</DisplayName>
+		</Defenses>
+		<Defenses ID="Titanium Armor III">
+			<DisplayName>Titanium Armor III</DisplayName>
+		</Defenses>
+		<Defenses ID="Duranthium">
+			<DisplayName>Duranthium</DisplayName>
+		</Defenses>
+		<Defenses ID="Duranthium II">
+			<DisplayName>Duranthium II</DisplayName>
+		</Defenses>
+		<Defenses ID="Duranthium III">
+			<DisplayName>Duranthium III</DisplayName>
+		</Defenses>
+		<Defenses ID="Tri-Strontium">
+			<DisplayName>Tri-Strontium</DisplayName>
+		</Defenses>
+		<Defenses ID="Enhanced Tri-Strontium">
+			<Description>Superior armor defense</Description>
+			<Details>The argument over whether we needed Enhanced Tri-Strontium remains in place. The corporation that creates the Tri-Strontium material has been on the verge of bankruptcy for some time since only the military makes use of this material.||However, here it is. Our tax dollars at work.</Details>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Superior Tri-Strontium">
+			<DisplayName>Superior Tri-Strontium</DisplayName>
+		</Defenses>
+		<Defenses ID="Kanvium">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Kanvium II">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Kanvium III">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Duralthene Armor">
+			<Details>Duralthene armor is our prototype attempt to create a type of armor making use of a new element called Adamantium. Adamantium doesn't exist naturally. Rather, it is a derivative of an extremely rare element found occasionally in asteroids that have been recently struck by large comets.||Adamantium is the result of taking that rare material and subjecting it to an intense energy field. The result is a material that actually isn't completely in-sync with normal space. Duralthene armor is essentially taking the old Tri-Strontium alloy and coating it with trace amounts of this Adamantium material.||When a mass driver comes into contact with the Adamantium, the material of the mass driver is dissipated into the sub-dimensions of the Adamantium. It's difficult to explain but most of the mass is instantly moved out of our normal space and into a slightly out of sync dimension. The remaining material of the mass driver weapon is then absorbed through the traditional Tri-Strontium alloy.</Details>
+		</Defenses>
+		<Defenses ID="Adamantium Armor">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Adamantium II">
+			<DisplayName>Adamantium II</DisplayName>
+		</Defenses>
+		<Defenses ID="Ultimate Adamantium">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Zero-Point Armor">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Arnorian Battle Armor">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Missile Defense Theory">
+			<Group>None</Group>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Chaff">
+			<WillingnessToTrade>80</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Smart Chaff">
+			<DisplayName>Smart Chaff</DisplayName>
+		</Defenses>
+		<Defenses ID="ECM">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="ECM II">
+			<DisplayName>ECM II</DisplayName>
+		</Defenses>
+		<Defenses ID="ECM III">
+			<DisplayName>ECM III</DisplayName>
+		</Defenses>
+		<Defenses ID="Point Defense">
+			<DisplayName>Point Defense</DisplayName>
+		</Defenses>
+		<Defenses ID="Point Defense II">
+			<DisplayName>Point Defense II</DisplayName>
+		</Defenses>
+		<Defenses ID="Point Defense III">
+			<DisplayName>Point Defense III</DisplayName>
+		</Defenses>
+		<Defenses ID="PD Combo">
+			<DisplayName>PD Combo</DisplayName>
+		</Defenses>
+		<Defenses ID="PD Combo II">
+			<DisplayName>PD Combo II</DisplayName>
+		</Defenses>
+		<Defenses ID="PD Combo III">
+			<DisplayName>PD Combo III</DisplayName>
+		</Defenses>
+		<Defenses ID="Droid Sentries">
+			<DisplayName>Droid Sentries</DisplayName>
+		</Defenses>
+		<Defenses ID="Droid Sentries II">
+			<DisplayName>Droid Sentries II</DisplayName>
+		</Defenses>
+		<Defenses ID="Droid Sentries III">
+			<DisplayName>Droid Sentries III</DisplayName>
+		</Defenses>
+		<Defenses ID="Aereon Missile Defense">
+			<DisplayName>Aereon Missile Defense</DisplayName>
+		</Defenses>
+		<Defenses ID="Telepathic Defense">
+			<DisplayName>Telepathic Defense</DisplayName>
+		</Defenses>
+		<Defenses ID="Shield Defense Theory">
+			<Group>None</Group>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Deflectors">
+			<DisplayName>Deflectors</DisplayName>
+		</Defenses>
+		<Defenses ID="EnhDeflectors">
+			<DisplayName>Enhanced Deflectors</DisplayName>
+		</Defenses>
+		<Defenses ID="ADvDeflectors">
+			<DisplayName>Advanced Deflectors</DisplayName>
+		</Defenses>
+		<Defenses ID="Superior Defs">
+			<DisplayName>Superior Deflectors</DisplayName>
+		</Defenses>
+		<Defenses ID="Shields">
+			<DisplayName>Shields</DisplayName>
+		</Defenses>
+		<Defenses ID="Shields II">
+			<DisplayName>Shields II</DisplayName>
+		</Defenses>
+		<Defenses ID="Shields III">
+			<DisplayName>Shields III</DisplayName>
+		</Defenses>
+		<Defenses ID="Barriers">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Barriers II">
+			<DisplayName>Barriers II</DisplayName>
+		</Defenses>
+		<Defenses ID="Barriers III">
+			<DisplayName>Barriers III</DisplayName>
+		</Defenses>
+		<Defenses ID="Force Fields">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Advanced Force Fields">
+			<DisplayName>Advanced Force Fields</DisplayName>
+		</Defenses>
+		<Defenses ID="Superior Force Fields">
+			<DisplayName>Superior Force Fields</DisplayName>
+		</Defenses>
+		<Defenses ID="Invulnerability Field">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Invulnerability Field II">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Ultimate Invulnerability">
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Dynamic Shielding">
+			<DisplayName>Dynamic Shielding</DisplayName>
+		</Defenses>
+		<Defenses ID="Subspace Rebounder">
+			<DisplayName>Subspace Rebounder</DisplayName>
+		</Defenses>
+		<Defenses ID="Starbase Fortification">
+			<Alignment>None</Alignment>
+			<Requires>StarbaseVictoryStrategy</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="Starbase Fortification Mark II">
+			<DisplayName>Starbase Fortification Mark II</DisplayName>
+		</Defenses>
+		<Defenses ID="Starbase Fortification Mark III">
+			<DisplayName>Starbase Fortification Mark III</DisplayName>
+		</Defenses>
+		<Weapons ID="Planetary Invasion">
+			<Group>None</Group>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Planetary Bombardment">
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Space Marines">
+			<Group>None</Group>
+			<Requires>Tidal Disruption</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Advanced Troop Mods">
+			<Group>None</Group>
+			<WillingnessToTrade>30</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Tidal Disruption">
+			<DisplayName>Tidal Disruption</DisplayName>
+		</Weapons>
+		<Weapons ID="Planetary Defense">
+			<DisplayName>Planetary Defense</DisplayName>
+		</Weapons>
+		<Weapons ID="Adv. Planetary Defense">
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="Supreme Planetary Defense">
+			<DisplayName>Supreme Planetary Defense</DisplayName>
+		</Weapons>
+		<Biology ID="Xeno Biology">
+			<Group>None</Group>
+			<Requires>XenoResearch</Requires>
+			<WillingnessToTrade>90</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Xeno Medicine">
+			<Group>None</Group>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Biology>
+		<Industry ID="Xeno Engineering">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>XenoRefining</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Industry>
+		<Logistics ID="Space Mining">
+			<Requires>Xeno Engineering</Requires>
+			<WillingnessToTrade>70</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Space Mining2">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Logistics ID="Space Mining3">
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Logistics>
+		<Biology ID="Soil Enhancement">
+			<Group>none</Group>
+			<WillingnessToTrade>61</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Habitat Improvement">
+			<Group>none</Group>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Biology>
+		<Biology ID="Terraforming">
+			<Group>none</Group>
+		</Biology>
+		<Weapons ID="TerrorStar0">
+			<Alignment>None</Alignment>
+			<Requires>StarbaseVictoryStrategy</Requires>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Weapons>
+		<Weapons ID="TerrorStar1">
+			<DisplayName>Terror Star II</DisplayName>
+		</Weapons>
+		<Weapons ID="TerrorStar2">
+			<DisplayName>Terror Star III</DisplayName>
+		</Weapons>
+		<Weapons ID="TerrorStar3">
+			<DisplayName>Terror Star IV</DisplayName>
+		</Weapons>
+		<Weapons ID="TerrorStar4">
+			<DisplayName>Terror Star V</DisplayName>
+		</Weapons>
+		<Industry ID="IndustrialRevolution">
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+		</Industry>
+		<Computing ID="TraditionalResearch">
+			<DisplayName>Traditional Research</DisplayName>
+		</Computing>
+		<Industry ID="XenoMercantilism">
+			<DisplayName>Xeno Mercantilism</DisplayName>
+			<Description>Improves trade ability significantly</Description>
+			<Details>When it comes to trading, no one can do it as well as the Korx. They are the ultimate merchants of the galaxy.</Details>
+			<Category>Economics</Category>
+			<Cost>50</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>hypercom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>Trade</Requires>
+			<TradeAbility>20</TradeAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="Mercenaries">
+			<DisplayName>Mercenaries</DisplayName>
+			<Description>Allows us to profit from other people's wars</Description>
+			<Details>War is hell. But war can also be very profitable. This technology allows us to construct the Mercenary Academy super project that will allow us to make income from other people's wars.</Details>
+			<Category>Trade</Category>
+			<Cost>250</Cost>
+			<Group>None</Group>
+			<AIValue>20</AIValue>
+			<Model>instantcom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>XenoMercantilism</Requires>
+			<WillingnessToTrade>13</WillingnessToTrade>
+		</Industry>
+		<Culture ID="CutThroatCompetition">
+			<DisplayName>Cut-Throat Competition</DisplayName>
+			<Description>Vastly decreases lease costs</Description>
+			<Details>This technology provides a system of corporate reforms that opens the market to far more competition for providing key services to the government. As a result, lease costs are greatly decreased thanks to lower interest rate deals from companies.</Details>
+			<Category>Trade</Category>
+			<Cost>100</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>hypercom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>XenoMercantilism</Requires>
+			<InterestRatesAbility>25</InterestRatesAbility>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Culture>
+		<Culture ID="FortifiedFreighters">
+			<DisplayName>Fortified Freighters</DisplayName>
+			<Description>Allows us to better protect our freighters in times of war</Description>
+			<Details>This technology gives us the capability to build Freighter Command, an immense super project that will allow our trade routes to flourish in times of war.  Most civilizations will give up trade routes if their freighters are destroyed repeatedly. The Freighter Command system allows us to continue our trade routes regardless of how many times a given freighter is lost.</Details>
+			<Category>Trade</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>sheilds0</Model>
+			<Alignment>None</Alignment>
+			<Requires>CutThroatCompetition</Requires>
+			<WillingnessToTrade>16</WillingnessToTrade>
+		</Culture>
+		<Industry ID="SuperTradeStarbases">
+			<DisplayName>Super Trade Starbases</DisplayName>
+			<Description>Provides special trade module for economic starbases</Description>
+			<Details>Super Trade Starbases can become a backbone for our civilization. The Super Trade Starbase module, when added to an economic starbase will double the amount of income from our freighters that pass within its zone of influence.</Details>
+			<Category>Trade</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>starcreation0</Model>
+			<Alignment>None</Alignment>
+			<Requires>FortifiedFreighters</Requires>
+			<WillingnessToTrade>11</WillingnessToTrade>
+		</Industry>
+		<Industry ID="XenoRefining">
+			<DisplayName>Xeno Refining</DisplayName>
+			<Description>Superior galactic resource mining</Description>
+			<Details>The galactic resources are key to mastery of the galaxy. But most civilizations do not fully exploit these resources for a variety of reasons. Xeno Refinery enables us to get more out of our resource starbases than ever before.</Details>
+			<Category>Economics</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>event10</Model>
+			<Alignment>None</Alignment>
+			<Requires>InterstellarConstruction</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Industry ID="ExpertRefining">
+			<DisplayName>Expert Refining</DisplayName>
+			<Description>Provides advanced resource modules for starbases</Description>
+			<Details>No one can exploit galactic resources as well as we can now. We can now install expert refineries on starbases that are harvesting galactic resources.</Details>
+			<Category>Economics</Category>
+			<Cost>3500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>event30</Model>
+			<Alignment>None</Alignment>
+			<Requires>XenoRefining</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+		</Industry>
+		<Defenses ID="StarbaseVictoryStrategy">
+			<DisplayName>Starbase Victory Strategy</DisplayName>
+			<Description>Allows us to make our starbases far more effective</Description>
+			<Details>Through the effort of our greatest minds, we have managed to put together a series of very powerful starbase modules.</Details>
+			<Category>Starbase</Category>
+			<Cost>500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>omnicom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>Space Militarization</Requires>
+			<WillingnessToTrade>10</WillingnessToTrade>
+		</Defenses>
+		<Defenses ID="StarbaseSupremacy">
+			<DisplayName>Starbase Supremacy</DisplayName>
+			<Description>Provides very powerful starbase modules</Description>
+			<Details>Our starbases will soon be unstoppable thanks to these new starbase modules that we can install.</Details>
+			<Category>Starbase</Category>
+			<Cost>3500</Cost>
+			<Group>None</Group>
+			<AIValue>5</AIValue>
+			<Model>omnicom0</Model>
+			<Alignment>None</Alignment>
+			<Requires>StarbaseVictoryStrategy</Requires>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>4</WillingnessToTrade>
+		</Defenses>
+		<Culture ID="A history of Mercantilism">
+			<DisplayName>A history of Mercantilism</DisplayName>
+			<Description>A brief history of the Korx</Description>
+			<Details>The Korx home world was united long ago by a single corporate conglomerate. What humans might call libertarianism was the way of the Korx in its purest form. Its unregulated capitalistic system eventually allowed a single mega corporation to emerge that effectively owned all of the resources of the Korx world including the military.  As a result, technological and cultural progress stagnated for generations. Without competition, Korx society moved forward on inertia from its past achievements.||Everything is for sale in Korx society. Every resource, every service, everything one could possibly imagine -- and then some -- can be bought and sold. If there is a demand, the Korx will find a way to provide for it.  For this reason, the Korx tend to be found involved in every galactic war in some form as arms dealers and even mercenary soldiers on both sides.|</Details>
+			<Category>Ethics</Category>
+			<Cost>10</Cost>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+	</TechTree>
+</TechTrees>
