@@ -5,6 +5,9 @@ This is a total conversion mod based on Star Control 2 for Stardock's Galactic C
 
 Current version: 0.5 Alpha
 
+### ModDB mod page
+[![Pop](http://button.moddb.com/popularity/medium/mods/25352.png)](http://www.moddb.com/mods/ur-quan-doctrinal-conflict)
+
 ## Credits:
 
 Team behind remastered/HD version of Star Control 2
