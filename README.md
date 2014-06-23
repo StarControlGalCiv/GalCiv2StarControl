@@ -51,7 +51,7 @@ Major:
   *		Utwig (Chaotic Good)*
 *	Independent (Small territory):
   *		Pkunk (Chaotic Good)
-  *		Orz (Neutral)
+  *		Orz (Neutral)**
   *		Supox (Pure Good)*
 
 
@@ -79,7 +79,5 @@ Minor:
 
 
 \* - Added as a Major race
-
 \** - Added as a Minor race
-
 \*** - Added as Dread Lords, which receive all technologies in the set technology tree.

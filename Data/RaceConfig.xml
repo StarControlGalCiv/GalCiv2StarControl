@@ -1418,7 +1418,7 @@
 		<ESPIONAGE>0</ESPIONAGE>
 		<SOLDIERING>0</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
-		<PLANETQUALITY>-999</PLANETQUALITY>
+		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
 		<CRIME>0</CRIME>
 		<CABINET>0</CABINET>
@@ -1661,7 +1661,7 @@
 		<DisplayName>Ur-Quan Kohr-Ah</DisplayName>
 		<Alignment>1</Alignment>
 		<Description>The Ur-Quan Kohr-Ah are one of the two subraces of the Ur-Quan. Their determination to exterminate all non-Ur-Quan life rather than enslaving them has made them even more dangerous as a foe.</Description>
-		<Homeworld>Omega</Homeworld>
+		<Homeworld>Zeta I</Homeworld>
 		<Homestar>Zeta</Homestar>
 		<RaceLeader>Death 1</RaceLeader>
 		<ShortEmpireName>Kohr-Ah</ShortEmpireName>

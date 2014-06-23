@@ -793,7 +793,7 @@
 		<Industry ID="GraftOfAges">
 			<DisplayName>Graft of Ages</DisplayName>
 			<Description>Greatly increase planetary economic output with a new planetary improvement</Description>
-			<Details>The Korathian way of doing business is straight forward: We train our merchants how exploit the weak minded inferiors of the galaxy. In turn, they bribe us in exchange for continuing to live (since merchants are scum).||The Graft of Ages is a special building that we can now build on our planets that systemizes the bribing of our government by the private merchant class to greatly increase our economic output.</Details>
+			<Details>The Kohr-Ah way of doing business is straight forward: We train our merchants how exploit the weak minded inferiors of the galaxy. In turn, they bribe us in exchange for continuing to live (since merchants are scum).||The Graft of Ages is a special building that we can now build on our planets that systemizes the bribing of our government by the private merchant class to greatly increase our economic output.</Details>
 			<Category>Economics</Category>
 			<Cost>2000</Cost>
 			<Group>None</Group>
