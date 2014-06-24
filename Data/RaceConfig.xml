@@ -11,7 +11,7 @@
 		<Alignment>85</Alignment>
 		<Description>The Supox Utricularia are an intelligent spacefaring race resembling some carnivorous plants. When they were first met by the New Alliance of Free Stars the Supox had already forged a cooperative relationship with the nearby Utwig.</Description>
 		<Homeworld>Vlik</Homeworld>
-		<Homestar>Beta Librae I</Homestar>
+		<Homestar>Beta Librae</Homestar>
 		<RaceLeader>Root</RaceLeader>
 		<ShortEmpireName>Supox</ShortEmpireName>
 		<AIPersonality>8</AIPersonality>
@@ -932,7 +932,7 @@
 		<Alignment>75</Alignment>
 		<Description>They are a fatalist race with a sophisticated, somewhat mystic culture, involving masks and their dependency on an artifact known as the Ultron. They believe that their race has a grand destiny to, via the Ultron, "perform [an] essential service for the universe".</Description>
 		<Homeworld>Fahz</Homeworld>
-		<Homestar>Beta Aquarii I</Homestar>
+		<Homestar>Beta Aquarii</Homestar>
 		<RaceLeader>Uuter</RaceLeader>
 		<ShortEmpireName>Utwig</ShortEmpireName>
 		<AIPersonality>8</AIPersonality>
@@ -1234,8 +1234,8 @@
 		<RaceID>15</RaceID>
 		<DisplayName>Arilou Lalee'lay</DisplayName>
 		<Alignment>65</Alignment>
-		<Homeworld>Scottlingas</Homeworld>
-		<Homestar>Scottlingas</Homestar>
+		<Homeworld>Falayalaralfali</Homeworld>
+		<Homestar>Falayalaralfali</Homestar>
 		<RaceLeader>Faffywaffy</RaceLeader>
 		<Description>Arilou first made themselves known to the Galaxy during the Ur-Quan Slave War, suddenly appearing and applying to join the Alliance of Free Stars. Their actions were equally mercurial at the end of the war, retreating and abandoning the other races as soon as the Humans were slave-shielded. The motives for their actions seem to be some mysterious connection they have with the Human race.</Description>
 		<ShortEmpireName>Arilou</ShortEmpireName>
@@ -1405,13 +1405,13 @@
 		<DEFENSE>0</DEFENSE>
 		<SPEED>0</SPEED>
 		<MORALE>100</MORALE>
-		<POPULATIONGROWTH>0</POPULATIONGROWTH>
+		<POPULATIONGROWTH>-90</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>-999</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>-999</MILITARYPRODUCTION>
 		<RESEARCH>0</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
 		<TRADE>0</TRADE>
-		<DIPLOMACY>0</DIPLOMACY>
+		<DIPLOMACY>25</DIPLOMACY>
 		<HITPOINTS>0</HITPOINTS>
 		<REPAIR>0</REPAIR>
 		<SENSORS>0</SENSORS>
@@ -1425,9 +1425,9 @@
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
-		<CREATIVITY>0</CREATIVITY>
+		<CREATIVITY>10</CREATIVITY>
 		<GOVERNMENT>0</GOVERNMENT>
-		<LOYALTY>0</LOYALTY>
+		<LOYALTY>999</LOYALTY>
 		<LOGISTICS>4</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<Tech>Root</Tech>
@@ -1616,17 +1616,17 @@
 		<ShipStyle>Iconian Refuge Style</ShipStyle>
 		<ModuleStyle>0</ModuleStyle>
 		<SuperAbility>4</SuperAbility>
-		<ECONOMICS>100</ECONOMICS>
+		<ECONOMICS>0</ECONOMICS>
 		<WEAPONS>0</WEAPONS>
 		<DEFENSE>0</DEFENSE>
 		<SPEED>0</SPEED>
 		<MORALE>0</MORALE>
-		<POPULATIONGROWTH>0</POPULATIONGROWTH>
+		<POPULATIONGROWTH>999</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
 		<RESEARCH>0</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
-		<TRADE>0</TRADE>
+		<TRADE>50</TRADE>
 		<DIPLOMACY>0</DIPLOMACY>
 		<HITPOINTS>0</HITPOINTS>
 		<REPAIR>0</REPAIR>
@@ -1643,7 +1643,7 @@
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
 		<GOVERNMENT>0</GOVERNMENT>
-		<LOYALTY>0</LOYALTY>
+		<LOYALTY>-50</LOYALTY>
 		<LOGISTICS>4</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<TechTree>MinorRace_TechTree</TechTree>

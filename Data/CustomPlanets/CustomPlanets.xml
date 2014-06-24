@@ -4,6 +4,8 @@
 		<Ignore>DisplayName,Texture,TerrainPalette,Moon,PercentOfStarSize,Rings,Orbit,InnerRadius,OuterRadius</Ignore>
 		<Translate>DisplayName</Translate>
 	</DataChecksum>
+	<!-- These won't change the names of stars and planets for minor races -->
+	<!-- Human Homeworld Slaveshielded -->
 	<StarSystem Name="Sol">
 		<DisplayName>Sol</DisplayName>
 		<Texture>gfx/planets/sol.png</Texture>
@@ -52,38 +54,41 @@
 			<Size>4</Size>
 		</AsteroidField>
 	</StarSystem>
-<!-- 	<StarSystem Name="Altaris">
-		<DisplayName>Altaris</DisplayName>
-		<Planet Name="Altaria">
-			<DisplayName>Altaria</DisplayName>
+
+	<!-- Syreen Homeworld Slaveshielded -->
+ 	<StarSystem Name="Betelgeuse">
+		<DisplayName>Betelgeuse</DisplayName>
+		<Planet Name="Gaia">
+			<DisplayName>Gaia</DisplayName>
 			<Class>12</Class>
-			<Texture>gfx/planets/Altaria.png</Texture>
+			<Texture>gfx/planets/Gaia.png</Texture>
 			<RAWTerrain>Altaria.raw</RAWTerrain>
 			<Moon>gfx/planets/m03.png</Moon>
 		</Planet>
-		<Planet Name="Epas">
-			<DisplayName>Epas</DisplayName>
+		<Planet Name="Betelgeuse II">
+			<DisplayName>Betelgeuse II</DisplayName>
 			<Class>0</Class>
 		</Planet>
-		<Planet Name="Imoth">
-			<DisplayName>Imoth</DisplayName>
+		<Planet Name="Betelgeuse III">
+			<DisplayName>Betelgeuse III</DisplayName>
 			<Class>0</Class>
 		</Planet>
-		<Planet Name="Po">
-			<DisplayName>Po</DisplayName>
+		<Planet Name="Betelgeuse IV">
+			<DisplayName>Betelgeuse IV</DisplayName>
 			<Texture>gfx/planets/M04.png</Texture>
 			<PercentOfStarSize>0.20</PercentOfStarSize>
 			<Class>0</Class>
 		</Planet>
-		<Planet Name="Wisp">
-			<DisplayName>Wisp</DisplayName>
+		<Planet Name="Betelgeuse V">
+			<DisplayName>Betelgeuse V</DisplayName>
 			<Class>3</Class>
 		</Planet>
 		<AsteroidField Name="DrenginAsteroidField">
-			<DisplayName>Altarian Asteroid Cluster</DisplayName>
+			<DisplayName>Syreen Asteroid Cluster</DisplayName>
 			<Size>3</Size>
 		</AsteroidField>
-	</StarSystem> -->
+	</StarSystem>
+
 	<StarSystem Name="CustomDefault">
 		<Planet Name="Homeworld">
 			<Class>10</Class>
