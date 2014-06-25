@@ -4,23 +4,23 @@
 	<MaxNumRacesInFile>15</MaxNumRacesInFile>
 	<Topic Name="MISC_FIRST_CONTACT">
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>Greetings. We have laid claim to much of the galaxy.</Text>
+				<Text>There is something wrong here... something which makes my sheath retract and my talons ooze. I sense the ugliness of a thousand evil thoughts and I have located the source of these fetid emanations. They come from aboard one of your vessels! Foolish renegade [LISTENING_RACE_LEADER], why have you come here? All that you have found is your inevitable punishment.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Greetings. We have laid claim to much of the galaxy.</Text>
+				<Text>There is something wrong here... something which makes my sheath retract and my talons ooze. I sense the ugliness of a thousand evil thoughts and I have located the source of these fetid emanations. They come from aboard one of your vessels! Foolish renegade [LISTENING_RACE_LEADER], why have you come here? All that you have found is your inevitable punishment.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Welcome to our galaxy. We have claimed all of it. Get in our way and we shall destroy you.#The galaxy is large, but so are our plans. Stay out of our way.#We are a powerful and evil race. That's right, I said evil. Let's say it together E-V-I-L. Doesn't that feel good? I mean evil.#We like bathe in the blood of our victims. We shall soon see if you are fodder for our annual bathes.#</Text>
+				<Text>There is something wrong here... something which makes my sheath retract and my talons ooze. I sense the ugliness of a thousand evil thoughts and I have located the source of these fetid emanations. They come from aboard one of your vessels! Foolish renegade [LISTENING_RACE_LEADER], why have you come here? All that you have found is your inevitable punishment.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>We are the [SPEAKING_RACE_NAME]. Long have we considered expanding into the galaxy. Thanks to the humans, we now have that opportunity.#We are the [SPEAKING_RACE_NAME]. Though, we do not ourselves call our world that for in our language it is the singular element. May peace go along your path.#Greetings. We have very little tolerance for the vile civilizations of the galaxy. Stay the path of righteous and all will be well. </Text>
+				<Text>We are the [SPEAKING_RACE_NAME]. Though, we do not ourselves call our world that for in our language it is the singular element. May peace go along your path.#Greetings. We have very little tolerance for the vile civilizations of the galaxy. Stay the path of righteous and all will be well. </Text>
 			</Phrase>
 			<Phrase Morality="1">
 				<Text>Greetings. We have laid claim to much of the galaxy.</Text>
@@ -56,7 +56,21 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Korath">13</Speaker>
+			<!-- <Speaker Name="Kohr-Ah">11</Speaker> -->
+			<Speaker Name="Dreadlords">11</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>We are the Ur-Quan Kohr-Ah. Your presence here is premature. We fight the Kzer-Za for supremacy of Doctrine and possession of the Sa-Matra. When the battle is won, our task is simple. We cleanse. You are the filth.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>We are the Ur-Quan Kohr-Ah. Your presence here is premature. We fight the Kzer-Za for supremacy of Doctrine and possession of the Sa-Matra. When the battle is won, our task is simple. We cleanse. You are the filth.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>We are the Ur-Quan Kohr-Ah. Your presence here is premature. We fight the Kzer-Za for supremacy of Doctrine and possession of the Sa-Matra. When the battle is won, our task is simple. We cleanse. You are the filth.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Mycon">13</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
 				<Text>This is [SPEAKING_RACE_NAME] territory.  You have been warned.</Text>
@@ -84,6 +98,19 @@
 	</Topic>
 	<Topic Name="B_DEMAND_EQUAL">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -99,6 +126,19 @@
 	</Topic>
 	<Topic Name="B_DEMAND_STRONGER">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -113,6 +153,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="B_DEMAND_WEAKER">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -177,6 +230,19 @@
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_STRONGER_LOWDIP">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -191,6 +257,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_EQUAL_LOWDIP">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -207,6 +286,19 @@
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_WEAKER_LOWDIP">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -221,6 +313,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_STRONGER_MIDDIP">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -237,6 +342,19 @@
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_EQUAL_MIDDIP">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -251,6 +369,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_WEAKER_MIDDIP">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -267,6 +398,19 @@
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_STRONGER_HIGHDIP">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -282,6 +426,19 @@
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_EQUAL_HIGHDIP">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -296,6 +453,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_WEAKER_HIGHDIP">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. You have survived combat with us before. You may even survive further battles. If this happens, leave! Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -319,35 +489,41 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>Farg'n sluzz. What do you want now, [YourLeaderName]... I really don't have time for more [YourShortCivName] bull-gark!</Text>
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Ah, a lesser life-form. What do you want, [YourLeaderName]?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>My patience runs thin... state your intentions, [YourLeaderName].#What do you want to talk about now?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What now? Didn't you see the sign on the comm panel?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>[YourLeaderName], We have granted you this time speak to us. Use it wisely.</Text>
@@ -376,35 +552,41 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>Good slarf, what do you want? There's a game on that I really wanted to watch...</Text>
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What do our future vassals want? Anything for you guys, I mean really...#You know, a good servant is not seen or heard. Just thought I'd mention that. No charge.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Yesssssss?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Yes? If you have trouble speaking, try sounding out the words from your primitive terminal.#Speak.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You organic creatures are inefficient at communication but we have granted you the honor of communication. Speak quickly.#I still can't believe it. Talking meat.#So you communicate by moving a piece of meat in your mouth? That creates sounds? Interesting.</Text>
@@ -427,7 +609,20 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What pearls of wisdom can we impart to little old you today?#Always delighted to educate the less fortunate.</Text>
@@ -456,28 +651,41 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetings. How can we help you today?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Welcome. We are always pleased to give guidance to our friends.#How's that rash working out for you?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="2">
 				<Text>Ah, our friends from the [YourEmpireName]. We hope you received our gift, a big red bouncing ball. Did you bounce the ball? We felt that such entertainments would amuse your kind.#Can you sing for me?#Do a little dance for us. It amuses us.#Ah, your antics are always amusing. What do you want?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We are always amused to discuss things with our organic friends.</Text>
@@ -500,35 +708,41 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>Welcome, 'ally'. What do you need from us this time?</Text>
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What aid can we provide to you today?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>How may we aid our cheese-eating, surrender-monkey allies today?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You again. Well, since we're allegedly allies I suppose I should talk to you.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What does the parasite want?</Text>
@@ -551,28 +765,34 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>What does the powerful, yet benevolent, [YourLeaderName] wish to speak to us mere Drengin about?</Text>
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We are unworthy to even speak to you. Please let us know how we can be of service to the peaceful [YourEmpireName] who we hope don't want to enslave us.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What do our god-like friends, the [YourEmpireName], overlords of the universe who are aware that we were once brutally enslaved and would never want to see us pitiful beings enslaved again, wish from us today?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What does the surprisingly powerful yet peace loving [YourLeaderName] wish to convey to us machines?</Text>
@@ -588,28 +808,41 @@
 	</Topic>
 	<Topic Name="AI_GROVEL_RELATIONS_LOW">
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetings, [YourLeaderName]. We are willing to talk about anything you would like to talk about. The virtual floor is yours.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>How can we be of service to the mighty [YourLeaderName]?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>I don't feel I'm even worthy to speak to such great and powerful beings. But I will try my best. How may we humbly serve you?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What can we modest artificial beings do for the powerful [YourEmpireName] today?</Text>
@@ -625,6 +858,19 @@
 	</Topic>
 	<Topic Name="AI_GROVEL_RELATIONS_OK">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Human">0</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
@@ -632,14 +878,14 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>How may we serve your whims today, oh great and powerful [YourLeaderName]?#We're at your disposal. I mean that figuratively of course.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetings, powerful one. How can we help one another today?#Whatever you want to do today is good for us. I mean, as long as you're not going to do anything TO us that is. Heh. I always get this way when I'm nervous.#What's up, oh great and powerful one?</Text>
@@ -655,28 +901,34 @@
 	</Topic>
 	<Topic Name="AI_GROVEL_RELATIONS_GOOD">
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>Hi! Glad to see you! Here's a big virtual hug!#You complete me.</Text>
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetings, Human friends. We are always glad to talk to you.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We are always happy to see our friends from the [YourEmpireName] willing to speak to us lowly [TheirShortCivName]s.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetings, [YourLeaderName]. How can we assist you today?</Text>
@@ -699,21 +951,27 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>Oh great ally, how can we help you in your cause to unite the galaxy?</Text>
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We welcome our most honorable, wonderful ally who we worship as a god. How might we serve our valiant cause? We are yours to command.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetings, carbon-based ally.</Text>
@@ -736,14 +994,20 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>What do you want?</Text>
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Request for discussion acknowledged.</Text>
@@ -751,7 +1015,7 @@
 		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
-			<Listener Name="Yor">5</Listener>
+			<Listener Name="Chmmr">5</Listener>
 			<Phrase Morality="1">
 				<Text>You robots disgust me. What do you want?#I can't believe I'm talking to a robot.</Text>
 			</Phrase>
@@ -779,35 +1043,41 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>We are the mighty Drengin. Don't waste our time.#It's good to see you made it here on your hind legs.#We're very busy plotting your demise, what do you want?</Text>
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What can we do for you?#What do you want?#State your business.#Yes?#I hope no one sees me talking to you.#Yikes, I always forget how weird looking you are.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What?#Yes?#We Arceans are a proud and noble race, do not push your luck.#Speak up!</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
-				<Text>We have thrown off the Drengin and now we make our way to the stars. Based on the trajectory of our relations, your kind may soon be at war with us.#What do you want?#Greetings.</Text>
+				<Text>We have thrown off the Ur-Quan Kzer-Za and now we make our way to the stars. Based on the trajectory of our relations, your kind may soon be at war with us.#What do you want?#Greetings.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Terminal open for communications.#State your business flesh creature.#Our efficiency is nearly maxed out, be careful not to waste our time.</Text>
@@ -828,7 +1098,7 @@
 		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
-			<Listener Name="Drengin">1</Listener>
+			<Listener Name="Ur-Quan">1</Listener>
 			<Phrase Morality="0">
 				<Text>Yes?</Text>
 			</Phrase>
@@ -836,7 +1106,7 @@
 				<Text>What?</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>You Drengin, it's hard believe you are even bipedal.</Text>
+				<Text>You Ur-Quan Kzer-Za, it's hard believe you are even bipedal.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -862,14 +1132,20 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
 			<Phrase Morality="2">
-				<Text>How are our guests doing? By guest, I mean this galaxy is already owned by us and so we are allowing you to occupy some unused part of it.#Did you receive your copy of Pillage Weekly? It's my favorite magazine.#I don't have a lot to say today so let me just be blunt, what do you want?#You know whose skin tastes good? Torian skin. Wow, are they tasty!#Keep an eye out for Humans. They're slippery.#What can the all powerful [TheirEmpireName] do for you today?#The [TheirEmpireName] are powerful and I, [TheirLeaderName] am very busy. What do you want?</Text>
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
 				<Text>Hello there. We don't know much about you yet, but we are eager to negotiate with you.#The galaxy is a large place and you are a newcomer on the scene, how can we serve you?#Good to see you again, how might we help?</Text>
@@ -879,21 +1155,21 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>I greet you, [YourLeaderName]. What items would you care to communicate to us today?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
-				<Text>Transmission open. State your intentions.#What?#Don't let the other races fool you, we aren't a bunch of whimpering people looking for sympathy. I mean, just because the Drengin conquered and enslaved us for 30,000 years and destroyed most of our planet, why should people feel sorry for us? I mean, sure, only horrible people wouldn't want to help us but you're not horrible... are you?#What can we do for you?</Text>
+				<Text>Transmission open. State your intentions.#What?#Don't let the other races fool you, we aren't a bunch of whimpering people looking for sympathy. I mean, just because the Ur-Quan Kzer-Za conquered and enslaved us for 30,000 years and destroyed most of our planet, why should people feel sorry for us? I mean, sure, only horrible people wouldn't want to help us but you're not horrible... are you?#What can we do for you?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
 				<Text>How might we pleasure you today?</Text>
@@ -902,25 +1178,25 @@
 				<Text>Greetings. Topics of conversation are listed on your terminal.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Topics of conversation listed on your terminal.#Input data.#Speak.#Yes?#Awaiting input.#Talking meat. An amazing accident of the universe.#Ah, you a Drengin or Human or what? All of you meat-based creatures look the same to us.#Why are all you people humanoid fleshlings? Why not a silicon-based civilization? Or a gas-based civilization? But no, there's us, the [TheirEmpireName] and then a bunch of talking meat creatures.#What do you need, fleshling? This galaxy is full of fleshlings. Not much variety. There was rumor of a civilization called the "Siliconoids" or something like that, crystalline-based life. But no, I get to talk to fleshlings. So what do you want?</Text>
+				<Text>Topics of conversation listed on your terminal.#Input data.#Speak.#Yes?#Awaiting input.#Talking meat. An amazing accident of the universe.#Ah, you a Ur-Quan Kzer-Za or Human or what? All of you meat-based creatures look the same to us.#Why are all you people humanoid fleshlings? Why not a silicon-based civilization? Or a gas-based civilization? But no, there's us, the [TheirEmpireName] and then a bunch of talking meat creatures.#What do you need, fleshling? This galaxy is full of fleshlings. Not much variety. There was rumor of a civilization called the "Siliconoids" or something like that, crystalline-based life. But no, I get to talk to fleshlings. So what do you want?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Korx">6</Speaker>
+			<Speaker Name="Druuge">6</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="2">
 				<Text>Ah, you're new in this galaxy. Good. Good. Don't let those rumors that we sell unsafe products disturb you. People are just jealous of us. Could I interest you in a bag of glass for your offspring?#Greetings. There are those who say we're unscrupulous. But when our products kill 20% of a planet's population, they forget about the 80% that weren't harmed. Much.#What can we sell you today?#Hey [YourLeaderName]. Good to see you. Some people nicknamed me crazy [TheirLeaderName]. Why? Because all this stuff has got to go! Need slaves? I've got them!#Need someone "taken care of"? Let me know.#The rumors of the planets we've destroyed are false. Rumors planted by the survivors.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Thalan">8</Speaker>
+			<Speaker Name="Ilwrath">8</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Sigh, another child race in the galaxy. We have a lot of work to do. What do you want?#Beware of the Humans. How can we help?#Yes?#Greetings, [YourLeaderName].#Well [YourLeaderName], if your civilization has to be out there, I guess we can see how we can work together.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Iconian">9</Speaker>
+			<Speaker Name="VUX">9</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>I don't know you, [YourLeaderName]. But this is an opportunity to change that.#The [YourEmpireName] are new to this galaxy. Though with a name like that, I suspect you'll have a lot of... ahem... impact.#Greetings. How can we assist the [YourEmpireName]?</Text>
@@ -949,21 +1225,27 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>Oh, we may not look cuddly, but we love you so much that if you were really here we'd want to snuggle!</Text>
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetings, friend. How can we help each other today? I've got some of those 'art' holo-films you like so much!#How you doing?#I never thought I'd like anyone but you, [YourLeaderName], seem to be my kind of alien.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetings, fellow sentient. What should we discuss today?#So what's up?</Text>
@@ -984,6 +1266,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="AI_GREETING_RELATIONS_ALLY">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>You have intruded upon the battleground of our Doctrinal conflict with the Kohr-Ah. This is not tolerable. We must maintain our concentration on this war. We must win. Should we lose, the consequences to you and all other sentient life in this part of the galaxy would be very grave.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -1007,6 +1302,19 @@
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>It was Human kindness that let you travel through the stars... now it is Human resolution that will wipe your kind from them. Prepare for death.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Your independence is too dangerous for us to tolerate. You shall be punished.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Your independence is too dangerous for us to tolerate. You shall be punished.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Your independence is too dangerous for us to tolerate. You shall be punished.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -1069,7 +1377,7 @@
 	</Topic>
 	<Topic Name="AI_SINCERE_THANKS">
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We had been slaves so long that we forgot how nice it was to receive something besides a laser-whip to the backside. Thank you much, oh generous [YourLeaderName]... may our races continue to grow closer.</Text>
@@ -1083,15 +1391,21 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Generic">10</Speaker>
-			<Listener Name="Drengin">1</Listener>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>You're awfully nice... and I was under the impression you were just pain awful. Here's to a brighter future between the [TheirEmpireName] and the [YourEmpireName].</Text>
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
-			<Listener Name="Yor">5</Listener>
+			<Listener Name="Chmmr">5</Listener>
 			<Phrase Morality="1">
 				<Text>For being mechanical, you sure have a knack for generosity! May both our races look forward to a prosperous future together.</Text>
 			</Phrase>
@@ -1112,6 +1426,19 @@
 	</Topic>
 	<Topic Name="AI_SINCERE_THANKS_FRIEND">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -1127,7 +1454,20 @@
 	</Topic>
 	<Topic Name="AI_INSINCERE_THANKS">
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>The additional gifts are appreciated, but will not effect our relations.#These items will be put to good use.#We calculated an 88.791 to 1 ratio of further gifts from your nation. It appears our calculations were correct.#You'll find that our Artificial Intelligence stops caring about gifts after receiving several in a short period of time. I believe you've reached that point, [YourLeaderName].#Machines are much less prone to flattery as carbon-based organisms. Perhaps you should try, what is the phrase, 'Sucking-Up' to them instead?#Your continued giving is lost on our robotic intellect.#Our stockpile of gifts from the [YourEmpireName] is growing to a illogical size. Do you not have other matters to attend?#If you weren't carbon based I'd be very confused by all these gifts. You're not trying to charm me romantically, are you [YourLeaderName]?</Text>
@@ -1164,6 +1504,19 @@
 	</Topic>
 	<Topic Name="AI_GENERIC_THANKS">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Is this for our efforts in the Doctrinal Conflict? You may believe your gift is noteworthy, but in comparison to the scale of this Conflict it is meaningless.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
@@ -1173,21 +1526,21 @@
 	</Topic>
 	<Topic Name="AI_WELCOME_ATTACKER_DEFINATE_VICTOR">
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Your military is crushed and your economy can't sustain the effort. Your propaganda to your people becomes more desperate, I can only assume you are here to grovel?#You are defeated. Beg now while you still have a tongue to beg with.#Your life, as it has been, is over. From this point forward, you will service us. Are you prepared to bargain for that future now?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Bone-flecked jam. That is the future I see for the Human race if you are not able to grovel your way to peace today.#When we get done with you, you'll wish you had stayed up in the trees of East Africa where you belonged. Grovel now and we might let you live. Maybe.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Our people are looking forward to being the slave masters for once.#Your people are pitiful warriors, [YourLeaderName]. Maybe you are better at begging. Let's see how well you do at that.#Pride. It is something that has caused even the best of us to fail. And you are nowhere near 'the best'. Don't let your pride get in the way of your begging today.</Text>
@@ -1203,35 +1556,35 @@
 	</Topic>
 	<Topic Name="AI_WELCOME_ATTACKER_WINNING">
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>From out vantage point, the war is not going too well for your kind. Are you here to attempt to negotiate 'peace in our time'?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You hear that? It is the sound of your death. Do you really think you can defy what is inevitable?#Did you really think your kind had any chance?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>The time of your enslavement draws near.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>It would seem your destruction is at hand. Are you here to grovel for mercy?#BOOM. BOOM. BOOM. You hear that? It is the sound of your death knock, knock, knocking on your chamber door.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You are defeated. It is useless to resist. Don't make us destroy you utterly.#Why do you resist... your destruction is the only stable constant in your future, so it should be comforting.</Text>
@@ -1256,35 +1609,35 @@
 	</Topic>
 	<Topic Name="AI_WELCOME_DEFENDING_LOSING">
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You have attacked us and while our military is weak, our ancient civilization has survived much greater challenges.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>So you have ruthlessly attacked your peace-loving galactic cousins. I'll not lie to you, you will probably win but we are a brave people. We are prepared to fight to the end if need be.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You have attacked us and appear to be winning. So, what do you want from us?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Sigh. We are always the victims. Enslaved, beaten, crushed. Do you take pride in being so ruthless?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Are you interested in ending this war? Do so only if you want true peace and not merely to just attack us again in a few years.</Text>
@@ -1300,7 +1653,7 @@
 	</Topic>
 	<Topic Name="AI_WELCOME_DEFENDING_WINNING">
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You foolishly attacked us, [YourLeaderName]. Now you come crawling here for peace I assume?</Text>
@@ -1334,35 +1687,35 @@
 	</Topic>
 	<Topic Name="AI_WELCOME_NEWWAR_LOSING">
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>The war has just begun, yet you are already coming to make peace?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Peace already?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>The war has just begun... what could you possibly want from us?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>What, have your 'Give Peace a Chance' protesters have prevailed?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We are not terribly interested in war, but we do not trust your sudden desire for diplomacy.</Text>
@@ -1392,35 +1745,35 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>The war is fresh and glorious. We are confident of your extermination. You'll be hard pressed to convince us to end it so quickly.#We are winning. You are losing. We, on the other hand, are just getting started...</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>The war has only begun. And you are probably doomed. We are interested in territory -- your territory.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You want peace already? If I were you, I would want that too, but we're more interested in trying out some new military hardware.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>It doesn't take much to make you flinch does it?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Our calculations indicate a favorable outcome in our war against the [YourEmpireName]. You've come to pre-emptively request mercy, perhaps?</Text>
@@ -1443,28 +1796,28 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
-				<Text>The Drengin are a war hungry bunch. I know this, and I think it's safe to say you know this. Sometimes, due to warrior instincts fused into our DNA at birth, we act without thinking. Attacking you was one of those times. So how about we end this war, your people can live in peace, and I can take some anger management classes?</Text>
+				<Text>The Ur-Quan Kzer-Za are a war hungry bunch. I know this, and I think it's safe to say you know this. Sometimes, due to warrior instincts fused into our DNA at birth, we act without thinking. Attacking you was one of those times. So how about we end this war, your people can live in peace, and I can take some anger management classes?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Human, this is an awkward moment for us. Remember how we ACCIDENTALLY attacked you awhile back? That is just how our species shows its love of other civilizations. Now that we're kind of, well, dying, we were wondering if you would have mercy on us?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>So, how's it going? When my advisors suggested that we attack you, they were kind of expecting that we would crush your civilization. Funny thing is, it turns out that well, crushing is going on but it's you crushing us. So, we were kind of wondering if you would be willing to make peace now?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You carbon-based life forms resist being assimilated far more than we had calculated. We have concluded that we cannot assimilate you by force. Logically, we now wish to end hostilities.</Text>
@@ -1487,28 +1840,28 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Don't you think you've made your point? Your military has devastated our space navy and our economy is in desperate shape. What are your terms to make peace?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We bow to your superior military power. You have demonstrated your strength. What can we do to bring an end to this war?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Our economy is shattered, our empire is coming apart. What have we done to you to deserve this? We only wish peace and friendship with you. Please spare our civilization.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You have demonstrated to us quite clearly the superiority of your organic based species in warfare. Let us conclude a peace treaty.</Text>
@@ -1540,35 +1893,41 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
 			<Phrase Morality="1">
-				<Text>This war has been going on for a long while. While I am not fond of you, our people are weary of war. Let us come to terms.</Text>
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>[YourLeaderName]: Our people are weary of this war. What can we do to return to peace?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We're not terribly fond of you, but we have bigger things to rise to and have no more time to deal with your pesky interference.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>This war is draining our civilization. While we despise the [YourEmpireName], we also believe it's time to come to terms. Let us end this destructive conflict.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>This war is draining precious resources from other vital interests of our empire. We wish to discuss terms to end the war.</Text>
@@ -1584,7 +1943,20 @@
 	</Topic>
 	<Topic Name="AI_WANTS_PEACE_BIGGER_FISH">
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Great deeds are happening at this moment elsewhere on the galactic plane that require our attention. Let us end this feeble conflict.</Text>
@@ -1599,6 +1971,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="AI_REJECTED_RESPONSE_RELATIONS_LOW">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>>Very disappointing.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>>Very disappointing.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>>Very disappointing.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Human">0</Listener>
@@ -1616,6 +2001,19 @@
 	</Topic>
 	<Topic Name="AI_REJECTED_RESPONSE_RELATIONS_OK">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>>Very disappointing.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>>Very disappointing.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>>Very disappointing.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
@@ -1625,6 +2023,19 @@
 	</Topic>
 	<Topic Name="AI_ACCEPTED_RESPONSE_RELATIONS_OK">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Good.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Good.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Good.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
@@ -1633,6 +2044,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="AI_ACCEPTED_RESPONSE_RELATIONS_LOW">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Good.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Good.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Good.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -1652,7 +2076,7 @@
 	</Topic>
 	<Topic Name="AI_OFFENSIVE_STARBASE_THREAT">
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetings, [YourLeaderName]. Since last scanned, your outpost [StarbaseName] in sector coordinates [StarbaseX], [StarbaseY] has continued to build up it's offensive capabilities. \n With a 86.8236 to 1 possibility ratio that this is a hostile action, we demand that you hand over the indicated outpost immediately. The price for refusal is termination of your species.</Text>
@@ -1870,6 +2294,19 @@
 	</Topic>
 	<Topic Name="AI_TRIBUTE_DEMAND_RELATIONS_OK">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
@@ -1878,6 +2315,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="AI_TRIBUTE_DEMAND_TECH_INSTEAD">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -1888,6 +2338,19 @@
 	</Topic>
 	<Topic Name="AI_TRIBUTE_DEMAND_PLANET_INSTEAD">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
@@ -1897,35 +2360,41 @@
 	</Topic>
 	<Topic Name="AI_TRIBUTE_DEMAND_RELATIONS_LOW">
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
-			<Phrase Morality="1">
-				<Text>[YourLeaderName]: While many of our people want to conquer you and harvest your species for its organs (especially its delicious skin) I am a kinder, gentler being and would be satisfied with merely [CashValue] bc.#We are debating whether it is best to enslave your kind or exterminate you. If you would like to delay our final decision, provide us with [CashValue] bc now.#Let's be clear: give us stuff or you will die.</Text>
+			<Phrase Morality="0">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand [CashValue] bc for our war efforts and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="0">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand [CashValue] bc for our war efforts and your continued existence:</Text>
+			</Phrase>
+			<Phrase Morality="0">
+				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand [CashValue] bc for our war efforts and your continued existence:</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Altarian">2</Speaker>
+			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>[CashValue] bc. That's how many billions of credits I will need from you to convince our military to not exterminate your civilization. And I'll be needing that today. In cash.#We don't see much use for your civilization other than as a revenue source. Give us [CashValue] bc if you wish to continue existing.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We have heard you Humans have a saying. That it is better to die on your feet than live on your knees. If you wish to live you will do so on your knees and start by paying us [CashValue] bc in tribute.#We have laid claim over some of the territory you now occupy. Therefore we require some rent to continue utilizing the planets you're on. Hand over [CashValue] bc if you wish to live.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
+			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Your pathetic race has no business being out here in space. The fact that your kind created the Hyperdrive technology was clearly a fluke. You will pay us tribute of [CashValue] bc if you wish to continue to live.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Your civilization is proof that biological life forms are inferior. Still, we believe you do generate some level of GDP and hence can afford to pay us [CashValue] bc in order to fund our expansion.#Fleshling, we have no use for carbon-based life forms such as you. Transfer [CashValue] bc of your treasury to us or face the consequences.</Text>
@@ -1984,42 +2453,35 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We are not proud to admit it, but our scientists have yet to make a breakthrough in a field you seem to have excelled in. Would you be open to trading '[YourTechnology]' for '[TheirTechnology]'?#The [TheirShortCivName] have always been better warriors than scientists, [YourLeaderName]. Your kind seem to have researched a technology that we have failed to explore. What do you say... your '[YourTechnology]' for our [TheirTechnology]?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>You have advanced in a field that we have not yet been able to pursue. Would you share your knowledge of '[YourTechnology]' for ours of '[TheirTechnology]'?#There is research that you've done in a field called '[YourTechnology]'. We are willing to share our knowledge of '[TheirTechnology]' for this technology.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Korx">6</Speaker>
+			<Speaker Name="Druuge">6</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>I have other offers on the table, but I just wanted to see if you wanted it first, [YourLeaderName]. To your most worthy race, the [TheirEmpireName] is willing to trade their knowledge of [TheirTechnology] for yours of [YourTechnology]. And please respond quickly... like I said, I have other buyers are waiting.#Greetings, [YourLeaderName]! I'm here to let you know that the ground-breaking '[TheirTechnology]' can be yours today! All I would need is a small trade to make this technology yours... perhaps your '[YourTechnology]'?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Thalan">8</Speaker>
+			<Speaker Name="Ilwrath">8</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetingssss! I wasss hoping to exchange technologies with you today, [YourLeaderName]. How doesss a trade of '[YourTechnology]' for '[TheirTechnology]' ssssound to you?</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Iconian">9</Speaker>
-			<Listener Name="Yor">5</Listener>
-			<Phrase Morality="1">
-				<Text>How ironic that the beings that we created have gone to develop technologiessss that even our own scientists have yet to uncover. We are here to offer your knowledge of [YourTechnology] for ours of [TheirTechnology].</Text>
-			</Phrase>
-		</Dialogue>
-		<Dialogue>
-			<Speaker Name="Iconian">9</Speaker>
+			<Speaker Name="VUX">9</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We, the [TheirEmpireName], have decided to grace you with a grand opportunity. We are offering our ground-breaking [TheirTechnology], and all we ask is your practically worthless [YourTechnology]. It's a hard deal to refuse, we know.#The gracious [TheirEmpireName] wishes to extend an agreement with you regarding some technologies. If you would agree to it, we would like to exchange our [TheirTechnology] for your [YourTechnology]. Is this acceptable?</Text>
@@ -2190,34 +2652,21 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Drengin">1</Speaker>
+			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Our Death Furnaces don't power themselves you know. We've calculated that it'll be easier to fuel them with your carcasses than to mine the ore necessary to power them.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Arcean">3</Speaker>
+			<Speaker Name="Thraddash">3</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>We are a proud and powerful civilization. As such, we need subject worlds to worship us. Given your pitiful lack of military power, we have decided to educate you in matters of warfare from the losers' perspective. Prepare to die.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Torian">4</Speaker>
-			<Listener Name="Generic">10</Listener>
-			<Phrase Morality="0">
-				<Text>Long ago we were enslaved by the Drengin Empire. In time, we were able to fight them off. This means when we conquer you, we know how to keep you from ever being free again.</Text>
-			</Phrase>
-			<Phrase Morality="1">
-				<Text>The time of purification has arrived. We, who were once slaves of the Drengin Empire, can now cleanse the galaxy under our rule.#Our civilization was once enslaved but we broke free! This may seem like words of inspiration but what we actually mean by that is that we know how to prevent you from ever being free again. Do not resist, it will only make things harder for you.</Text>
-			</Phrase>
-			<Phrase Morality="2">
-				<Text>Our dealings with the Drengin Empire have taught us much. One thing that it has taught us is that we cannot stand other sentient beings. So... you must be exterminated.</Text>
-			</Phrase>
-		</Dialogue>
-		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Our civilization detests carbon-based life forms such as your own. Therefore we will conquer your species and then exterminate you all. Nothing personal. End of line.</Text>
@@ -2251,13 +2700,6 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="AI_BLACKMAIL_REJECT_FRIENDS">
-		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
-			<Listener Name="Generic">10</Listener>
-			<Phrase Morality="1">
-				<Text>Carbon-based life forms spend too much time worrying about material items. We deny this request.</Text>
-			</Phrase>
-		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -2349,13 +2791,6 @@
 	</Topic>
 	<Topic Name="B_ACCEPT_REQUEST_FOR_SUPPLIES">
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
-			<Listener Name="Generic">10</Listener>
-			<Phrase Morality="1">
-				<Text>Your request has been approved.#We will assist you by donating the requested items.#We will comply with your request.</Text>
-			</Phrase>
-		</Dialogue>
-		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -2416,20 +2851,13 @@
 	</Topic>
 	<Topic Name="AI_TRADE_UPDATE_POSITIVE">
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
-			<Listener Name="Generic">10</Listener>
-			<Phrase Morality="1">
-				<Text>This is a fair trade.#The items on both side of the trade equal out.#Calculations indicate this is a good trade.#My items would be worth your items in this dealing, flesh creature.#[YourLeaderName], so far your request is a fair one.#We could agree to this barter.</Text>
-			</Phrase>
-		</Dialogue>
-		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
 				<Text>I like what I see.#A fairly positive trade, it should seem.#I approve thus far.#So far, so good.#Looks acceptable.#Not bad.#Go on.#Very nice.#Keep going.#This I would go for.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>That seems to be an acceptable proposal.#An interesting proposal, [YourLeaderName].</Text>
+				<Text>That seems to be an acceptable proposal.#An interesting proposal, [YourLeaderName].#This is a fair trade.#The items on both side of the trade equal out.#Calculations indicate this is a good trade.#My items would be worth your items in this dealing.#[YourLeaderName], so far your request is a fair one.#We could agree to this barter.</Text>
 			</Phrase>
 			<Phrase Morality="2">
 				<Text>Not too shabby, [YourLeaderName]. I could go for that!#I've seen worse deals.#You're quite the shrewd negotiator, [YourLeaderName].#Can't say I wouldn't approve of this deal.#A decent trade.#The trade seems fair so far.#Very nice.#Keep it up.#I would accept this.#This looks good to me, [YourLeaderName].#This would be accepted by my government, [YourLeaderName].</Text>
@@ -2437,13 +2865,6 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="AI_TRADE_UPDATE_NO_EXCHANGE">
-		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
-			<Listener Name="Generic">10</Listener>
-			<Phrase Morality="1">
-				<Text>. . .</Text>
-			</Phrase>
-		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -2496,26 +2917,13 @@
 	</Topic>
 	<Topic Name="P_ALIENSUCKUP_REJECT">
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
-			<Listener Name="Generic">10</Listener>
-			<Phrase Morality="0">
-				<Text>Your gift is appreciated, but rejected.</Text>
-			</Phrase>
-			<Phrase Morality="1">
-				<Text>We reject this gift.</Text>
-			</Phrase>
-			<Phrase Morality="2">
-				<Text>Calculations indicate this gift is worthless. Offer rejected.</Text>
-			</Phrase>
-		</Dialogue>
-		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>Your offer is kind, but I think we'll pass, [TheirLeaderName].#We appreciate the offer, [TheirLeaderName], but insist that you keep it for yourself.#We couldn't possible take this, [TheirLeaderName], but thank you.</Text>
+				<Text>Your offer is kind, but I think we'll pass, [TheirLeaderName].#We appreciate the offer, [TheirLeaderName], but insist that you keep it for yourself.#We couldn't possible take this, [TheirLeaderName], but thank you.#Your gift is appreciated, but rejected.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Thanks, but no thanks [TheirLeaderName].#I think we will pass on that, [TheirLeaderName].#Sorry [TheirLeaderName], we really don't need that.</Text>
+				<Text>Thanks, but no thanks [TheirLeaderName].#I think we will pass on that, [TheirLeaderName].#Sorry [TheirLeaderName], we really don't need that.#We reject this gift.</Text>
 			</Phrase>
 			<Phrase Morality="2">
 				<Text>I think we can do without your 'gift', [TheirLeaderName].#Don't waste my time with such pathetic gifts, [TheirLeaderName].#No thanks, [TheirLeaderName]... I don't need your garbage.#I'll pass on your trash, [TheirLeaderName].</Text>
@@ -2523,19 +2931,6 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="P_ALIENSUCKUP_ACCEPT">
-		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
-			<Listener Name="Generic">10</Listener>
-			<Phrase Morality="0">
-				<Text>We accept your kind offer, [YourLeaderName].</Text>
-			</Phrase>
-			<Phrase Morality="1">
-				<Text>Offer accepted.</Text>
-			</Phrase>
-			<Phrase Morality="2">
-				<Text>Offer accepted. Perhaps we will rethink your doom.</Text>
-			</Phrase>
-		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -2551,16 +2946,6 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="P_ALIENWANTSPEACE_REJECT">
-		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
-			<Listener Name="Generic">10</Listener>
-			<Phrase Morality="1">
-				<Text>War will continue, fleshling.</Text>
-			</Phrase>
-			<Phrase Morality="2">
-				<Text>Calculations indicate your forces are too weak to win this war, so I reject your peace treaty.</Text>
-			</Phrase>
-		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -2592,6 +2977,19 @@
 	</Topic>
 	<Topic Name="SURRENDER_TOPLAYER_PEACE">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -2606,6 +3004,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="SURRENDER_TO_OTHERPLAYER_PEACE">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -2622,6 +3033,19 @@
 	</Topic>
 	<Topic Name="SURRENDER_TO_OTHERPLAYER_LONGWAR">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -2636,6 +3060,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="SURRENDER_TO_PLAYER_LONGWAR">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Human">0</Listener>
@@ -2679,32 +3116,6 @@
 		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
-			<Listener Name="Drengin">1</Listener>
-			<Phrase Morality="0">
-				<Text>Tas 'Rah#Kil-Hath#Zul#Rah-Kli#Klak 'Tir</Text>
-			</Phrase>
-			<Phrase Morality="1">
-				<Text>Kathos#Murgon#Zunra#Fatwath#Kinthir#Rin-tha</Text>
-			</Phrase>
-			<Phrase Morality="2">
-				<Text>Vath#Korg#Kona#Lotha#Domin#Alon#Zathox</Text>
-			</Phrase>
-		</Dialogue>
-		<Dialogue>
-			<Speaker Name="Generic">10</Speaker>
-			<Listener Name="Yor">5</Listener>
-			<Phrase Morality="0">
-				<Text>F-Thi#F-Na#F-Nir#F-Lax#F-Lon#F-Ken#F-Ala#F-Benth#F-Calan#F-Dormi#F-Ginao#F-Helo#F-Iolian#Zean#F-Zonan#F-Kav</Text>
-			</Phrase>
-			<Phrase Morality="1">
-				<Text>M-Anth#M-Bana#M-Ceta#M-Detha#M-Epilosh#M-Trolo#M-Zima#M-Xith#M-Vox#M-Lordon#M-SapienDoom#M-Trolog#M-Kila</Text>
-			</Phrase>
-			<Phrase Morality="2">
-				<Text>B-Ath#B-Calox#B-Domina#B-Jolo#B-Jolon#B-Katho#B-Lolo#B-Xoth#B-Xithar#B-Sifa#B-Trila</Text>
-			</Phrase>
-		</Dialogue>
-		<Dialogue>
-			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
 				<Text>Firehawk#Pain Sprout#Biter#Zinger#Bitey#Stinger#Zipper#Star Eagle#Falcon</Text>
@@ -2714,19 +3125,6 @@
 			</Phrase>
 			<Phrase Morality="2">
 				<Text>Dominator#Dominion#Crusher#Battle Master#Aegis#Algenon#Death Stalker#Warlord#Battle Lord#Overlord#Zenon#Argon#Dominus#Triox#Cambrion</Text>
-			</Phrase>
-		</Dialogue>
-		<Dialogue>
-			<Speaker Name="Generic">10</Speaker>
-			<Listener Name="Dreadlords">11</Listener>
-			<Phrase Morality="0">
-				<Text>Zith'ir</Text>
-			</Phrase>
-			<Phrase Morality="1">
-				<Text>Hith'Ox</Text>
-			</Phrase>
-			<Phrase Morality="2">
-				<Text>Gorgothox</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -2777,7 +3175,7 @@
 	</Topic>
 	<Topic Name="AI_COMPLAINS_INFLUENCEBASE">
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="2">
 				<Text>Don't waste your time with Influencer starbases. We synthetic organisms are basically immune to your so-called culture.#Fleshling, your Influence starbase, [StarbaseName], is close to our worlds. We do not care for this. It is futile, however. We have no interest in your culture.#[StarbaseName] is trying to peddle influence on our civilization. Look at me closely, [OTHER_RACE_LEADER]. Do you really see me wearing clothing? Or eating your food? Think carefully.</Text>
@@ -2814,10 +3212,23 @@
 	</Topic>
 	<Topic Name="SURRENDER_TO_PLAYER_TEAM">
 		<Dialogue>
-			<Speaker Name="Yor">5</Speaker>
+			<Speaker Name="Chmmr">5</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Perhaps bioforms are stronger than synthetic forms of life. Our troops have been crushed and calculations indicate a slim chance of survival.Take our worlds... maybe you can make better us of them then we have.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -2832,6 +3243,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="SURRENDER_TO_OTHERPLAYER_TEAM">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>How strange. I would have thought your species was extinct by now. We have a suggestion for you. FLEE! Run as fast and as far as your ship will take you. Because you are doomed if you remain here! Our Doctrinal War is over. We, the Kzer-Za, have lost. RUN [TheirLeaderName]! Because if you do not run -- do not find somewhere to hide and nurture your species you are extinct, and we, who have tried to protect you are now powerless to stop the killing frenzy of the Kohr-Ah. Now the Kohr-Ah and their Eternal Doctrine have free reign in these stars. The Kohr-Ah will visit each of our slave races, staying only long enough to ensure than not one of the species remains alive.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>

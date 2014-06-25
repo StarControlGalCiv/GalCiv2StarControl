@@ -1663,11 +1663,11 @@
 		<Description>The Ur-Quan Kohr-Ah are one of the two subraces of the Ur-Quan. Their determination to exterminate all non-Ur-Quan life rather than enslaving them has made them even more dangerous as a foe.</Description>
 		<Homeworld>Zeta I</Homeworld>
 		<Homestar>Zeta</Homestar>
-		<RaceLeader>Death 1</RaceLeader>
+		<RaceLeader>Kohr-Ah Primat</RaceLeader><!-- "Perhaps we should contact the Kohr-Ah Primat, explain to her."" -->
 		<ShortEmpireName>Kohr-Ah</ShortEmpireName>
 		<AIPersonality>7</AIPersonality>
-		<DialogueTag>Korh-Ah</DialogueTag>
-		<LeaderGender>1</LeaderGender>
+		<DialogueTag>Dreadlords</DialogueTag>
+		<LeaderGender>2</LeaderGender>
 		<Portrait>Gfx\Race\Kohr-Ah_Regular.png</Portrait>
 		<Logo>Gfx\Race\RaceLogo_Korath.png</Logo>
 		<SmallLogo>Gfx\Race\RaceLogo_Korath.png</SmallLogo>
