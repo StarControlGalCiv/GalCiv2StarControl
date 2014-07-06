@@ -89,6 +89,38 @@
 		</AsteroidField>
 	</StarSystem>
 
+	<!-- Mycon Homeworld -->
+	<StarSystem Name="Epsilon Scorpii">
+		<Planet Name="Epsilon Scorpii I">
+			<DisplayName>Epsilon Scorpii I</DisplayName>
+			<Texture>gfx/planets/kora.png</Texture>
+			<RAWTerrain>Kora.raw</RAWTerrain>
+			<Class>12</Class>
+			<!-- <Type>4</Type> -->
+		</Planet>
+		<Planet Name="Epsilon Scorpii II">
+			<DisplayName>Epsilon Scorpii II</DisplayName>
+			<Class>0</Class>
+			<!-- <Type>4</Type> -->
+		</Planet>
+		<Planet Name="Epsilon Scorpii III">
+			<DisplayName>Epsilon Scorpii III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Epsilon Scorpii IV">
+			<DisplayName>Epsilon Scorpii IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Epsilon Scorpii V">
+			<DisplayName>Epsilon Scorpii V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="EpsilonScorpiiAsteroids">
+			<DisplayName>Epsilon Scorpii Asteroids</DisplayName>
+			<Size>1</Size>
+		</AsteroidField>
+	</StarSystem>
+
 	<StarSystem Name="CustomDefault">
 		<Planet Name="Homeworld">
 			<Class>10</Class>

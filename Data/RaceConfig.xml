@@ -12,7 +12,7 @@
 		<Description>The Supox Utricularia are an intelligent spacefaring race resembling some carnivorous plants. When they were first met by the New Alliance of Free Stars the Supox had already forged a cooperative relationship with the nearby Utwig.</Description>
 		<Homeworld>Vlik</Homeworld>
 		<Homestar>Beta Librae</Homestar>
-		<RaceLeader>Root</RaceLeader>
+		<RaceLeader>Root</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Supox</ShortEmpireName>
 		<AIPersonality>8</AIPersonality>
 		<DialogueTag>Supox</DialogueTag>
@@ -28,19 +28,20 @@
 		<RobotMovie>NewsRobot_Human</RobotMovie>
 		<RobotImage>Gfx\Message_Robot</RobotImage>
 		<RaceMusic>Supox__Shake_Yer_Rootz</RaceMusic>
-		<RaceColor>182,86,0,255</RaceColor>
+		<RaceColor>255,255,0,255</RaceColor>
 		<ShadowColor>221,146,172,255</ShadowColor>
-		<UndefendedStarColor>182,86,0,255</UndefendedStarColor>
-		<DefendedStarColor>182,86,0,255</DefendedStarColor>
-		<SectorColor>182,86,0,255</SectorColor>
+		<UndefendedStarColor>255,255,0,255</UndefendedStarColor>
+		<DefendedStarColor>255,255,0,255</DefendedStarColor>
+		<SectorColor>255,255,0,255</SectorColor>
 		<BaseColor>0,227,0,255</BaseColor>
-		<TrimColor>125,0,0,255</TrimColor>
-		<EngineColor>255,255,0,255</EngineColor>
-		<InterfaceColor>182,86,0,255</InterfaceColor>
+		<TrimColor>255,255,0,255</TrimColor>
+		<EngineColor>125,0,0,255</EngineColor>
+		<InterfaceColor>255,255,0,255</InterfaceColor>
 		<ShipStyle>Thalan Empire Style</ShipStyle>
 		<ModuleStyle>0</ModuleStyle>
 		<PoliticalParty>3</PoliticalParty>
 		<AbilitiesDescription>+ Strong Diplomacy
+
 		- Weak Manufacturing</AbilitiesDescription>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>50</Aggression>
@@ -51,7 +52,8 @@
 		<ECONOMICS>0</ECONOMICS>
 		<WEAPONS>0</WEAPONS>
 		<DEFENSE>0</DEFENSE>
-		<SPEED>10</SPEED>
+		<!-- <SPEED>10</SPEED> -->
+		<SPEED>100</SPEED>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>-10</MILITARYPRODUCTION>
@@ -82,7 +84,7 @@
 		<CustomizationPoints>10</CustomizationPoints>
 		<CivType>4</CivType>
 		<TechTree>Terran_TechTree</TechTree>
-		<Tech>UniversalTranslator</Tech>
+		<!-- --><Tech>UniversalTranslator</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
 		<Tech>NeutralHistory</Tech>
@@ -95,10 +97,10 @@
 		<RaceID>1</RaceID>
 		<DisplayName>Ur-Quan Kzer-Za</DisplayName>
 		<Alignment>10</Alignment>
-		<Description>The Ur-Quan Kzer-Za are one of two subraces of Ur-Quan. Kzer-Za are bent on enslaving other races if they refuse to fight their wars. The Kzer-Za were designed to be the "thinkers," the scientists, technicians, and overseers of the Empire.</Description>
-		<Homeworld>Dren</Homeworld>
-		<Homestar>Urqus</Homestar>
-		<RaceLeader>Lord One</RaceLeader>
+		<Description>The Ur-Quan Kzer-Za are one of two subraces of Ur-Quan. Kzer-Za are bent on enslaving other races if they refuse to fight their wars. The Kzer-Za were designed to be the "thinkers," the scientists, technicians, and overseers of a previos Empire.</Description>
+		<Homeworld>Za</Homeworld><!-- Unknown/Made up -->
+		<Homestar>Kzer</Homestar><!-- Unknown/Made up -->
+		<RaceLeader>Master Nine</RaceLeader><!-- Talana mentions "Master Nine", who was assigned to get Syreen their new homeworld and so is a possible regional leader of the Ur-Quan -->
 		<ShortEmpireName>Kzer-Za</ShortEmpireName>
 		<AIPersonality>7</AIPersonality>
 		<DialogueTag>Ur-Quan</DialogueTag>
@@ -126,7 +128,7 @@
 		<ShipStyle>Drengin Empire Style</ShipStyle>
 		<ModuleStyle>3</ModuleStyle>
 		<PoliticalParty>4</PoliticalParty>
-		<AbilitiesDescription>+ Strong Military
+		<AbilitiesDescription>+ Highly Advanced
 - Weak Diplomacy</AbilitiesDescription>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>70</Aggression>
@@ -134,29 +136,29 @@
 		<CPUUsage>0</CPUUsage>
 		<SuperAbility>1</SuperAbility>
 		<ResearchAdvantage>Weapons</ResearchAdvantage>
-		<ECONOMICS>0</ECONOMICS>
-		<WEAPONS>20</WEAPONS>
-		<DEFENSE>0</DEFENSE>
-		<SPEED>10</SPEED>
+		<ECONOMICS>30</ECONOMICS>
+		<WEAPONS>50</WEAPONS>
+		<DEFENSE>50</DEFENSE>
+		<SPEED>0</SPEED>
 		<MORALE>0</MORALE>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
-		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
-		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
+		<SOCIALPRODUCTION>30</SOCIALPRODUCTION>
+		<MILITARYPRODUCTION>30</MILITARYPRODUCTION>
 		<RESEARCH>0</RESEARCH>
-		<INFLUENCE>0</INFLUENCE>
+		<INFLUENCE>-20</INFLUENCE>
 		<TRADE>0</TRADE>
 		<DIPLOMACY>-25</DIPLOMACY>
-		<HITPOINTS>10</HITPOINTS>
-		<REPAIR>0</REPAIR>
+		<HITPOINTS>60</HITPOINTS>
+		<REPAIR>-10</REPAIR>
 		<SENSORS>0</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
-		<SOLDIERING>20</SOLDIERING>
+		<SOLDIERING>50</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
 		<CRIME>0</CRIME>
 		<CABINET>0</CABINET>
-		<RANGE>0</RANGE>
+		<RANGE>20</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
@@ -167,11 +169,36 @@
 		<CustomizationPoints>10</CustomizationPoints>
 		<CivType>4</CivType>
 		<TechTree>Drengin_TechTree</TechTree>
+		<Tech>UniversalTranslator</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>RuthlessHistory</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>StellarCartography</Tech>
 		<Tech>SpecializedResearch</Tech>
+		<Tech>Beam Weapon theory</Tech>
+		<Tech>Extended Life Support</Tech>
+		<Tech>Basic Life Support</Tech>
+		<Tech>Good and Evil</Tech>
+		<Tech>Galactic Warfare</Tech>
+		<Tech>InterstellarConstruction</Tech>
+		<Tech>Large Scale Building</Tech>
+		<Tech>Laser</Tech>
+		<Tech>Laser II</Tech>
+		<Tech>Laser III</Tech>
+		<Tech>=Laser IV</Tech>
+		<Tech>=Laser V</Tech>
+		<Tech>=Medium Scale Building</Tech>
+		<Tech>=ParticleBeams</Tech>
+		<Tech>=ParticleBeams2</Tech>
+		<Tech>=ParticleBeams3</Tech>
+		<Tech>=Planetary Bombardment</Tech>
+		<Tech>=Planetary Defense</Tech>
+		<Tech>=Superior Hulls</Tech>
+		<Tech>=UniversalTranslator</Tech>
+		<Tech>=Xeno Biology</Tech>
+		<Tech>=Xeno Ethics</Tech>
+		<Tech>=Xeno Medicine</Tech>
+		<Tech>=Xeno Slavery</Tech>
 	</Race>
 	<!-- <Race Name="Altarian Resistance"> -->
 	<Race Name="Syreen Matriarchy">
@@ -197,15 +224,15 @@
 		<RobotMovie>NewsRobot_Alien</RobotMovie>
 		<RobotImage>Gfx\Message_Alien</RobotImage>
 		<RaceMusic>Syreen__Close_Encounters_of_the_Seventh_Kind</RaceMusic>
-		<RaceColor>0, 255, 255</RaceColor>
-		<ShadowColor>42, 40, 0</ShadowColor>
-		<UndefendedStarColor>64, 192, 192</UndefendedStarColor>
-		<DefendedStarColor>128, 255, 255</DefendedStarColor>
-		<SectorColor>0, 255, 255</SectorColor>
-		<BaseColor>155,212,255</BaseColor>
-		<TrimColor>0,88,106</TrimColor>
-		<EngineColor>128, 255, 0</EngineColor>
-		<InterfaceColor>0, 255, 255</InterfaceColor>
+		<RaceColor>0,255,255,255</RaceColor>
+		<ShadowColor>42,40,0,255</ShadowColor>
+		<UndefendedStarColor>0,255,255,255</UndefendedStarColor>
+		<DefendedStarColor>0,255,255,255</DefendedStarColor>
+		<SectorColor>0,255,255,255</SectorColor>
+		<BaseColor>125,0,0,255</BaseColor>
+		<TrimColor>255,133,103,255</TrimColor>
+		<EngineColor>255,255,0,255</EngineColor>
+		<InterfaceColor>0,255,255,255</InterfaceColor>
 		<ShipStyle>Altarian Resistance Style</ShipStyle>
 		<ModuleStyle>4</ModuleStyle>
 		<PoliticalParty>3</PoliticalParty>
@@ -265,7 +292,7 @@
 		<Description>The Thraddash are a race of intellectually challenged barbarians from the Draconis stars. Thraddash history has witnessed the rise and fall of 18 different planetary cultures.</Description>
 		<Homeworld>Delta Draconis I</Homeworld>
 		<Homestar>Delta Draconis</Homestar>
-		<RaceLeader>Knarg</RaceLeader>
+		<RaceLeader>Knarg</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Thraddash</ShortEmpireName>
 		<AIPersonality>11</AIPersonality>
 		<DialogueTag>Thraddash</DialogueTag>
@@ -378,7 +405,7 @@
 		<ModuleStyle>1</ModuleStyle>
 		<PoliticalParty>3</PoliticalParty>
 		<AbilitiesDescription>+ High Population Growth
-- Weak Research</AbilitiesDescription>
+- Low Courage</AbilitiesDescription>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>50</Aggression>
 		<FinancialResources>100</FinancialResources>
@@ -388,16 +415,16 @@
 		<ECONOMICS>0</ECONOMICS>
 		<WEAPONS>0</WEAPONS>
 		<DEFENSE>0</DEFENSE>
-		<SPEED>0</SPEED>
+		<SPEED>10</SPEED>
 		<MORALE>10</MORALE>
-		<POPULATIONGROWTH>10</POPULATIONGROWTH>
+		<POPULATIONGROWTH>20</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
 		<RESEARCH>0</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
 		<TRADE>0</TRADE>
-		<DIPLOMACY>0</DIPLOMACY>
-		<HITPOINTS>0</HITPOINTS>
+		<DIPLOMACY>-10</DIPLOMACY>
+		<HITPOINTS>10</HITPOINTS>
 		<REPAIR>0</REPAIR>
 		<SENSORS>0</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
@@ -409,7 +436,7 @@
 		<CABINET>0</CABINET>
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
-		<COURAGE>0</COURAGE>
+		<COURAGE>-35</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
 		<GOVERNMENT>0</GOVERNMENT>
 		<LOYALTY>0</LOYALTY>
@@ -448,20 +475,20 @@
 		<RobotMovie>NewsRobot_Alien</RobotMovie>
 		<RobotImage>Gfx\Message_Alien</RobotImage>
 		<RaceMusic>Yehat__Years_Late_Mix</RaceMusic>
-		<RaceColor>153,   0, 204</RaceColor>
-		<ShadowColor>48, 9, 49</ShadowColor>
-		<UndefendedStarColor>192, 64, 192</UndefendedStarColor>
-		<DefendedStarColor>255, 128, 255</DefendedStarColor>
-		<SectorColor>153,   0, 204</SectorColor>
-		<BaseColor>64, 0, 64</BaseColor>
-		<TrimColor>255, 130, 255</TrimColor>
-		<EngineColor>0, 255, 0</EngineColor>
-		<InterfaceColor>153,   0, 204</InterfaceColor>
-		<ShipStyle>Yor Collective Style</ShipStyle>
+		<RaceColor>160,69,255,255</RaceColor>
+		<ShadowColor>48,9,49,255</ShadowColor>
+		<UndefendedStarColor>160,69,255,255</UndefendedStarColor>
+		<DefendedStarColor>160,69,255,255</DefendedStarColor>
+		<SectorColor>160,69,255,255</SectorColor>
+		<BaseColor>0,65,165,255</BaseColor>
+		<TrimColor>78,88,136,255</TrimColor>
+		<EngineColor>125,0,0,255</EngineColor>
+		<InterfaceColor>160,69,255,255</InterfaceColor>
+		<ShipStyle>Drath Legion Style</ShipStyle>
 		<ModuleStyle>2</ModuleStyle>
 		<PoliticalParty>0</PoliticalParty>
-		<AbilitiesDescription>+ Strong manufacturing
-- Weak Morale</AbilitiesDescription>
+		<AbilitiesDescription>+ High morale
+- Slow ships</AbilitiesDescription>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>50</Aggression>
 		<FinancialResources>100</FinancialResources>
@@ -469,10 +496,10 @@
 		<SuperAbility>3</SuperAbility>
 		<ResearchAdvantage>Defense</ResearchAdvantage>
 		<ECONOMICS>10</ECONOMICS>
-		<MORALE>0</MORALE>
+		<MORALE>30</MORALE>
 		<WEAPONS>0</WEAPONS>
 		<DEFENSE>0</DEFENSE>
-		<SPEED>0</SPEED>
+		<SPEED>-10</SPEED>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>20</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>20</MILITARYPRODUCTION>
@@ -514,7 +541,7 @@
 		<Description>The Druuge, who reside around the Persei constellation, are greedy, piggish, unsentimental, horned humanoids with a characteristic ooze constantly emanating from the mouth, nose and ears. Their whole culture is an image of extreme capitalism, and all Druuge are the employees of a syndicate they call the Crimson Corporation. The bosses of this gargantuan corporate empire are no less than the overlords of their whole civilization.</Description>
 		<Homeworld>Zeta Persei I</Homeworld>
 		<Homestar>Zeta Persei</Homestar>
-		<RaceLeader>Moola</RaceLeader>
+		<RaceLeader>Moola</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Druuge</ShortEmpireName>
 		<AIPersonality>11</AIPersonality>
 		<DialogueTag>Druuge</DialogueTag>
@@ -597,7 +624,7 @@
 		<Description>The Umgah are a race of pranksters whose warped sense of humor knows no bounds.</Description>
 		<Homeworld>Beta Orionis I</Homeworld>
 		<Homestar>Beta Orionis</Homestar>
-		<RaceLeader>Bob</RaceLeader>
+		<RaceLeader>Bob</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Umgah</ShortEmpireName>
 		<AIPersonality>8</AIPersonality>
 		<DialogueTag>Umgah</DialogueTag>
@@ -613,16 +640,16 @@
 		<RobotMovie>NewsRobot_Alien</RobotMovie>
 		<RobotImage>Gfx\Message_Alien</RobotImage>
 		<RaceMusic>umgah</RaceMusic>
-		<RaceColor>237, 88, 19</RaceColor>
-		<ShadowColor>221, 146, 172</ShadowColor>
-		<UndefendedStarColor>236, 81, 82</UndefendedStarColor>
-		<DefendedStarColor>237, 88, 19</DefendedStarColor>
-		<SectorColor>237, 88, 19</SectorColor>
-		<BaseColor>208, 160, 62</BaseColor>
-		<TrimColor>64, 0, 0</TrimColor>
-		<EngineColor>255, 255, 0</EngineColor>
-		<InterfaceColor>237, 88, 19</InterfaceColor>
-		<ShipStyle>Drath Legion Style</ShipStyle>
+		<RaceColor>154,255,0,255</RaceColor>
+		<ShadowColor>221,146,172,255</ShadowColor>
+		<UndefendedStarColor>154,255,0,255</UndefendedStarColor>
+		<DefendedStarColor>154,255,0,255</DefendedStarColor>
+		<SectorColor>154,255,0,255</SectorColor>
+		<BaseColor>154,255,0,255</BaseColor>
+		<TrimColor>75,0,75,255</TrimColor>
+		<EngineColor>255,255,0,255</EngineColor>
+		<InterfaceColor>154,255,0,255</InterfaceColor>
+		<ShipStyle>Korath Clan Style</ShipStyle>
 		<ModuleStyle>1</ModuleStyle>
 		<PoliticalParty>7</PoliticalParty>
 		<AbilitiesDescription>+ Strong Diplomacy
@@ -681,7 +708,7 @@
 		<Description>The Ilwrath are spider-like beings who worship their dark gods Dogan and Kazon.</Description>
 		<Homeworld>Alpha Tauri I</Homeworld>
 		<Homestar>Alpha Tauri</Homestar>
-		<RaceLeader>Gorgon</RaceLeader>
+		<RaceLeader>Gorgon</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Ilwrath</ShortEmpireName>
 		<AIPersonality>8</AIPersonality>
 		<DialogueTag>Ilwrath</DialogueTag>
@@ -710,7 +737,7 @@
 		<ModuleStyle>2</ModuleStyle>
 		<PoliticalParty>6</PoliticalParty>
 		<AbilitiesDescription>+ Strong manufacturing
-- Expensive Improvements</AbilitiesDescription>
+- Weak diplomacy</AbilitiesDescription>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>80</Aggression>
 		<FinancialResources>100</FinancialResources>
@@ -767,7 +794,7 @@
 		<Description>Much of VUX history is not known due to the VUX's staunch unwillingness to communicate with other races. However, the events in the recent two wars are common knowledge to many species.</Description>
 		<Homeworld>Beta Luyten I</Homeworld>
 		<Homestar>Beta Luyten</Homestar>
-		<RaceLeader>REX</RaceLeader>
+		<RaceLeader>REX</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>VUX</ShortEmpireName>
 		<AIPersonality>10</AIPersonality>
 		<DialogueTag>VUX</DialogueTag>
@@ -801,17 +828,17 @@
 		<Aggression>50</Aggression>
 		<FinancialResources>100</FinancialResources>
 		<CPUUsage>0</CPUUsage>
-		<SuperAbility>9</SuperAbility>
+		<SuperAbility>5</SuperAbility>
 		<ResearchAdvantage>Biology</ResearchAdvantage>
 		<ECONOMICS>0</ECONOMICS>
 		<WEAPONS>0</WEAPONS>
-		<DEFENSE>0</DEFENSE>
+		<DEFENSE>20</DEFENSE>
 		<MORALE>20</MORALE>
-		<SPEED>0</SPEED>
+		<SPEED>-10</SPEED>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
-		<RESEARCH>0</RESEARCH>
+		<RESEARCH>20</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
 		<TRADE>0</TRADE>
 		<DIPLOMACY>-20</DIPLOMACY>
@@ -845,11 +872,11 @@
 	<Race Name="Mycon">
 		<RaceID>10</RaceID>
 		<DisplayName>Mycon</DisplayName>
-		<Alignment>1</Alignment>
+		<Alignment>10</Alignment>
 		<Description>While most sentient races are taxonomically animals, the Mycon are fungi. The Mycon spread the spores of their race through the galaxy with their Podships.</Description>
 		<Homeworld>Epsilon Scorpii I</Homeworld>
 		<Homestar>Epsilon Scorpii</Homestar>
-		<RaceLeader>Spork</RaceLeader>
+		<RaceLeader>Spork</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Mycon</ShortEmpireName>
 		<AIPersonality>7</AIPersonality>
 		<DialogueTag>Mycon</DialogueTag>
@@ -877,7 +904,7 @@
 		<ShipStyle>Mycon Style</ShipStyle>
 		<ModuleStyle>3</ModuleStyle>
 		<PoliticalParty>1</PoliticalParty>
-		<AbilitiesDescription>+ Strong Military
+		<AbilitiesDescription>+ Quick repair
 - Weak Diplomacy</AbilitiesDescription>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>50</Aggression>
@@ -886,44 +913,45 @@
 		<SuperAbility>10</SuperAbility>
 		<ResearchAdvantage>Biology</ResearchAdvantage>
 		<ECONOMICS>0</ECONOMICS>
-		<WEAPONS>25</WEAPONS>
+		<WEAPONS>10</WEAPONS>
 		<DEFENSE>0</DEFENSE>
-		<SPEED>0</SPEED>
-		<MORALE>25</MORALE>
-		<POPULATIONGROWTH>50</POPULATIONGROWTH>
-		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
-		<MILITARYPRODUCTION>25</MILITARYPRODUCTION>
+		<SPEED>-10</SPEED>
+		<MORALE>0</MORALE>
+		<POPULATIONGROWTH>-20</POPULATIONGROWTH>
+		<SOCIALPRODUCTION>10</SOCIALPRODUCTION>
+		<MILITARYPRODUCTION>-10</MILITARYPRODUCTION>
 		<RESEARCH>0</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
 		<TRADE>0</TRADE>
 		<DIPLOMACY>-50</DIPLOMACY>
 		<HITPOINTS>20</HITPOINTS>
-		<REPAIR>0</REPAIR>
+		<REPAIR>50</REPAIR>
 		<SENSORS>0</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
-		<SOLDIERING>10</SOLDIERING>
+		<SOLDIERING>-25</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
 		<CRIME>0</CRIME>
 		<CABINET>0</CABINET>
-		<RANGE>0</RANGE>
+		<RANGE>15</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
 		<GOVERNMENT>0</GOVERNMENT>
-		<LOYALTY>0</LOYALTY>
+		<LOYALTY>20</LOYALTY>
 		<LOGISTICS>7</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>10</CustomizationPoints>
 		<CivType>4</CivType>
-		<TechTree>Yor_TechTree</TechTree>
-		<!-- <Tech>GermWarfare</Tech> -->
+		<TechTree>Mycon_TechTree</TechTree>
 		<Tech>FusionReactors</Tech>
 		<Tech>RuthlessHistory</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>StellarCartography</Tech>
 		<Tech>SpecializedResearch</Tech>
+		<Tech>ToxicAtmosphereReductor</Tech>
+		<Tech>AdvancedToxicAtmosphereReductor</Tech>
 	</Race>
 	<!-- <Race Name="Krynn Consulate"> -->
 	<Race Name="Utwig Technocracy">
@@ -933,7 +961,7 @@
 		<Description>They are a fatalist race with a sophisticated, somewhat mystic culture, involving masks and their dependency on an artifact known as the Ultron. They believe that their race has a grand destiny to, via the Ultron, "perform [an] essential service for the universe".</Description>
 		<Homeworld>Fahz</Homeworld>
 		<Homestar>Beta Aquarii</Homestar>
-		<RaceLeader>Uuter</RaceLeader>
+		<RaceLeader>Uuter</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Utwig</ShortEmpireName>
 		<AIPersonality>8</AIPersonality>
 		<DialogueTag>Utwig</DialogueTag>
@@ -976,7 +1004,7 @@
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
-		<RESEARCH>0</RESEARCH>
+		<RESEARCH>10</RESEARCH>
 		<INFLUENCE>10</INFLUENCE>
 		<TRADE>0</TRADE>
 		<MORALE>50</MORALE>
@@ -1166,7 +1194,7 @@
 		<Alignment>75</Alignment>
 		<Homeworld>Alpha Tucanae I</Homeworld>
 		<Homestar>Alpha Tucanae</Homestar>
-		<RaceLeader>Pik,Fot,Zoq</RaceLeader>
+		<RaceLeader>Pik,Fot,Zoq</RaceLeader><!-- Unknown/Made up -->
 		<Description>The Zoq, Fot, and Pik are three separate races that evolved simultaneously on a jungle-like world. The Zoq-Fot-Pik first entered the galactic fray when they found their colony worlds were playing host to terrible space battles. These battles unleashed titanic forces as the two sides fought, and when they missed each other the small Zoq-Fot-Pik colonies suffered.</Description>
 		<ShortEmpireName>Zoq-Fot-Pik</ShortEmpireName>
 		<AIPersonality>5</AIPersonality>
@@ -1234,8 +1262,8 @@
 		<RaceID>15</RaceID>
 		<DisplayName>Arilou Lalee'lay</DisplayName>
 		<Alignment>65</Alignment>
-		<Homeworld>Falayalaralfali</Homeworld>
-		<Homestar>Falayalaralfali</Homestar>
+		<Homeworld>Falayalaralfali</Homeworld><!-- Out of range -->
+		<Homestar>Falayalaralfali</Homestar><!-- Out of range -->
 		<RaceLeader>Faffywaffy</RaceLeader>
 		<Description>Arilou first made themselves known to the Galaxy during the Ur-Quan Slave War, suddenly appearing and applying to join the Alliance of Free Stars. Their actions were equally mercurial at the end of the war, retreating and abandoning the other races as soon as the Humans were slave-shielded. The motives for their actions seem to be some mysterious connection they have with the Human race.</Description>
 		<ShortEmpireName>Arilou</ShortEmpireName>
@@ -1305,9 +1333,9 @@
 		<DisplayName>Melnorme</DisplayName>
 		<Alignment>50</Alignment>
 		<Description>The Melnorme, as far as we know, are a race of traveling traders in information and technology. They appear as several orange globs piled on top of each other, with a large smile and a single eye.</Description>
-		<Homeworld>Melnorme I</Homeworld>
-		<Homestar>Melnorme</Homestar>
-		<RaceLeader>Purple</RaceLeader>
+		<Homeworld>Melnorme I</Homeworld><!-- Unknown -->
+		<Homestar>Melnorme</Homestar><!-- Unknown -->
+		<RaceLeader>Purple</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Melnorme</ShortEmpireName>
 		<AIPersonality>5</AIPersonality>
 		<LeaderGender>1</LeaderGender>
@@ -1445,7 +1473,7 @@
 		<Alignment>40</Alignment>
 		<Homeworld>Gamma Vulpeculae I</Homeworld>
 		<Homestar>Gamma Vulpeculae</Homestar>
-		<RaceLeader>*Finger*</RaceLeader>
+		<RaceLeader>*Finger*</RaceLeader><!-- Unknown/Made up -->
 		<Description>The Orz are — is — an alien species/projections of an extradimensional entity first encountered by The Captain in the space near where the Androsynth had been known to reside.</Description>
 		<ShortEmpireName>Orz</ShortEmpireName>
 		<AIPersonality>5</AIPersonality>
@@ -1515,7 +1543,7 @@
 		<Alignment>60</Alignment>
 		<Homestar>Procyon</Homestar>
 		<Homeworld>Procyon II</Homeworld>
-		<RaceLeader>Qrntz</RaceLeader>
+		<RaceLeader>Qwerty</RaceLeader><!-- Unknown/Made up -->
 		<Description>The Chmmr are a composite race created from the two separate races of the Chenjesu and the Mmrnmhrm. The synthesis of the two races took place under the slave shield on the Chenjesu's homeworld of Procyon II.</Description>
 		<ShortEmpireName>Chmmr</ShortEmpireName>
 		<AIPersonality>5</AIPersonality>
@@ -1589,10 +1617,10 @@
 		<RaceID>20</RaceID>
 		<DisplayName>Shofixti</DisplayName>
 		<Alignment>75</Alignment>
-		<Homeworld>Shofixti</Homeworld>
-		<Homestar>Shofixti</Homestar>
+		<Homeworld>Kyabetsu</Homeworld>
+		<Homestar>Delta Gorno</Homestar>
 		<RaceLeader>Tanaka</RaceLeader>
-		<Description>The Shofixti are a marsupial race of honorable mammals whose homeworld, Kyabetsu, was at Delta Gorno I. Their technology, culture and religion (referred to as "Yehat Ancestor Worship") are greatly influenced by the Yehat, who uplifted them.</Description>
+		<Description>The Shofixti are a marsupial race of honorable mammals. All life on their homeworld was wiped out by a mini-supernova. Their technology, culture and religion (referred to as "Yehat Ancestor Worship") are greatly influenced by the Yehat, who uplifted them.</Description>
 		<ShortEmpireName>Shofixti</ShortEmpireName>
 		<AIPersonality>5</AIPersonality>
 		<LeaderGender>1</LeaderGender>
@@ -1617,20 +1645,20 @@
 		<ModuleStyle>0</ModuleStyle>
 		<SuperAbility>4</SuperAbility>
 		<ECONOMICS>0</ECONOMICS>
-		<WEAPONS>0</WEAPONS>
-		<DEFENSE>0</DEFENSE>
-		<SPEED>0</SPEED>
-		<MORALE>0</MORALE>
+		<WEAPONS>500</WEAPONS>
+		<DEFENSE>-99</DEFENSE>
+		<SPEED>20</SPEED>
+		<MORALE>30</MORALE>
 		<POPULATIONGROWTH>999</POPULATIONGROWTH>
-		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
-		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
+		<SOCIALPRODUCTION>-30</SOCIALPRODUCTION>
+		<MILITARYPRODUCTION>50</MILITARYPRODUCTION>
 		<RESEARCH>0</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
 		<TRADE>50</TRADE>
 		<DIPLOMACY>0</DIPLOMACY>
-		<HITPOINTS>0</HITPOINTS>
+		<HITPOINTS>-60</HITPOINTS>
 		<REPAIR>0</REPAIR>
-		<SENSORS>0</SENSORS>
+		<SENSORS>-1</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
 		<SOLDIERING>0</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
@@ -1639,13 +1667,13 @@
 		<CRIME>0</CRIME>
 		<CABINET>0</CABINET>
 		<RANGE>0</RANGE>
-		<LUCK>0</LUCK>
-		<COURAGE>0</COURAGE>
+		<LUCK>25</LUCK>
+		<COURAGE>99</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
 		<GOVERNMENT>0</GOVERNMENT>
-		<LOYALTY>-50</LOYALTY>
-		<LOGISTICS>4</LOGISTICS>
-		<MINIATURIZATION>0</MINIATURIZATION>
+		<LOYALTY>0</LOYALTY>
+		<LOGISTICS>15</LOGISTICS>
+		<MINIATURIZATION>20</MINIATURIZATION>
 		<TechTree>MinorRace_TechTree</TechTree>
 		<Tech>Root</Tech>
 		<Tech>HyperDrive</Tech>
@@ -1661,13 +1689,13 @@
 		<DisplayName>Ur-Quan Kohr-Ah</DisplayName>
 		<Alignment>1</Alignment>
 		<Description>The Ur-Quan Kohr-Ah are one of the two subraces of the Ur-Quan. Their determination to exterminate all non-Ur-Quan life rather than enslaving them has made them even more dangerous as a foe.</Description>
-		<Homeworld>Zeta I</Homeworld>
-		<Homestar>Zeta</Homestar>
-		<RaceLeader>Kohr-Ah Primat</RaceLeader><!-- "Perhaps we should contact the Kohr-Ah Primat, explain to her."" -->
+		<Homeworld>Zeta I</Homeworld><!-- Unknown -->
+		<Homestar>Zeta</Homestar><!-- Unknown -->
+		<RaceLeader>Kohr-Ah Primat</RaceLeader>
+		<LeaderGender>2</LeaderGender><!-- Ur-Quan Kzer-Za: "Perhaps we should contact the Kohr-Ah Primat, explain to her." -->
 		<ShortEmpireName>Kohr-Ah</ShortEmpireName>
 		<AIPersonality>7</AIPersonality>
 		<DialogueTag>Dreadlords</DialogueTag>
-		<LeaderGender>2</LeaderGender>
 		<Portrait>Gfx\Race\Kohr-Ah_Regular.png</Portrait>
 		<Logo>Gfx\Race\RaceLogo_Korath.png</Logo>
 		<SmallLogo>Gfx\Race\RaceLogo_Korath.png</SmallLogo>
@@ -1690,7 +1718,7 @@
 		<InterfaceColor>137,130,116</InterfaceColor>
 		<!-- <ShipStyle>Korath Clan Style</ShipStyle> Dread Lords settings overrides this -->
 		<ModuleStyle>3</ModuleStyle>
-		<AbilitiesDescription>+ Strong Military
+		<AbilitiesDescription>+ Highly Advanced
 - Weak Diplomacy</AbilitiesDescription>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>50</Aggression>
@@ -1699,30 +1727,30 @@
 		<SuperAbility>10</SuperAbility>
 		<ResearchAdvantage>Weapons</ResearchAdvantage>
 		<ECONOMICS>0</ECONOMICS>
-		<WEAPONS>25</WEAPONS>
-		<DEFENSE>0</DEFENSE>
+		<WEAPONS>50</WEAPONS>
+		<DEFENSE>50</DEFENSE>
 		<SPEED>0</SPEED>
 		<MORALE>25</MORALE>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
-		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
-		<MILITARYPRODUCTION>25</MILITARYPRODUCTION>
+		<SOCIALPRODUCTION>55</SOCIALPRODUCTION>
+		<MILITARYPRODUCTION>55</MILITARYPRODUCTION>
 		<RESEARCH>0</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
 		<TRADE>0</TRADE>
 		<DIPLOMACY>0</DIPLOMACY>
-		<HITPOINTS>20</HITPOINTS>
+		<HITPOINTS>65</HITPOINTS>
 		<REPAIR>0</REPAIR>
 		<SENSORS>0</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
-		<SOLDIERING>10</SOLDIERING>
+		<SOLDIERING>40</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
 		<CRIME>0</CRIME>
 		<CABINET>0</CABINET>
-		<RANGE>0</RANGE>
+		<RANGE>20</RANGE>
 		<LUCK>0</LUCK>
-		<COURAGE>0</COURAGE>
+		<COURAGE>25</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
 		<GOVERNMENT>0</GOVERNMENT>
 		<LOYALTY>0</LOYALTY>
@@ -1732,6 +1760,7 @@
 		<CivType>5</CivType>
 		<TechTree>Kohr-Ah_TechTree</TechTree>
 		<Tech>Root</Tech><!-- Dread Lords setting gives all techs -->
+		<Tech>UniversalTranslator</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>RuthlessHistory</Tech>
 		<Tech>HyperDrive</Tech>
@@ -1750,7 +1779,7 @@
 		<ShortEmpireName>Pirates</ShortEmpireName>
 		<AIPersonality>11</AIPersonality>
 		<DialogueTag>Generic</DialogueTag>
-		<LeaderGender>1</LeaderGender>
+		<LeaderGender>0</LeaderGender>
 		<Portrait>Gfx\Race\Probe_Regular.png</Portrait>
 		<Logo>Gfx\Race\RaceLogo27.png</Logo>
 		<SmallLogo>Gfx\Race\Small\RaceLogo1.png</SmallLogo>
