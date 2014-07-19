@@ -121,6 +121,366 @@
 		</AsteroidField>
 	</StarSystem>
 
+	<!-- Shofixti homeworld -->
+	<!-- <StarSystem Name="Delta Gorno">
+		<Planet Name="Kyabetsu">
+			<DisplayName>Kyabetsu</DisplayName>
+			<Class>10</Class>
+			<Moon>gfx/planets/m00.png</Moon>
+			<PercentOfStarSize>0.50</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Delta Gorno II">
+			<Class>4</Class>
+			<PercentOfStarSize>0.40</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Delta Gorno III">
+			<Class>0</Class>
+			<PercentOfStarSize>0.15</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Delta Gorno IV">
+			<Class>0</Class>
+			<PercentOfStarSize>0.80</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Delta Gorno V">
+			<Class>0</Class>
+			<PercentOfStarSize>0.60</PercentOfStarSize>
+			<Rings>gfx/planets/r00.png</Rings>
+		</Planet>
+		<AsteroidField>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem> -->
+
+	<!-- <StarSystem Name="Drengia">
+		<DisplayName>Drengia</DisplayName>
+		<Planet Name="Drengi">
+			<DisplayName>Drengi</DisplayName>
+			<Class>10</Class>
+			<Texture>gfx/planets/Drengi.png</Texture>
+			<RAWTerrain>Drengi.raw</RAWTerrain>
+			<Moon>gfx/planets/m10.png</Moon>
+			<PercentOfStarSize>0.50</PercentOfStarSize>
+		</Planet>
+		<Planet Name="Kona">
+			<DisplayName>Kona</DisplayName>
+			<Texture>gfx/planets/C00.png</Texture>
+			<PercentOfStarSize>0.80</PercentOfStarSize>
+			<Class>4</Class>
+		</Planet>
+		<Planet Name="Grathis">
+			<DisplayName>Grathis</DisplayName>
+			<PercentOfStarSize>0.15</PercentOfStarSize>
+			<Texture>gfx/planets/M13.png</Texture>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Rathor">
+			<DisplayName>Rathor</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Mawhar">
+			<DisplayName>Mawhar</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="DrenginAsteroidField">
+			<DisplayName>Asteroids of Kona</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Altaris">
+		<DisplayName>Altaris</DisplayName>
+		<Planet Name="Altaria">
+			<DisplayName>Altaria</DisplayName>
+			<Class>12</Class>
+			<Texture>gfx/planets/Altaria.png</Texture>
+			<RAWTerrain>Altaria.raw</RAWTerrain>
+			<Moon>gfx/planets/m03.png</Moon>
+		</Planet>
+		<Planet Name="Epas">
+			<DisplayName>Epas</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Imoth">
+			<DisplayName>Imoth</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Po">
+			<DisplayName>Po</DisplayName>
+			<Texture>gfx/planets/M04.png</Texture>
+			<PercentOfStarSize>0.20</PercentOfStarSize>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Wisp">
+			<DisplayName>Wisp</DisplayName>
+			<Class>3</Class>
+		</Planet>
+		<AsteroidField Name="DrenginAsteroidField">
+			<DisplayName>Altarian Asteroid Cluster</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Athol">
+		<DisplayName>Athol</DisplayName>
+		<Planet Name="Arcea">
+			<DisplayName>Arcea</DisplayName>
+			<Class>10</Class>
+			<Texture>gfx/planets/Arcea.png</Texture>
+			<RAWTerrain>Arcea.raw</RAWTerrain>
+			<Moon>gfx/planets/M07.png</Moon>
+		</Planet>
+		<Planet Name="Hammer">
+			<DisplayName>Hammer II</DisplayName>
+			<Class>5</Class>
+		</Planet>
+		<Planet Name="ArceaIII">
+			<DisplayName>Arcea III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ArceaIV">
+			<DisplayName>Arcea IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ArceaV">
+			<DisplayName>Arcea V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="AtholianAsteroidCloud">
+			<DisplayName>Atholian Asteroid Cloud</DisplayName>
+			<Size>4</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Torus">
+		<DisplayName>Torus</DisplayName>
+		<Planet Name="Toria">
+			<DisplayName>Toria</DisplayName>
+			<Class>9</Class>
+			<Texture>gfx/planets/Toria.png</Texture>
+			<RAWTerrain>Toria.raw</RAWTerrain>
+			<Rings>gfx/planets/R05.png</Rings>
+		</Planet>
+		<Planet Name="ToriaII">
+			<DisplayName>Toria II</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ToriaIII">
+			<DisplayName>Toria III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ToriaIV">
+			<DisplayName>Toria IV</DisplayName>
+			<Class>6</Class>
+		</Planet>
+		<Planet Name="ToriaV">
+			<DisplayName>Toria V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="ToriaAsteroids">
+			<DisplayName>Toria Asteroids</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Icos">
+		<DisplayName>Icos</DisplayName>
+		<Planet Name="Yor">
+			<DisplayName>Iconia</DisplayName>
+			<Class>10</Class>
+			<Texture>gfx/planets/Iconia.png</Texture>
+			<RAWTerrain>Iconia.raw</RAWTerrain>
+			<Rings>gfx/planets/R03.png</Rings>
+		</Planet>
+		<Planet Name="Icos II">
+			<DisplayName>Iconia II</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Icos III">
+			<DisplayName>Iconia III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Icos IV">
+			<DisplayName>Iconia IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="XTR-17">
+			<DisplayName>Iconia V</DisplayName>
+			<Class>4</Class>
+		</Planet>
+		<AsteroidField Name="AsteroidsOfIcos">
+			<DisplayName>Asteroids of Icos</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Oxor">
+		<DisplayName>Oxor</DisplayName>
+		<Planet Name="Korx">
+			<DisplayName>Korx</DisplayName>
+			<Class>8</Class>
+			<Texture>gfx/planets/Korx.png</Texture>
+			<RAWTerrain>Korx.raw</RAWTerrain>
+		</Planet>
+		<Planet Name="Mercenary">
+			<DisplayName>Korx II</DisplayName>
+			<Class>8</Class>
+		</Planet>
+		<Planet Name="KorxIII">
+			<DisplayName>Korx III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="KorxIV">
+			<DisplayName>Korx IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="KorxV">
+			<DisplayName>Korx V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="OxorianAsteroids">
+			<DisplayName>Oxorian Asteroid Cluster</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Drathis">
+		<DisplayName>Drathis</DisplayName>
+		<Planet Name="Dratha">
+			<DisplayName>Dratha</DisplayName>
+			<Class>10</Class>
+			<Texture>gfx/planets/Dratha.png</Texture>
+			<RAWTerrain>Dratha.raw</RAWTerrain>
+		</Planet>
+		<Planet Name="DrathaII">
+			<DisplayName>Dratha II</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="DrathaIII">
+			<DisplayName>Dratha III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="DrathaIV">
+			<DisplayName>Dratha IV</DisplayName>
+			<Class>4</Class>
+		</Planet>
+		<Planet Name="DrathaV">
+			<DisplayName>Dratha V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="DrathanAsteroids">
+			<DisplayName>Drathan Asteroids</DisplayName>
+			<Size>2</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Thalis">
+		<DisplayName>Thalis</DisplayName>
+		<Planet Name="Thala">
+			<DisplayName>Thala</DisplayName>
+			<Class>15</Class>
+			<Texture>gfx/planets/Thala.png</Texture>
+			<RAWTerrain>Thala.raw</RAWTerrain>
+		</Planet>
+		<Planet Name="ThaliaII">
+			<DisplayName>Thalia II</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ThaliaIII">
+			<DisplayName>Thalia III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ThaliaIV">
+			<DisplayName>Thalia IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="ThaliaV">
+			<DisplayName>Thalia V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="ThalisAsteroids">
+			<DisplayName>Thalis Asteroids</DisplayName>
+			<Size>1</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Iconis">
+		<DisplayName>Iconis</DisplayName>
+		<Planet Name="NewIconia">
+			<DisplayName>New Iconia</DisplayName>
+			<Class>14</Class>
+			<Texture>gfx/planets/NewIconia.png</Texture>
+			<RAWTerrain>NewIconia.raw</RAWTerrain>
+		</Planet>
+		<Planet Name="NewIconiaII">
+			<DisplayName>New Iconia II</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="NewIconiaIII">
+			<DisplayName>New Iconia III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="NewIconiaIV">
+			<DisplayName>New Iconia IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="NewIconiaV">
+			<DisplayName>New Iconia V</DisplayName>
+			<Class>3</Class>
+		</Planet>
+		<AsteroidField Name="NewIconianAsteroids">
+			<DisplayName>New Iconian Asteroid Field</DisplayName>
+			<Size>3</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Ra'nagoh">
+		<Planet Name="Kora">
+			<DisplayName>Kora</DisplayName>
+			<Texture>gfx/planets/kora.png</Texture>
+			<RAWTerrain>Kora.raw</RAWTerrain>
+			<Class>10</Class>
+		</Planet>
+		<Planet Name="Kynda">
+			<DisplayName>Kynda</DisplayName>
+			<Class>4</Class>
+		</Planet>
+		<Planet Name="Ra'nagoh III">
+			<DisplayName>Ra'nagoh III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Ra'nagoh IV">
+			<DisplayName>Ra'nagoh IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Ra'nagoh V">
+			<DisplayName>Ra'nagoh V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="RanagohAsteroids">
+			<DisplayName>Ra'nagoh Asteroids</DisplayName>
+			<Size>1</Size>
+		</AsteroidField>
+	</StarSystem>
+	<StarSystem Name="Alora">
+		<Planet Name="Kryseth">
+			<DisplayName>Kryseth</DisplayName>
+			<Texture>gfx/planets/Kryseth.png</Texture>
+			<RAWTerrain>Kryseth.raw</RAWTerrain>
+			<Class>10</Class>
+		</Planet>
+		<Planet Name="Ghella">
+			<DisplayName>Ghella</DisplayName>
+			<Class>4</Class>
+		</Planet>
+		<Planet Name="Alora III">
+			<DisplayName>Alora III</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Alora IV">
+			<DisplayName>Alora IV</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<Planet Name="Alora V">
+			<DisplayName>Alora V</DisplayName>
+			<Class>0</Class>
+		</Planet>
+		<AsteroidField Name="AloraAsteroids">
+			<DisplayName>Alora Asteroids</DisplayName>
+			<Size>1</Size>
+		</AsteroidField>
+	</StarSystem> -->
+
 	<StarSystem Name="CustomDefault">
 		<Planet Name="Homeworld">
 			<Class>10</Class>

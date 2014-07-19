@@ -495,4 +495,24 @@
 		<Component>GravitonDisruptor3</Component>
 		<Model>Arnorian_Huge</Model>
 	</Ship>
+	<Ship Name="Sa_Matra">
+		<DisplayName>Sa-Matra</DisplayName>
+		<Description>The Precursor battle platform called "Sa-Matra" or "The Trophy" in the Ur-Quan tongue.</Description>
+		<Tech_Requirement>ImpossibleTech</Tech_Requirement>
+		<Component>HugeHull6</Component>
+		<Component>SaMatraArmor</Component>
+		<Component>ForceField6</Component>
+		<Component>ForceField6</Component>
+		<Component>AeronMissileDefense</Component>
+		<Component>Admantium5</Component>
+		<Component>Admantium5</Component>
+		<Component>DeathRay</Component>
+		<Component>DeathRay</Component>
+		<Component>DoomRay</Component>
+		<Component>DoomRay</Component>
+		<Component>OmegaSensors</Component>
+		<Component>OmegaSupport</Component>
+		<Component>OmgWarpBubbleProjector</Component>
+		<Model>Arnorian_Huge</Model>
+	</Ship>
 </GC2Ships>

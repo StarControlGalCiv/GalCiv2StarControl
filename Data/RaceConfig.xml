@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
-<Races>
+<Races xsi:noNamespaceSchemaLocation="file:/home/janisl/RaceConfig.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<DataChecksum NoParse="1">
 		<Ignore>DisplayName,Description,Homeworld,Homestar,RaceLeader,ShortEmpireName,Portrait,Logo,RaceColor,ShadowColor,UndefendedStarColor,DefendedStarColor,SectorColor,BaseColor,TrimColor,EngineColor,InterfaceColor,ShipStyle,ModuleStyle,DefaultTradePortrait,DefaultTradeMovie,FriendlyTradeMovie,UnfriendlyTradeMovie,UnitedPlanetsMovie,RobotMovie,RobotImage,RaceMusic,DialogueTag,LeaderGender</Ignore>
 		<Translate>DisplayName,Description,Homeworld,Homestar,RaceLeader,ShortEmpireName</Translate>
 	</DataChecksum>
-	<!-- <Race Name="Terran Alliance"> -->
 	<Race Name="Supox Utricularia">
 		<RaceID>0</RaceID>
 		<DisplayName>Supox Utricularia</DisplayName>
-		<Alignment>85</Alignment>
-		<Description>The Supox Utricularia are an intelligent spacefaring race resembling some carnivorous plants. When they were first met by the New Alliance of Free Stars the Supox had already forged a cooperative relationship with the nearby Utwig.</Description>
-		<Homeworld>Vlik</Homeworld>
-		<Homestar>Beta Librae</Homestar>
-		<RaceLeader>Root</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Supox</ShortEmpireName>
-		<AIPersonality>8</AIPersonality>
-		<DialogueTag>Supox</DialogueTag>
+		<Description>The Supox Utricularia are an intelligent spacefaring race resembling some carnivorous plants. When they were first met by the New Alliance of Free Stars the Supox had already forged a cooperative relationship with the nearby Utwig.</Description>
+		<AbilitiesDescription>+ Strong Diplomacy
+		- Weak Manufacturing
+
+	</AbilitiesDescription>
+		<Homestar>Beta Librae</Homestar>
+		<Homeworld>Vlik</Homeworld>
+		<RaceLeader>Root</RaceLeader><!-- Unknown/Made up -->
 		<LeaderGender>0</LeaderGender>
+		<DialogueTag>Generic</DialogueTag>
+
 		<Portrait>Gfx\Race\Supox_Regular.png</Portrait>
 		<Logo>Gfx\Race\RaceLogo17.png</Logo>
 		<SmallLogo>Gfx\Race\Small\RaceLogo17.png</SmallLogo>
 		<DefaultTradePortrait>Gfx\Race\Supox_Wide.png</DefaultTradePortrait>
-<!-- 		<DefaultTradeMovie>Jenna_Neutral.bik</DefaultTradeMovie>
-		<FriendlyTradeMovie>Jenna_Happy.bik</FriendlyTradeMovie>
-		<UnfriendlyTradeMovie>Jenna_Angry.bik</UnfriendlyTradeMovie>
-		<UnitedPlanetsMovie>Jenna_Small.bik</UnitedPlanetsMovie> -->
 		<RobotMovie>NewsRobot_Human</RobotMovie>
 		<RobotImage>Gfx\Message_Robot</RobotImage>
+
 		<RaceMusic>Supox__Shake_Yer_Rootz</RaceMusic>
+
 		<RaceColor>255,255,0,255</RaceColor>
 		<ShadowColor>221,146,172,255</ShadowColor>
 		<UndefendedStarColor>255,255,0,255</UndefendedStarColor>
@@ -39,23 +39,26 @@
 		<InterfaceColor>255,255,0,255</InterfaceColor>
 		<ShipStyle>Thalan Empire Style</ShipStyle>
 		<ModuleStyle>0</ModuleStyle>
-		<PoliticalParty>3</PoliticalParty>
-		<AbilitiesDescription>+ Strong Diplomacy
 
-		- Weak Manufacturing</AbilitiesDescription>
+		<AIPersonality>8</AIPersonality>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>50</Aggression>
 		<FinancialResources>100</FinancialResources>
 		<CPUUsage>0</CPUUsage>
+
+		<CivType>4</CivType>
 		<SuperAbility>0</SuperAbility>
+		<PoliticalParty>3</PoliticalParty>
+		<Alignment>85</Alignment>
 		<ResearchAdvantage>Diplomacy</ResearchAdvantage>
+		<CustomizationPoints>10</CustomizationPoints>
+
 		<ECONOMICS>0</ECONOMICS>
 		<WEAPONS>0</WEAPONS>
 		<DEFENSE>0</DEFENSE>
-		<!-- <SPEED>10</SPEED> -->
-		<SPEED>100</SPEED>
+		<SPEED>10</SPEED>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
-		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
+		<SOCIALPRODUCTION>-10</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>-10</MILITARYPRODUCTION>
 		<RESEARCH>0</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
@@ -63,28 +66,27 @@
 		<MORALE>0</MORALE>
 		<DIPLOMACY>30</DIPLOMACY>
 		<HITPOINTS>0</HITPOINTS>
-		<REPAIR>0</REPAIR>
-		<!-- <SENSORS>0</SENSORS> -->
-		<SENSORS>999</SENSORS>
-		<ESPIONAGE>0</ESPIONAGE>
-		<SOLDIERING>0</SOLDIERING>
+		<REPAIR>10</REPAIR>
+		<SENSORS>0</SENSORS>
+		<ESPIONAGE>-20</ESPIONAGE>
+		<SOLDIERING>-20</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>1</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>6</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
-		<CustomizationPoints>10</CustomizationPoints>
-		<CivType>4</CivType>
-		<TechTree>Terran_TechTree</TechTree>
-		<!-- --><Tech>UniversalTranslator</Tech>
+
+		<TechTree>Supox_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
 		<Tech>NeutralHistory</Tech>
@@ -97,8 +99,8 @@
 		<RaceID>1</RaceID>
 		<DisplayName>Ur-Quan Kzer-Za</DisplayName>
 		<Alignment>10</Alignment>
-		<Description>The Ur-Quan Kzer-Za are one of two subraces of Ur-Quan. Kzer-Za are bent on enslaving other races if they refuse to fight their wars. The Kzer-Za were designed to be the "thinkers," the scientists, technicians, and overseers of a previos Empire.</Description>
-		<Homeworld>Za</Homeworld><!-- Unknown/Made up -->
+		<Description>The Ur-Quan Kzer-Za are one of two subraces of Ur-Quan. Kzer-Za are bent on enslaving other races if they refuse to fight their wars. The Kzer-Za were designed to be the "thinkers," the scientists, technicians, and overseers of a previous Empire. When their cousins the Kohr-Ah are around, they engage in their doctrinal conflict.</Description>
+		<Homeworld>Kzer I</Homeworld><!-- Unknown/Made up -->
 		<Homestar>Kzer</Homestar><!-- Unknown/Made up -->
 		<RaceLeader>Master Nine</RaceLeader><!-- Talana mentions "Master Nine", who was assigned to get Syreen their new homeworld and so is a possible regional leader of the Ur-Quan -->
 		<ShortEmpireName>Kzer-Za</ShortEmpireName>
@@ -149,26 +151,29 @@
 		<TRADE>0</TRADE>
 		<DIPLOMACY>-25</DIPLOMACY>
 		<HITPOINTS>60</HITPOINTS>
-		<REPAIR>-10</REPAIR>
+		<REPAIR>0</REPAIR>
 		<SENSORS>0</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
 		<SOLDIERING>50</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>20</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>7</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>10</CustomizationPoints>
 		<CivType>4</CivType>
-		<TechTree>Drengin_TechTree</TechTree>
+
+		<TechTree>Kzer-Za_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>UniversalTranslator</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>RuthlessHistory</Tech>
@@ -185,20 +190,20 @@
 		<Tech>Laser</Tech>
 		<Tech>Laser II</Tech>
 		<Tech>Laser III</Tech>
-		<Tech>=Laser IV</Tech>
-		<Tech>=Laser V</Tech>
-		<Tech>=Medium Scale Building</Tech>
-		<Tech>=ParticleBeams</Tech>
-		<Tech>=ParticleBeams2</Tech>
-		<Tech>=ParticleBeams3</Tech>
-		<Tech>=Planetary Bombardment</Tech>
-		<Tech>=Planetary Defense</Tech>
-		<Tech>=Superior Hulls</Tech>
-		<Tech>=UniversalTranslator</Tech>
-		<Tech>=Xeno Biology</Tech>
-		<Tech>=Xeno Ethics</Tech>
-		<Tech>=Xeno Medicine</Tech>
-		<Tech>=Xeno Slavery</Tech>
+		<Tech>Laser IV</Tech>
+		<Tech>Laser V</Tech>
+		<Tech>Medium Scale Building</Tech>
+		<Tech>ParticleBeams</Tech>
+		<Tech>ParticleBeams2</Tech>
+		<Tech>ParticleBeams3</Tech>
+		<Tech>Planetary Bombardment</Tech>
+		<Tech>Planetary Defense</Tech>
+		<Tech>Superior Hulls</Tech>
+		<Tech>UniversalTranslator</Tech>
+		<Tech>Xeno Biology</Tech>
+		<Tech>Xeno Ethics</Tech>
+		<Tech>Xeno Medicine</Tech>
+		<Tech>Xeno Slavery</Tech>
 	</Race>
 	<!-- <Race Name="Altarian Resistance"> -->
 	<Race Name="Syreen Matriarchy">
@@ -211,7 +216,7 @@
 		<RaceLeader>Talana</RaceLeader>
 		<ShortEmpireName>Syreen</ShortEmpireName>
 		<AIPersonality>11</AIPersonality>
-		<DialogueTag>Syreen</DialogueTag>
+		<DialogueTag>Generic</DialogueTag>
 		<LeaderGender>2</LeaderGender>
 		<Portrait>Gfx\Race\Syreen_Regular.png</Portrait>
 		<Logo>Gfx\Race\RaceLogo15.png</Logo>
@@ -264,20 +269,23 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>5</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>10</CustomizationPoints>
 		<CivType>4</CivType>
 		<Ignore>0</Ignore>
-		<TechTree>Altarian_TechTree</TechTree>
+
+		<TechTree>Syreen_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Slaveshielded</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
 		<Tech>FusionReactors</Tech>
@@ -295,7 +303,7 @@
 		<RaceLeader>Knarg</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Thraddash</ShortEmpireName>
 		<AIPersonality>11</AIPersonality>
-		<DialogueTag>Thraddash</DialogueTag>
+		<DialogueTag>Generic</DialogueTag>
 		<LeaderGender>1</LeaderGender>
 		<Portrait>Gfx\Race\Thraddash_Regular.png</Portrait>
 		<Logo>Gfx\Race\RaceLogo16.png</Logo>
@@ -320,8 +328,8 @@
 		<ShipStyle>Arcean Empire Style</ShipStyle>
 		<ModuleStyle>0</ModuleStyle>
 		<PoliticalParty>2</PoliticalParty>
-		<AbilitiesDescription>+ Strong Military
-- Slower Ships</AbilitiesDescription>
+		<AbilitiesDescription>+ Great soldiers
+- Bad planet handling</AbilitiesDescription>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>50</Aggression>
 		<FinancialResources>100</FinancialResources>
@@ -329,10 +337,10 @@
 		<SuperAbility>3</SuperAbility>
 		<ResearchAdvantage>Weapons</ResearchAdvantage>
 		<ECONOMICS>0</ECONOMICS>
-		<WEAPONS>0</WEAPONS>
+		<WEAPONS>10</WEAPONS>
 		<DEFENSE>0</DEFENSE>
-		<SPEED>-10</SPEED>
-		<MORALE>0</MORALE>
+		<SPEED>10</SPEED>
+		<MORALE>30</MORALE>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
@@ -340,27 +348,30 @@
 		<INFLUENCE>0</INFLUENCE>
 		<TRADE>0</TRADE>
 		<DIPLOMACY>0</DIPLOMACY>
-		<HITPOINTS>20</HITPOINTS>
+		<HITPOINTS>-10</HITPOINTS>
 		<REPAIR>0</REPAIR>
 		<SENSORS>0</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
-		<SOLDIERING>10</SOLDIERING>
+		<SOLDIERING>30</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
-		<PLANETQUALITY>0</PLANETQUALITY>
+		<PLANETQUALITY>-10</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
-		<COURAGE>0</COURAGE>
+		<COURAGE>10</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
-		<LOYALTY>0</LOYALTY>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
+		<LOYALTY>-10</LOYALTY>
 		<LOGISTICS>8</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>10</CustomizationPoints>
 		<CivType>4</CivType>
-		<TechTree>Arcean_TechTree</TechTree>
+
+		<TechTree>Thraddash_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>GloriousHistory</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>HyperDrive</Tech>
@@ -379,7 +390,7 @@
 		<RaceLeader>Safe Ones</RaceLeader>
 		<ShortEmpireName>Spathi</ShortEmpireName>
 		<AIPersonality>10</AIPersonality>
-		<DialogueTag>Spathi</DialogueTag>
+		<DialogueTag>Generic</DialogueTag>
 		<LeaderGender>1</LeaderGender>
 		<Portrait>Gfx\Race\Spathi_Regular.png</Portrait>
 		<Logo>Gfx\Race\RaceLogo19.png</Logo>
@@ -432,19 +443,22 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>-35</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>8</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>8</CustomizationPoints>
 		<CivType>4</CivType>
-		<TechTree>Torian_TechTree</TechTree>
+
+		<TechTree>Spathi_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>NeutralHistory</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>HyperDrive</Tech>
@@ -462,7 +476,7 @@
 		<RaceLeader>Queen of Veep-Neep</RaceLeader>
 		<ShortEmpireName>Yehat</ShortEmpireName>
 		<AIPersonality>7</AIPersonality>
-		<DialogueTag>Yehat</DialogueTag>
+		<DialogueTag>Generic</DialogueTag>
 		<LeaderGender>2</LeaderGender>
 		<Portrait>Gfx\Race\Yehat_Regular.png</Portrait>
 		<Logo>Gfx\Race\RaceLogo13.png</Logo>
@@ -515,19 +529,22 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>100</LOYALTY>
 		<LOGISTICS>6</LOGISTICS>
 		<MINIATURIZATION>10</MINIATURIZATION>
 		<CustomizationPoints>10</CustomizationPoints>
 		<CivType>4</CivType>
-		<TechTree>Korx_TechTree</TechTree>
+
+		<TechTree>Yehat_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>NeutralHistory</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>FusionReactors</Tech>
@@ -544,10 +561,10 @@
 		<RaceLeader>Moola</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Druuge</ShortEmpireName>
 		<AIPersonality>11</AIPersonality>
-		<DialogueTag>Druuge</DialogueTag>
+		<DialogueTag>Generic</DialogueTag>
 		<LeaderGender>1</LeaderGender>
 		<Portrait>Gfx\Race\Druuge_Regular.png</Portrait>
-		<Logo>Gfx\Race\RaceLogo06.png</Logo>
+		<Logo>Gfx\Race\RaceLogo106.png</Logo>
 		<SmallLogo>Gfx\Race\Small\RaceLogo6.png</SmallLogo>
 		<DefaultTradePortrait>Gfx\Race\Druuge_Wide.png</DefaultTradePortrait>
 <!-- 		<DefaultTradeMovie>RaceImage06_neutral.bik</DefaultTradeMovie>
@@ -596,18 +613,21 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>3</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>-20</LOYALTY>
 		<LOGISTICS>6</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CivType>4</CivType>
+
 		<TechTree>Druuge_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>A history of Mercantilism</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>StellarCartography</Tech>
@@ -627,10 +647,10 @@
 		<RaceLeader>Bob</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Umgah</ShortEmpireName>
 		<AIPersonality>8</AIPersonality>
-		<DialogueTag>Umgah</DialogueTag>
+		<DialogueTag>Generic</DialogueTag>
 		<LeaderGender>1</LeaderGender>
 		<Portrait>Gfx\Race\Umgah_Regular.png</Portrait>
-		<Logo>Gfx\Race\RaceLogo07.png</Logo>
+		<Logo>Gfx\Race\RaceLogo107.png</Logo>
 		<SmallLogo>Gfx\Race\Small\RaceLogo7.png</SmallLogo>
 		<DefaultTradePortrait>Gfx\Race\Umgah_Wide.png</DefaultTradePortrait>
 <!-- 		<DefaultTradeMovie>RaceImage07_neutral.bik</DefaultTradeMovie>
@@ -680,19 +700,22 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>1</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>8</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>10</CustomizationPoints>
 		<CivType>4</CivType>
-		<TechTree>Drath_TechTree</TechTree>
+
+		<TechTree>Umgah_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>WayOfTheDrath</Tech>
 		<Tech>IndustrialRevolution</Tech>
 		<Tech>HyperDrive</Tech>
@@ -711,10 +734,10 @@
 		<RaceLeader>Gorgon</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Ilwrath</ShortEmpireName>
 		<AIPersonality>8</AIPersonality>
-		<DialogueTag>Ilwrath</DialogueTag>
+		<DialogueTag>Generic</DialogueTag>
 		<LeaderGender>1</LeaderGender>
 		<Portrait>Gfx\Race\Ilwrath_Regular.png</Portrait>
-		<Logo>Gfx\Race\RaceLogo08.png</Logo>
+		<Logo>Gfx\Race\RaceLogo108.png</Logo>
 		<SmallLogo>Gfx\Race\Small\RaceLogo8.png</SmallLogo>
 		<DefaultTradePortrait>Gfx\Race\Ilwrath_Wide.png</DefaultTradePortrait>
 <!-- 		<DefaultTradeMovie>RaceImage08_neutral.bik</DefaultTradeMovie>
@@ -763,20 +786,23 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>6</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>8</CustomizationPoints>
 		<CivType>4</CivType>
 		<Ignore>0</Ignore>
-		<TechTree>Iconian_TechTree</TechTree>
+
+		<TechTree>Ilwrath_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>StellarCartography</Tech>
@@ -797,10 +823,10 @@
 		<RaceLeader>REX</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>VUX</ShortEmpireName>
 		<AIPersonality>10</AIPersonality>
-		<DialogueTag>VUX</DialogueTag>
+		<DialogueTag>Generic</DialogueTag>
 		<LeaderGender>1</LeaderGender>
 		<Portrait>Gfx\Race\VUX_Regular.png</Portrait>
-		<Logo>Gfx\Race\RaceLogo09.png</Logo>
+		<Logo>Gfx\Race\RaceLogo109.png</Logo>
 		<SmallLogo>Gfx\Race\Small\RaceLogo9.png</SmallLogo>
 		<DefaultTradePortrait>Gfx\Race\VUX_Wide.png</DefaultTradePortrait>
 <!-- 		<DefaultTradeMovie>RaceImage09_neutral.bik</DefaultTradeMovie>
@@ -850,19 +876,22 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>10</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>7</CustomizationPoints>
 		<CivType>4</CivType>
-		<TechTree>Iconian_TechTree</TechTree>
+
+		<TechTree>VUX_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>StellarCartography</Tech>
 		<Tech>PrecursorLegacy</Tech>
@@ -932,26 +961,28 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>15</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>20</LOYALTY>
 		<LOGISTICS>7</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>10</CustomizationPoints>
 		<CivType>4</CivType>
+		<COLONIZETOXIC>50</COLONIZETOXIC>
+
 		<TechTree>Mycon_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>RuthlessHistory</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>StellarCartography</Tech>
 		<Tech>SpecializedResearch</Tech>
-		<Tech>ToxicAtmosphereReductor</Tech>
-		<Tech>AdvancedToxicAtmosphereReductor</Tech>
 	</Race>
 	<!-- <Race Name="Krynn Consulate"> -->
 	<Race Name="Utwig Technocracy">
@@ -959,12 +990,14 @@
 		<DisplayName>Utwig Technocracy</DisplayName>
 		<Alignment>75</Alignment>
 		<Description>They are a fatalist race with a sophisticated, somewhat mystic culture, involving masks and their dependency on an artifact known as the Ultron. They believe that their race has a grand destiny to, via the Ultron, "perform [an] essential service for the universe".</Description>
+		<AbilitiesDescription>+ Super Spies, Great defense
+- Weak Research, Slow ships</AbilitiesDescription>
 		<Homeworld>Fahz</Homeworld>
 		<Homestar>Beta Aquarii</Homestar>
 		<RaceLeader>Uuter</RaceLeader><!-- Unknown/Made up -->
 		<ShortEmpireName>Utwig</ShortEmpireName>
 		<AIPersonality>8</AIPersonality>
-		<DialogueTag>Utwig</DialogueTag>
+		<DialogueTag>Generic</DialogueTag>
 		<LeaderGender>1</LeaderGender>
 		<Portrait>Gfx\Race\Utwig_Regular.png</Portrait>
 		<Logo>Gfx\Race\RaceLogo51.png</Logo>
@@ -989,8 +1022,6 @@
 		<ShipStyle>Krynn Consulate Style</ShipStyle>
 		<ModuleStyle>2</ModuleStyle>
 		<PoliticalParty>4</PoliticalParty>
-		<AbilitiesDescription>+ Super Spies
-- Weak Research</AbilitiesDescription>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>50</Aggression>
 		<FinancialResources>100</FinancialResources>
@@ -998,38 +1029,41 @@
 		<SuperAbility>11</SuperAbility>
 		<ResearchAdvantage>Defense</ResearchAdvantage>
 		<ECONOMICS>0</ECONOMICS>
-		<WEAPONS>0</WEAPONS>
-		<DEFENSE>0</DEFENSE>
-		<SPEED>0</SPEED>
+		<WEAPONS>20</WEAPONS>
+		<DEFENSE>50</DEFENSE>
+		<SPEED>-20</SPEED>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
 		<RESEARCH>10</RESEARCH>
 		<INFLUENCE>10</INFLUENCE>
 		<TRADE>0</TRADE>
-		<MORALE>50</MORALE>
-		<DIPLOMACY>25</DIPLOMACY>
-		<HITPOINTS>0</HITPOINTS>
-		<REPAIR>0</REPAIR>
+		<MORALE>-20</MORALE>
+		<DIPLOMACY>5</DIPLOMACY>
+		<HITPOINTS>20</HITPOINTS>
+		<REPAIR>20</REPAIR>
 		<SENSORS>0</SENSORS>
 		<ESPIONAGE>50</ESPIONAGE>
 		<SOLDIERING>0</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>6</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>9</CustomizationPoints>
 		<CivType>4</CivType>
-		<TechTree>Krynn_TechTree</TechTree>
+
+		<TechTree>Utwig_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
 		<Tech>FusionReactors</Tech>
@@ -1090,25 +1124,26 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>6</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>15</CustomizationPoints>
 		<CivType>4</CivType>
-		<TechTree>MinorRace_TechTree</TechTree>
+
+		<TechTree>MinorR_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
-		<Tech>NeutralHistory</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>TraditionalResearch</Tech>
-		<Tech>Innovative History</Tech>
 	</Race>
 	<!-- <Race Name="Akilians"> -->
 	<Race Name="Earthlings">
@@ -1121,8 +1156,10 @@
 		<Homeworld>Earth</Homeworld>
 		<Homestar>Sol</Homestar>
 		<Description>After the Alliance of Free Stars was defeated by the Ur-Quan Kzer-Za, most of the human population voted to live under a slaveshielded Earth rather than joining the Ur-Quan Kzer-Za as Battle Thralls.</Description>
+		<AbilitiesDescription>+ Strong Diplomacy
+		- Weak Manufacturing</AbilitiesDescription>
 		<AIPersonality>8</AIPersonality>
-		<DialogueTag>Human</DialogueTag>
+		<DialogueTag>Generic</DialogueTag>
 		<LeaderGender>1</LeaderGender>
 		<Portrait>Gfx\Race\Human_Regular.png</Portrait>
 		<Logo>Gfx\Race\RaceLogo00.png</Logo>
@@ -1168,18 +1205,20 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>1</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>6</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
+
 		<TechTree>Terran_TechTree</TechTree>
 		<Tech>Root</Tech>
+		<Tech>Slaveshielded</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
 		<Tech>NeutralHistory</Tech>
@@ -1194,8 +1233,11 @@
 		<Alignment>75</Alignment>
 		<Homeworld>Alpha Tucanae I</Homeworld>
 		<Homestar>Alpha Tucanae</Homestar>
-		<RaceLeader>Pik,Fot,Zoq</RaceLeader><!-- Unknown/Made up -->
+		<RaceLeader>The Trio</RaceLeader><!-- Unknown/Made up -->
 		<Description>The Zoq, Fot, and Pik are three separate races that evolved simultaneously on a jungle-like world. The Zoq-Fot-Pik first entered the galactic fray when they found their colony worlds were playing host to terrible space battles. These battles unleashed titanic forces as the two sides fought, and when they missed each other the small Zoq-Fot-Pik colonies suffered.</Description>
+		<AbilitiesDescription>+ Influential
+
+- Poor population growth</AbilitiesDescription>
 		<ShortEmpireName>Zoq-Fot-Pik</ShortEmpireName>
 		<AIPersonality>5</AIPersonality>
 		<LeaderGender>0</LeaderGender>
@@ -1204,7 +1246,7 @@
 		<SmallLogo>Gfx\Race\RaceLogo12.png</SmallLogo>
 		<DefaultTradePortrait>Gfx\Race\Zoq-Fot-Pik_Wide.png</DefaultTradePortrait>
 		<CustomizationPoints>0</CustomizationPoints>
-		<CivType>3</CivType>
+		<CivType>1</CivType>
 		<PoliticalParty>1</PoliticalParty>
 		<RaceMusic>Zoq-Fot-Pik__Frungy_Party</RaceMusic>
 		<RaceColor>196,223,155</RaceColor>
@@ -1220,42 +1262,45 @@
 		<ModuleStyle>0</ModuleStyle>
 		<Tech>Root</Tech>
 		<ECONOMICS>100</ECONOMICS>
-		<WEAPONS>0</WEAPONS>
-		<DEFENSE>0</DEFENSE>
-		<SPEED>0</SPEED>
-		<MORALE>0</MORALE>
-		<POPULATIONGROWTH>0</POPULATIONGROWTH>
+		<WEAPONS>10</WEAPONS>
+		<DEFENSE>10</DEFENSE>
+		<SPEED>-10</SPEED>
+		<MORALE>30</MORALE>
+		<POPULATIONGROWTH>-10</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
 		<RESEARCH>0</RESEARCH>
-		<INFLUENCE>0</INFLUENCE>
+		<INFLUENCE>15</INFLUENCE>
 		<TRADE>0</TRADE>
-		<DIPLOMACY>0</DIPLOMACY>
-		<HITPOINTS>0</HITPOINTS>
+		<DIPLOMACY>10</DIPLOMACY>
+		<HITPOINTS>10</HITPOINTS>
 		<REPAIR>0</REPAIR>
-		<SENSORS>0</SENSORS>
+		<SENSORS>1</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
-		<SOLDIERING>0</SOLDIERING>
+		<SOLDIERING>-20</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
-		<RANGE>0</RANGE>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
+		<RANGE>10</RANGE>
 		<LUCK>0</LUCK>
-		<COURAGE>0</COURAGE>
+		<COURAGE>10</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>4</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
+
+		<TechTree>MinorR_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
 		<Tech>NeutralHistory</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>TraditionalResearch</Tech>
 		<Tech>Innovative History</Tech>
-		<TechTree>MinorRace_TechTree</TechTree>
 	</Race>
 	<!-- <Race Name="Scottlingas"> -->
 	<Race Name="Arilou Lalee'lay">
@@ -1266,6 +1311,9 @@
 		<Homestar>Falayalaralfali</Homestar><!-- Out of range -->
 		<RaceLeader>Faffywaffy</RaceLeader>
 		<Description>Arilou first made themselves known to the Galaxy during the Ur-Quan Slave War, suddenly appearing and applying to join the Alliance of Free Stars. Their actions were equally mercurial at the end of the war, retreating and abandoning the other races as soon as the Humans were slave-shielded. The motives for their actions seem to be some mysterious connection they have with the Human race.</Description>
+		<AbilitiesDescription>+ Great sensors
+
+- Poor military</AbilitiesDescription>
 		<ShortEmpireName>Arilou</ShortEmpireName>
 		<AIPersonality>5</AIPersonality>
 		<LeaderGender>1</LeaderGender>
@@ -1274,7 +1322,7 @@
 		<SmallLogo>Gfx\Race\RaceLogo10.png</SmallLogo>
 		<DefaultTradePortrait>Gfx\Race\Arilou_Wide.png</DefaultTradePortrait>
 		<CustomizationPoints>0</CustomizationPoints>
-		<CivType>3</CivType>
+		<CivType>1</CivType>
 		<PoliticalParty>4</PoliticalParty>
 		<RaceMusic>arilou</RaceMusic>
 		<RaceColor>141,196,63</RaceColor>
@@ -1290,42 +1338,45 @@
 		<ModuleStyle>0</ModuleStyle>
 		<Tech>Root</Tech>
 		<ECONOMICS>100</ECONOMICS>
-		<WEAPONS>0</WEAPONS>
-		<DEFENSE>0</DEFENSE>
+		<WEAPONS>-10</WEAPONS>
+		<DEFENSE>-10</DEFENSE>
 		<SPEED>0</SPEED>
-		<MORALE>0</MORALE>
+		<MORALE>20</MORALE>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
-		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
-		<RESEARCH>0</RESEARCH>
+		<MILITARYPRODUCTION>-30</MILITARYPRODUCTION>
+		<RESEARCH>10</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
 		<TRADE>0</TRADE>
-		<DIPLOMACY>0</DIPLOMACY>
-		<HITPOINTS>0</HITPOINTS>
+		<DIPLOMACY>10</DIPLOMACY>
+		<HITPOINTS>-20</HITPOINTS>
 		<REPAIR>0</REPAIR>
-		<SENSORS>0</SENSORS>
-		<ESPIONAGE>0</ESPIONAGE>
+		<SENSORS>2</SENSORS>
+		<ESPIONAGE>30</ESPIONAGE>
 		<SOLDIERING>0</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
-		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<CREATIVITY>5</CREATIVITY>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>4</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
+
+		<TechTree>MinorR_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
 		<Tech>NeutralHistory</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>TraditionalResearch</Tech>
 		<Tech>Innovative History</Tech>
-		<TechTree>MinorRace_TechTree</TechTree>
 	</Race>
 	<!-- <Race Name="Jessuins"> -->
 	<Race Name="Melnorme">
@@ -1333,6 +1384,9 @@
 		<DisplayName>Melnorme</DisplayName>
 		<Alignment>50</Alignment>
 		<Description>The Melnorme, as far as we know, are a race of traveling traders in information and technology. They appear as several orange globs piled on top of each other, with a large smile and a single eye.</Description>
+		<AbilitiesDescription>+ Great traders
+
+- Poor defenses</AbilitiesDescription>
 		<Homeworld>Melnorme I</Homeworld><!-- Unknown -->
 		<Homestar>Melnorme</Homestar><!-- Unknown -->
 		<RaceLeader>Purple</RaceLeader><!-- Unknown/Made up -->
@@ -1358,10 +1412,9 @@
 		<InterfaceColor>0,74,128</InterfaceColor>
 		<ShipStyle>Dominion of Korx Style</ShipStyle>
 		<ModuleStyle>0</ModuleStyle>
-		<Tech>Root</Tech>
 		<ECONOMICS>100</ECONOMICS>
 		<WEAPONS>0</WEAPONS>
-		<DEFENSE>0</DEFENSE>
+		<DEFENSE>-20</DEFENSE>
 		<SPEED>0</SPEED>
 		<MORALE>0</MORALE>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
@@ -1370,8 +1423,8 @@
 		<RESEARCH>0</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
 		<TRADE>50</TRADE>
-		<DIPLOMACY>0</DIPLOMACY>
-		<HITPOINTS>0</HITPOINTS>
+		<DIPLOMACY>10</DIPLOMACY>
+		<HITPOINTS>-10</HITPOINTS>
 		<REPAIR>0</REPAIR>
 		<SENSORS>0</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
@@ -1379,33 +1432,39 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>4</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
+
+		<TechTree>MinorR_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
 		<Tech>NeutralHistory</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>TraditionalResearch</Tech>
 		<Tech>Innovative History</Tech>
-		<TechTree>MinorRace_TechTree</TechTree>
 	</Race>
 	<!-- <Race Name="Paulos"> -->
 	<Race Name="Slylandro">
 		<RaceID>18</RaceID>
 		<DisplayName>Slylandro</DisplayName>
-		<Alignment>50</Alignment>
+		<Alignment>60</Alignment>
 		<Homeworld>Beta Corvi IV</Homeworld>
 		<Homestar>Beta Corvi</Homestar>
 		<RaceLeader>Content to Hover</RaceLeader>
 		<Description>The Slylandro are the only known race whose homeworld, which they call Source, is a Gas Giant. They cannot travel through space due to their physiology, though they have bought a self replicating Probe from the Melnorme to explore space for them and report back to them. The Slylandro have had contact with the Precursors, the original Ur-Quan and the Sentient Milieu.</Description>
+		<AbilitiesDescription>+ Gas Giant homeworld
+
+- Gas Giant homeworld</AbilitiesDescription>
 		<ShortEmpireName>Slylandro</ShortEmpireName>
 		<AIPersonality>5</AIPersonality>
 		<LeaderGender>1</LeaderGender>
@@ -1448,23 +1507,18 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>10</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>999</LOYALTY>
 		<LOGISTICS>4</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
-		<Tech>Root</Tech>
-		<Tech>IndustrialRevolution</Tech>
-		<Tech>NeutralHistory</Tech>
-		<Tech>FusionReactors</Tech>
-		<Tech>TraditionalResearch</Tech>
-		<Tech>Innovative History</Tech>
-		<TechTree>MinorRace_TechTree</TechTree>
+
+		<TechTree>MinorR_TechTree</TechTree>
 	</Race>
 	<!-- <Race Name="LentzLandians"> -->
 	<Race Name="Orz">
@@ -1475,6 +1529,9 @@
 		<Homestar>Gamma Vulpeculae</Homestar>
 		<RaceLeader>*Finger*</RaceLeader><!-- Unknown/Made up -->
 		<Description>The Orz are — is — an alien species/projections of an extradimensional entity first encountered by The Captain in the space near where the Androsynth had been known to reside.</Description>
+		<AbilitiesDescription>+ Great soldiers, Aquatic
+
+- Slow population growth</AbilitiesDescription>
 		<ShortEmpireName>Orz</ShortEmpireName>
 		<AIPersonality>5</AIPersonality>
 		<LeaderGender>1</LeaderGender>
@@ -1503,79 +1560,189 @@
 		<DEFENSE>0</DEFENSE>
 		<SPEED>0</SPEED>
 		<MORALE>0</MORALE>
-		<POPULATIONGROWTH>0</POPULATIONGROWTH>
+		<POPULATIONGROWTH>-14</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>0</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>0</MILITARYPRODUCTION>
 		<RESEARCH>0</RESEARCH>
 		<INFLUENCE>0</INFLUENCE>
 		<TRADE>0</TRADE>
-		<DIPLOMACY>0</DIPLOMACY>
+		<DIPLOMACY>-10</DIPLOMACY>
 		<HITPOINTS>0</HITPOINTS>
 		<REPAIR>0</REPAIR>
 		<SENSORS>0</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
-		<SOLDIERING>0</SOLDIERING>
+		<SOLDIERING>50</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
-		<COURAGE>0</COURAGE>
+		<COURAGE>10</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>4</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
+		<COLONIZEWATERWORLD>50</COLONIZEWATERWORLD>
+
+		<TechTree>MinorR_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
 		<Tech>NeutralHistory</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>TraditionalResearch</Tech>
 		<Tech>Innovative History</Tech>
-		<TechTree>MinorRace_TechTree</TechTree>
+		<Tech>HyperionPackages</Tech>
+		<Tech>TemporalMechanics</Tech>
+	</Race>
+	<!-- Race with ID 18 was non-existant -->
+	<Race Name="Pkunk">
+		<RaceID>18</RaceID>
+		<DisplayName>Pkunk</DisplayName>
+		<Alignment>50</Alignment>
+		<Description>The Pkunk are wacky, toucan-like beings, an offshoot of the Yehat race. They are pacifistic mystics who claim to be in constant contact with the "spirit-world".</Description>
+		<AbilitiesDescription>+ Fast ships
+
+- Poor defense</AbilitiesDescription>
+		<Homestar>Gamma Krueger</Homestar>
+		<Homeworld>Gamma Krueger I</Homeworld>
+		<RaceLeader>Braky Girdy</RaceLeader><!-- Unknown/Made up and actually "Braky Girdy the First" becomes the queen of Yehat -->
+		<LeaderGender>2</LeaderGender>
+		<ShortEmpireName>Pkunk</ShortEmpireName>
+		<AIPersonality>7</AIPersonality>
+		<DialogueTag>Pkunk</DialogueTag>
+		<Portrait>Gfx\Race\Pkunk_Regular.png</Portrait>
+		<Logo>Gfx\Race\RaceLogo13.png</Logo>
+		<SmallLogo>Gfx\Race\Small\RaceLogo59.png</SmallLogo>
+		<DefaultTradePortrait>Gfx\Race\Pkunk_Wide.png</DefaultTradePortrait>
+<!-- 		<DefaultTradeMovie>RaceImage05_neutral.bik</DefaultTradeMovie>
+		<FriendlyTradeMovie>RaceImage05_happy.bik</FriendlyTradeMovie>
+		<UnfriendlyTradeMovie>RaceImage05_angry.bik</UnfriendlyTradeMovie>
+		<UnitedPlanetsMovie>RaceImage05_Small.bik</UnitedPlanetsMovie> -->
+		<RobotMovie>NewsRobot_Alien</RobotMovie>
+		<RobotImage>Gfx\Message_Alien</RobotImage>
+		<RaceMusic>Pkunk__Pkunks_Not_Dead</RaceMusic>
+		<RaceColor>255,255,0,255</RaceColor>
+		<ShadowColor>221,146,172,255</ShadowColor>
+		<UndefendedStarColor>255,255,0,255</UndefendedStarColor>
+		<DefendedStarColor>255,255,0,255</DefendedStarColor>
+		<SectorColor>255,255,0,255</SectorColor>
+		<BaseColor>0,65,165,255</BaseColor>
+		<RaceColor>255,100,255,255</RaceColor>
+		<EngineColor>125,0,0,255</EngineColor>
+		<InterfaceColor>255,255,0,255</InterfaceColor>
+		<ShipStyle>Altarian Resistance Style</ShipStyle>
+		<ModuleStyle>4</ModuleStyle>
+		<PoliticalParty>3</PoliticalParty>
+		<AbilitiesDescription>+ Fast ships
+- Poor defense</AbilitiesDescription>
+		<AIAbilities>50</AIAbilities>
+		<Aggression>50</Aggression>
+		<FinancialResources>100</FinancialResources>
+		<CPUUsage>0</CPUUsage>
+		<SuperAbility>2</SuperAbility>
+		<ResearchAdvantage>Defense</ResearchAdvantage>
+		<ECONOMICS>10</ECONOMICS>
+		<MORALE>30</MORALE>
+		<WEAPONS>0</WEAPONS>
+		<DEFENSE>-30</DEFENSE>
+		<SPEED>20</SPEED>
+		<POPULATIONGROWTH>0</POPULATIONGROWTH>
+		<SOCIALPRODUCTION>20</SOCIALPRODUCTION>
+		<MILITARYPRODUCTION>20</MILITARYPRODUCTION>
+		<RESEARCH>0</RESEARCH>
+		<INFLUENCE>0</INFLUENCE>
+		<TRADE>0</TRADE>
+		<DIPLOMACY>0</DIPLOMACY>
+		<HITPOINTS>-10</HITPOINTS>
+		<REPAIR>0</REPAIR>
+		<SENSORS>0</SENSORS>
+		<ESPIONAGE>0</ESPIONAGE>
+		<SOLDIERING>30</SOLDIERING>
+		<INTERESTRATES>0</INTERESTRATES>
+		<PLANETQUALITY>0</PLANETQUALITY>
+		<TRADEROUTES>0</TRADEROUTES>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
+		<RANGE>0</RANGE>
+		<LUCK>0</LUCK>
+		<COURAGE>0</COURAGE>
+		<CREATIVITY>0</CREATIVITY>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
+		<LOYALTY>0</LOYALTY>
+		<LOGISTICS>6</LOGISTICS>
+		<MINIATURIZATION>10</MINIATURIZATION>
+		<CustomizationPoints>10</CustomizationPoints>
+		<CivType>3</CivType>
+
+		<TechTree>MinorR_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
+		<Tech>NeutralHistory</Tech>
+		<Tech>HyperDrive</Tech>
+		<Tech>FusionReactors</Tech>
+		<Tech>StellarCartography</Tech>
 	</Race>
 	<!-- <Race Name="Dark Yor"> -->
-	<Race Name="Chmmr">
-		<RaceID>19</RaceID>
+	<Race Name="Pre-Chmmr">
+		<RaceID>19</RaceID><!-- <RaceID>19</RaceID> -->
 		<DisplayName>Chmmr</DisplayName>
-		<Alignment>60</Alignment>
+		<ShortEmpireName>Chmmr</ShortEmpireName>
+		<Description>The Chmmr are a composite race created from the two separate races of the Chenjesu and the Mmrnmhrm. The synthesis of the two races takes place under the slave shield on the Chenjesu's homeworld of Procyon II.</Description>
+		<AbilitiesDescription>+ Great research skills
++ Warp jammer (When super isolationist)
+- All population under a slaveshield
+- Slow ships</AbilitiesDescription>
 		<Homestar>Procyon</Homestar>
 		<Homeworld>Procyon II</Homeworld>
 		<RaceLeader>Qwerty</RaceLeader><!-- Unknown/Made up -->
-		<Description>The Chmmr are a composite race created from the two separate races of the Chenjesu and the Mmrnmhrm. The synthesis of the two races took place under the slave shield on the Chenjesu's homeworld of Procyon II.</Description>
-		<ShortEmpireName>Chmmr</ShortEmpireName>
-		<AIPersonality>5</AIPersonality>
-		<LeaderGender>1</LeaderGender>
+		<LeaderGender>0</LeaderGender>
+		<DialogueTag>Generic</DialogueTag>
+
 		<Portrait>Gfx\Race\Chmmr_Regular.png</Portrait>
-		<Logo>Gfx\Race\RaceLogo18.png</Logo>
-		<SmallLogo>Gfx\Race\RaceLogo18.png</SmallLogo>
+		<Logo>Gfx\Race\RaceLogo118.png</Logo>
+		<SmallLogo>Gfx\Race\Small\RaceLogo118.png</SmallLogo>
 		<DefaultTradePortrait>Gfx\Race\Chmmr_Wide.png</DefaultTradePortrait>
-		<CustomizationPoints>0</CustomizationPoints>
-		<CivType>3</CivType>
-		<PoliticalParty>0</PoliticalParty>
+		<RobotMovie>NewsRobot_Human</RobotMovie>
+		<RobotImage>Gfx\Message_Robot</RobotImage>
+
 		<RaceMusic>Chmmr__Photosynthesis</RaceMusic>
+
 		<RaceColor>142,142,142</RaceColor>
 		<ShadowColor>128,128,128</ShadowColor>
-		<UndefendedStarColor>72,21,7</UndefendedStarColor>
-		<DefendedStarColor>192,128,32</DefendedStarColor>
-		<SectorColor>142,142,142</SectorColor>
-		<BaseColor>196,223,155</BaseColor>
-		<TrimColor>142,142,142</TrimColor>
-		<EngineColor>255,100,255</EngineColor>
-		<InterfaceColor>142,142,142</InterfaceColor>
+		<UndefendedStarColor>140,140,140</UndefendedStarColor>
+		<DefendedStarColor>140,140,140</DefendedStarColor>
+		<!-- <SectorColor>142,142,142</SectorColor> -->
+		<SectorColor>255,0,0</SectorColor>
+		<BaseColor>140,140,140</BaseColor>
+		<TrimColor>75,75,255</TrimColor>
+		<EngineColor>255,0,160</EngineColor>
+		<InterfaceColor>140,140,140</InterfaceColor>
 		<ShipStyle>Yor Collective Style</ShipStyle>
-		<ModuleStyle>1</ModuleStyle>
+		<ModuleStyle>2</ModuleStyle>
+
+		<AIPersonality>7</AIPersonality>
+		<AIAbilities>50</AIAbilities>
+		<Aggression>50</Aggression>
 		<FinancialResources>100</FinancialResources>
 		<CPUUsage>0</CPUUsage>
+
+		<CivType>3</CivType>
 		<SuperAbility>5</SuperAbility>
+		<PoliticalParty>4</PoliticalParty>
+		<Alignment>60</Alignment>
 		<ResearchAdvantage>Computing</ResearchAdvantage>
+		<CustomizationPoints>0</CustomizationPoints>
+
 		<ECONOMICS>10</ECONOMICS>
 		<MORALE>0</MORALE>
 		<WEAPONS>0</WEAPONS>
 		<DEFENSE>0</DEFENSE>
-		<SPEED>0</SPEED>
+		<SPEED>-10</SPEED>
 		<POPULATIONGROWTH>0</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>20</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>20</MILITARYPRODUCTION>
@@ -1591,26 +1758,27 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>100</LOYALTY>
 		<LOGISTICS>6</LOGISTICS>
 		<MINIATURIZATION>10</MINIATURIZATION>
-		<TechTree>Yor_TechTree</TechTree>
+
+		<TechTree>Chmmr_TechTree</TechTree>
 		<Tech>Root</Tech>
+		<Tech>Slaveshielded</Tech>
 		<Tech>HyperDrive</Tech>
-		<Tech>AdvancedRobotics</Tech>
-		<Tech>IndustrialRevolution</Tech>
 		<Tech>NeutralHistory</Tech>
 		<Tech>FusionReactors</Tech>
-		<Tech>TraditionalResearch</Tech>
-		<Tech>HyperionPackages</Tech>
-		<Tech>TemporalMechanics</Tech>
+		<!-- <Tech>HyperionPackages</Tech>
+		<Tech>TemporalMechanics</Tech> -->
+		<Tech>Plague Cure</Tech>
+		<Tech>Disease Cure</Tech>
 	</Race>
 	<!-- <Race Name="Snathi"> -->
 	<Race Name="Shofixti">
@@ -1621,6 +1789,11 @@
 		<Homestar>Delta Gorno</Homestar>
 		<RaceLeader>Tanaka</RaceLeader>
 		<Description>The Shofixti are a marsupial race of honorable mammals. All life on their homeworld was wiped out by a mini-supernova. Their technology, culture and religion (referred to as "Yehat Ancestor Worship") are greatly influenced by the Yehat, who uplifted them.</Description>
+		<AbilitiesDescription>+ Extreme growth
+		+Kamikaze weapons
+- Can only build tiny ships
+- Poor defense
+- Poor sensors</AbilitiesDescription>
 		<ShortEmpireName>Shofixti</ShortEmpireName>
 		<AIPersonality>5</AIPersonality>
 		<LeaderGender>1</LeaderGender>
@@ -1632,56 +1805,140 @@
 		<CivType>3</CivType>
 		<PoliticalParty>0</PoliticalParty>
 		<RaceMusic>Shofixti__Bonsai!</RaceMusic>
-		<RaceColor>130,70,219,255</RaceColor>
+		<RaceColor>140,140,140,255</RaceColor>
 		<ShadowColor>48,9,49,255</ShadowColor>
-		<UndefendedStarColor>130,70,219,255</UndefendedStarColor>
-		<DefendedStarColor>130,70,219,255</DefendedStarColor>
-		<SectorColor>130,70,219,255</SectorColor>
-		<BaseColor>0,65,245,255</BaseColor>
-		<TrimColor>145,142,0,255</TrimColor>
+		<UndefendedStarColor>140,140,140,255</UndefendedStarColor>
+		<DefendedStarColor>140,140,140,255</DefendedStarColor>
+		<SectorColor>140,140,140,255</SectorColor>
+		<BaseColor>80,80,80,255</BaseColor>
+		<TrimColor>188,182,60,255</TrimColor>
 		<EngineColor>0,102,50,255</EngineColor>
-		<InterfaceColor>130,70,219,255</InterfaceColor>
+		<InterfaceColor>140,140,140,255</InterfaceColor>
 		<ShipStyle>Iconian Refuge Style</ShipStyle>
 		<ModuleStyle>0</ModuleStyle>
 		<SuperAbility>4</SuperAbility>
 		<ECONOMICS>0</ECONOMICS>
 		<WEAPONS>500</WEAPONS>
-		<DEFENSE>-99</DEFENSE>
+		<DEFENSE>-50</DEFENSE>
 		<SPEED>20</SPEED>
 		<MORALE>30</MORALE>
 		<POPULATIONGROWTH>999</POPULATIONGROWTH>
 		<SOCIALPRODUCTION>-30</SOCIALPRODUCTION>
 		<MILITARYPRODUCTION>50</MILITARYPRODUCTION>
-		<RESEARCH>0</RESEARCH>
-		<INFLUENCE>0</INFLUENCE>
+		<RESEARCH>-10</RESEARCH>
+		<INFLUENCE>-10</INFLUENCE>
 		<TRADE>50</TRADE>
 		<DIPLOMACY>0</DIPLOMACY>
-		<HITPOINTS>-60</HITPOINTS>
+		<HITPOINTS>-49</HITPOINTS>
 		<REPAIR>0</REPAIR>
-		<SENSORS>-1</SENSORS>
+		<SENSORS>-50</SENSORS>
 		<ESPIONAGE>0</ESPIONAGE>
-		<SOLDIERING>0</SOLDIERING>
+		<SOLDIERING>-30</SOLDIERING>
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>25</LUCK>
-		<COURAGE>99</COURAGE>
+		<COURAGE>25</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>15</LOGISTICS>
 		<MINIATURIZATION>20</MINIATURIZATION>
-		<TechTree>MinorRace_TechTree</TechTree>
+
+		<TechTree>MinorR_TechTree</TechTree>
 		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 		<Tech>HyperDrive</Tech>
 		<Tech>IndustrialRevolution</Tech>
-		<Tech>NeutralHistory</Tech>
 		<Tech>FusionReactors</Tech>
 		<Tech>TraditionalResearch</Tech>
-		<Tech>Innovative History</Tech>
+	</Race>
+	<!-- Race with ID 21 was non-existant -->
+	<Race Name="Dnyarri">
+		<RaceID>21</RaceID>
+		<DisplayName>Dnyarri</DisplayName>
+		<Description>The Dnyarri are an ancient, extremely evil, highly intelligent and lazy race capable of mental compulsion. Quite an unbalanced race if you ask m**..ALL GLORY TO THE HYPNOTOAD!</Description>
+		<Homeworld>Hypno I</Homeworld><!-- Unknown/Made up -->
+		<Homestar>Hypno</Homestar><!-- Unknown/Made up -->
+		<RaceLeader>Hypnotoad</RaceLeader><!-- Unknown/Made up -->
+		<ShortEmpireName>Dnyarri</ShortEmpireName>
+		<AIPersonality>7</AIPersonality>
+		<DialogueTag>Dnyarri</DialogueTag>
+
+		<Portrait>Gfx\Race\Dnyarri_Regular.png</Portrait>
+		<Logo>Gfx\Race\RaceLogo18.png</Logo>
+		<SmallLogo>Gfx\Race\Small\RaceLogo18.png</SmallLogo>
+		<DefaultTradePortrait>Gfx\Race\Dnyarri_Wide.png</DefaultTradePortrait>
+		<RobotMovie>NewsRobot_Human</RobotMovie>
+		<RobotImage>Gfx\Message_Robot</RobotImage>
+
+		<RaceMusic>talkpet</RaceMusic>
+
+		<RaceColor>142,142,142</RaceColor>
+		<ShadowColor>128,128,128</ShadowColor>
+		<UndefendedStarColor>140,140,140</UndefendedStarColor>
+		<DefendedStarColor>140,140,140</DefendedStarColor>
+		<SectorColor>142,142,142</SectorColor>
+		<BaseColor>140,140,140</BaseColor>
+		<TrimColor>75,75,255</TrimColor>
+		<EngineColor>255,0,160</EngineColor>
+		<InterfaceColor>140,140,140</InterfaceColor>
+		<ShipStyle>Yor Collective Style</ShipStyle>
+		<ModuleStyle>2</ModuleStyle>
+
+		<AIPersonality>7</AIPersonality>
+		<AIAbilities>50</AIAbilities>
+		<Aggression>100</Aggression>
+		<FinancialResources>100</FinancialResources>
+		<CPUUsage>0</CPUUsage>
+
+		<CivType>3</CivType>
+		<SuperAbility>0</SuperAbility>
+		<PoliticalParty>4</PoliticalParty>
+		<Alignment>0</Alignment>
+		<ResearchAdvantage>Culture</ResearchAdvantage>
+		<CustomizationPoints>0</CustomizationPoints>
+
+		<AbilitiesDescription>+++ AI mind control
+--- Population growth</AbilitiesDescription>
+		<ECONOMICS>0</ECONOMICS>
+		<MORALE>-30</MORALE>
+		<WEAPONS>0</WEAPONS>
+		<DEFENSE>0</DEFENSE>
+		<SPEED>0</SPEED>
+		<POPULATIONGROWTH>-50</POPULATIONGROWTH>
+		<SOCIALPRODUCTION>-20</SOCIALPRODUCTION>
+		<MILITARYPRODUCTION>-20</MILITARYPRODUCTION>
+		<RESEARCH>-20</RESEARCH>
+		<INFLUENCE>100</INFLUENCE>
+		<TRADE>0</TRADE>
+		<DIPLOMACY>255</DIPLOMACY><!-- GalCiv2 has a max limit, probably relative between races -->
+		<HITPOINTS>0</HITPOINTS>
+		<REPAIR>0</REPAIR>
+		<SENSORS>0</SENSORS>
+		<ESPIONAGE>255</ESPIONAGE>
+		<SOLDIERING>0</SOLDIERING>
+		<INTERESTRATES>-90</INTERESTRATES>
+		<PLANETQUALITY>0</PLANETQUALITY>
+		<TRADEROUTES>-100</TRADEROUTES>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
+		<RANGE>0</RANGE>
+		<LUCK>0</LUCK>
+		<COURAGE>0</COURAGE>
+		<CREATIVITY>0</CREATIVITY>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
+		<LOYALTY>255</LOYALTY>
+		<LOGISTICS>6</LOGISTICS>
+		<MINIATURIZATION>10</MINIATURIZATION>
+
+		<TechTree>Dnyarri_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>UniversalTranslator</Tech>
+		<Tech>Compulsion</Tech>
 	</Race>
 	<Race Name="Dread Lords">
 	<!-- <Race Name="Ur-Quan Kohr-Ah"> Cannot be replaced! -->
@@ -1689,6 +1946,8 @@
 		<DisplayName>Ur-Quan Kohr-Ah</DisplayName>
 		<Alignment>1</Alignment>
 		<Description>The Ur-Quan Kohr-Ah are one of the two subraces of the Ur-Quan. Their determination to exterminate all non-Ur-Quan life rather than enslaving them has made them even more dangerous as a foe.</Description>
+		<AbilitiesDescription>+ Highly Advanced
+- Exterminates non-Ur-quan races(WAR)</AbilitiesDescription>
 		<Homeworld>Zeta I</Homeworld><!-- Unknown -->
 		<Homestar>Zeta</Homestar><!-- Unknown -->
 		<RaceLeader>Kohr-Ah Primat</RaceLeader>
@@ -1718,8 +1977,6 @@
 		<InterfaceColor>137,130,116</InterfaceColor>
 		<!-- <ShipStyle>Korath Clan Style</ShipStyle> Dread Lords settings overrides this -->
 		<ModuleStyle>3</ModuleStyle>
-		<AbilitiesDescription>+ Highly Advanced
-- Weak Diplomacy</AbilitiesDescription>
 		<AIAbilities>50</AIAbilities>
 		<Aggression>50</Aggression>
 		<FinancialResources>100</FinancialResources>
@@ -1746,21 +2003,23 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>20</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>25</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>7</LOGISTICS>
 		<MINIATURIZATION>0</MINIATURIZATION>
 		<CustomizationPoints>10</CustomizationPoints>
 		<CivType>5</CivType>
-		<TechTree>Kohr-Ah_TechTree</TechTree>
-		<Tech>Root</Tech><!-- Dread Lords setting gives all techs -->
-		<Tech>UniversalTranslator</Tech>
+
+		<TechTree>Kohr-Ah_TechTree</TechTree><!-- Dread Lords setting gives all techs in the races tech tree -->
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
+		<!-- <Tech>UniversalTranslator</Tech> -->
 		<Tech>FusionReactors</Tech>
 		<Tech>RuthlessHistory</Tech>
 		<Tech>HyperDrive</Tech>
@@ -1822,18 +2081,20 @@
 		<INTERESTRATES>0</INTERESTRATES>
 		<PLANETQUALITY>0</PLANETQUALITY>
 		<TRADEROUTES>0</TRADEROUTES>
-		<CRIME>0</CRIME>
-		<CABINET>0</CABINET>
+		<CRIME>0</CRIME><!-- Unused by GalCiv2 -->
+		<CABINET>0</CABINET><!-- Unused by GalCiv2 -->
 		<RANGE>0</RANGE>
 		<LUCK>0</LUCK>
 		<COURAGE>0</COURAGE>
 		<CREATIVITY>0</CREATIVITY>
-		<GOVERNMENT>0</GOVERNMENT>
+		<GOVERNMENT>0</GOVERNMENT><!-- Unused by GalCiv2 -->
 		<LOYALTY>0</LOYALTY>
 		<LOGISTICS>8</LOGISTICS>
 		<MINIATURIZATION>10</MINIATURIZATION>
 		<CustomizationPoints>0</CustomizationPoints>
 		<CivType>5</CivType>
-		<TechTree>MinorRace_TechTree</TechTree>
+		<TechTree>MinorR_TechTree</TechTree>
+		<Tech>Root</Tech>
+		<Tech>Spacefaring</Tech>
 	</Race>
 </Races>

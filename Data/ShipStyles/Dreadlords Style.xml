@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
 <GC2ShipStyles>
+	<!-- Attaches GalCiv2 Korath Style to Kohr-Ah -->
 	<ShipStyle Name="Dreadlords Style">
 		<AIAttacker1>AttackerTemplate2_t</AIAttacker1>
 		<AIAttacker2>AttackerTemplate1_t</AIAttacker2>

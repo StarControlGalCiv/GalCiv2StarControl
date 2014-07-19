@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
-
+<!-- Based on Korath Techtree -->
 <TechTrees>
 	<TechTree InternalName="Kohr-Ah_TechTree">
 		<DataChecksum NoParse="1">
@@ -7,12 +7,21 @@
 			<Translate>DisplayName,Description,Details</Translate>
 		</DataChecksum>
 		<DisplayName>Kohr-Ah</DisplayName>
+		<Industry ID="Spacefaring">
+			<Description>Allows us to build shipyards.</Description>
+			<Details>Now without obstacles we may build space-faring vessels.</Details>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+			<Category>HULL</Category>
+			<Model>lrgbuilding0</Model>
+		</Industry>
 		<Culture ID="Xeno Communications">
 			<DisplayName>Xeno Communications</DisplayName>
 		</Culture>
-		<Culture ID="UniversalTranslator">
+		<!-- <Culture ID="UniversalTranslator">
 			<DisplayName>Universal Translator</DisplayName>
-		</Culture>
+		</Culture> -->
 		<Culture ID="Xeno Ethics">
 			<DisplayName>Xeno Ethics</DisplayName>
 		</Culture>

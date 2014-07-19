@@ -28,7 +28,7 @@
 		<AISurvey1>FrigateTemplate1_t</AISurvey1>
 		<AITransport1>TransportTemplate1_t</AITransport1>
 		<DisplayName>Mycon Style</DisplayName>
-		<Hidden>0</Hidden>
+		<Hidden>1</Hidden>
 		<Prefix>S13</Prefix>
 		<ModuleStyle>5</ModuleStyle>
 	</ShipStyle>

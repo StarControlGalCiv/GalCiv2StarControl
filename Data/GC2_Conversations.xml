@@ -17,16 +17,26 @@
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Dnyarri">21</Listener>
+			<Phrase Morality="0">
+				<Text>Attention interlopeEEERRR!?!?! Excruciate! *suffers excruciating pain*. AttENtion Ur-QUAAAn, equip aND enGAAAGE your exCRuciaTOOOrs. This IS not a DRill, we haVE Dnyarri pRESence. How can this be? Your race is extinct, our ancestors made sure of that. This is grave news indeed. The "how" and "why" can wait, you and your race will soon die.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Attention interlopeEEERRR!?!?! Excruciate! *suffers excruciating pain*. AttENtion Ur-QUAAAn, equip aND enGAAAGE your exCRuciaTOOOrs. This IS not a DRill, we haVE Dnyarri pRESence. How can this be? Your race is extinct, our ancestors made sure of that. This is grave news indeed. The "how" and "why" can wait, you and your race will soon die.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Attention interlopeEEERRR!?!?! Excruciate! *suffers excruciating pain*. AttENtion Ur-QUAAAn, equip aND enGAAAGE your exCRuciaTOOOrs. This IS not a DRill, we haVE Dnyarri pRESence. How can this be? Your race is extinct, our ancestors made sure of that. This is grave news indeed. The "how" and "why" can wait, you and your race will soon die.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Syreen">2</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>We are the [SPEAKING_RACE_NAME]. Though, we do not ourselves call our world that for in our language it is the singular element. May peace go along your path.#Greetings. We have very little tolerance for the vile civilizations of the galaxy. Stay the path of righteous and all will be well. </Text>
+				<Text>I am Starbase Commander Talana of the slave planet Gaia. We are the [SPEAKING_RACE_NAME]. May peace go along your path.#I am Starbase Commander Talana of the slave planet Gaia. Greetings. We have very little tolerance for the vile civilizations of the galaxy. Stay the path of righteous and all will be well.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Greetings. We have laid claim to much of the galaxy.</Text>
-			</Phrase>
-			<Phrase Morality="2">
-				<Text>Welcome to our galaxy. We have claimed all of it. Get in our way and we shall destroy you.#The galaxy is large, but so are our plans. Stay out of our way.#We are a powerful and evil race. That's right, I said evil. Let's say it together E-V-I-L. Doesn't that feel good? I mean evil.#We like bathe in the blood of our victims. We shall soon see if you are fodder for our annual bathes.#</Text>
+				<Text>I am Starbase Commander Talana of the slave planet Gaia. Greetings. We have laid claim to much of the galaxy.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -69,30 +79,43 @@
 				<Text>We are the Ur-Quan Kohr-Ah. Your presence here is premature. We fight the Kzer-Za for supremacy of Doctrine and possession of the Sa-Matra. When the battle is won, our task is simple. We cleanse. You are the filth.</Text>
 			</Phrase>
 		</Dialogue>
-		<Dialogue>
+		<!-- <Dialogue>
 			<Speaker Name="Mycon">13</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>This is [SPEAKING_RACE_NAME] territory.  You have been warned.</Text>
+				<Text>Juffo-Wup is All... omni-existent, spreading and changing the Non into Juffo-Wup.You are Non, who must become Juffo-Wup or Void. We are the agents of Juffo-Wup. We are the Mycon.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>This is [SPEAKING_RACE_NAME] territory.  I will not point this out again.</Text>
+				<Text>Juffo-Wup is All... omni-existent, spreading and changing the Non into Juffo-Wup. You are Non, who must become Juffo-Wup or Void. We are the agents of Juffo-Wup. We are the Mycon.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>This is [SPEAKING_RACE_NAME] territory.  You will be held responsible for trespassing.</Text>
+				<Text>Juffo-Wup is All... omni-existent, spreading and changing the Non into Juffo-Wup. You are Non, who must become Juffo-Wup or Void. We are the agents of Juffo-Wup. We are the Mycon.</Text>
+			</Phrase>
+		</Dialogue> -->
+		<Dialogue>
+			<Speaker Name="Dnyarri">10</Speaker>
+			<Listener Name="Generic">21</Listener>
+			<Phrase Morality="0">
+				<Text>-{DIDN'T YOU MEAN TO ASK ABOUT FLOWERS?}-	Aieee!  I cannot compel you!? Your mind is closed to me -- how can this be?! It seems soon I will forced to resort to... more primitive measures...</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{DIDN'T YOU MEAN TO ASK ABOUT FLOWERS?}-	Aieee!  I cannot compel you!? Your mind is closed to me -- how can this be?! It seems soon I will forced to resort to... more primitive measures...</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{DIDN'T YOU MEAN TO ASK ABOUT FLOWERS?}-	Aieee!  I cannot compel you!? Your mind is closed to me -- how can this be?! It seems soon I will forced to resort to... more primitive measures...</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
-			<Speaker Name="Krynn">14</Speaker>
-			<Listener Name="Generic">10</Listener>
+			<Speaker Name="Generic">10</Speaker>
+			<Listener Name="Dnyarri">21</Listener>
 			<Phrase Morality="0">
-				<Text>Hello, [YourLeaderName].  I'm sure there is enough room in this quadrant for both the [SPEAKING_RACE_NAME] and the [YourEmpireName].</Text>
+				<Text>Well hallo ther**... ALL GLORY TO THE HYPNOTOAD!</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Keep your greed in check [YourLeaderName], and you'll find there is room for both of our races to prosper.</Text>
+				<Text>I have no strong feelings one way or the other**... ALL GLORY TO THE HYPNOTOAD!</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>This area was claimed long ago by the [SPEAKING_RACE_NAME], you should remove your ships immediately.</Text>
+				<Text>Great a new race to conque**... ALL GLORY TO THE HYPNOTOAD!</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -101,13 +124,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -129,13 +152,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -157,13 +180,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -194,6 +217,19 @@
 				<Text>This is what I want from you, and this is what I'm going to give you for it:#Your empire has some stuff that I want, and I'm feeling generous so perhaps I'll even give you something in return. My deal is as follows:#I'm used to bargaining with a laser-pistol and a boot to the face, but for the [TheirEmpireName] I'll try to negotiate properly:</Text>
 			</Phrase>
 		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Give me this, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Give me this, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Give me this, Obey}-:</Text>
+			</Phrase>
+		</Dialogue>
 	</Topic>
 	<Topic Name="P_TRADE_MIDDIP">
 		<Dialogue>
@@ -203,6 +239,19 @@
 				<Text>Greetings. We are interested in trading with you. Here's what we're thinking:#We are interested in trading with you.</Text>
 			</Phrase>
 		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Give me this, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Give me this, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Give me this, Obey}-:</Text>
+			</Phrase>
+		</Dialogue>
 	</Topic>
 	<Topic Name="P_TRADE_HIGHDIP">
 		<Dialogue>
@@ -210,6 +259,19 @@
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
 				<Text>Greetings, Excellency. On behalf of the [YourEmpireName] we would like to trade these items:</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Give me this, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Give me this, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Give me this, Obey}-:</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -233,13 +295,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+				<Text>A final command [TheirShortCivName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+				<Text>A final command [TheirShortCivName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+				<Text>A final command [TheirShortCivName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -253,6 +315,19 @@
 			</Phrase>
 			<Phrase Morality="2">
 				<Text>Cower before the mighty [YourLeaderName], you stinky, stupid [TheirShortCivName] scum. That's right, the wise and smart leader of the super strong [YourEmpireName] is here to offer you a way out of this war... which I should remind you, you're LOSING! You should take it, if you even have any brain cells in that stupid head of yours.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Let's stop this war, Obey}-:</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -283,6 +358,19 @@
 				<Text>Er... hey there [TheirLeaderName]... now, don't turn off the U.T., I only came to talk. We're both pretty good fighters, and... it just seems... this war isn't really going well for either of us. I'm not proud of it, but my elite fighting army of super evil warriors apparently just isn't up to snuff. I don't even remember why we started in the first place! So, what do you say we put down our weapons, call a truce, and aim our sights on the weaker fish in the galaxy?#Well this war is becoming quite problematic, [TheirLeaderName]. Let is come to terms.</Text>
 			</Phrase>
 		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+		</Dialogue>
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_WEAKER_LOWDIP">
 		<Dialogue>
@@ -309,6 +397,19 @@
 			</Phrase>
 			<Phrase Morality="2">
 				<Text>Well this is just great... I have to put all my super evil plans on hold while you guys just steamroll through my empire like a bunch of... well... steamrollers. Let's just stop all this hating, and let me get back to doing what I do best... picking on aliens weaker than me. Which certainly doesn't include you.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Let's stop this war, Obey}-:</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -339,6 +440,19 @@
 				<Text>I've got you right where I want you, [TheirLeaderName]. My forces are breathing down your neck, and you're just sweating like a cornered rat. But, here's the real surprise: I'm going to let you go. I've had my fun, and provided you agree to my terms, you're free to live a peaceful, albeit pathetic, existence.</Text>
 			</Phrase>
 		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+		</Dialogue>
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_EQUAL_MIDDIP">
 		<Dialogue>
@@ -365,6 +479,19 @@
 			</Phrase>
 			<Phrase Morality="2">
 				<Text>You're pretty good at this war thing... practically my equal. Let's not draw things out. We should come to terms and conserve our strength for other battles.#We are in a stalemate, let us end this conflict now so we can move to better things.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Let's stop this war, Obey}-:</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -395,6 +522,19 @@
 				<Text>You should be proud of your vile army - they have us beat. My army is weak, my people are tired. What will it take to end this war?</Text>
 			</Phrase>
 		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+		</Dialogue>
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_STRONGER_HIGHDIP">
 		<Dialogue>
@@ -421,6 +561,19 @@
 			</Phrase>
 			<Phrase Morality="2">
 				<Text>Let it be known that the powerful [YourLeaderName] is not without mercy. While our forces await my order to attack, I'm here to give you a way to escape my fury. Let us come to peaceful terms so your citizens can live another day.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Let's stop this war, Obey}-:</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -451,6 +604,19 @@
 				<Text>You have proven yourself, [TheirLeaderName]. We seem to be dancing around each other, each bloody battle getting our forces nowhere. Let's withdrawal our forces and save our strength other wars.#You are powerful, [TheirLeaderName]. But the time has come to put our differences aside.</Text>
 			</Phrase>
 		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+		</Dialogue>
 	</Topic>
 	<Topic Name="P_TRADE_PEACE_WEAKER_HIGHDIP">
 		<Dialogue>
@@ -477,6 +643,19 @@
 			</Phrase>
 			<Phrase Morality="2">
 				<Text>As a warrior myself, I know when I've been outmaneuvered. You're a cunning adversary, [TheirLeaderName]. Let us come to terms so your forces may unleash their might on a more worthy opponent than I.#You are indeed very powerful and you have defeated us. We are prepared to come to terms favorable to you.#You have impressed us with your great power. Let us find a way to negotiate an end to this war.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
+			<Speaker Name="Dnyarri">21</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>-{Let's stop this war, Obey}-:</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>-{Let's stop this war, Obey}-:</Text>
 			</Phrase>
 		</Dialogue>
 	</Topic>
@@ -1343,6 +1522,19 @@
 	</Topic>
 	<Topic Name="P_REJECTION_RELATIONS_OK">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Who do you take us for, [YourLeaderName]... Spathi!?</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Who do you take us for, [YourLeaderName]... Spathi!?</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Who do you take us for, [YourLeaderName]... Spathi!?</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
@@ -1351,6 +1543,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="B_REJECT">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Who do you take us for, [YourLeaderName]... Spathi!?</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Who do you take us for, [YourLeaderName]... Spathi!?</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Who do you take us for, [YourLeaderName]... Spathi!?</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -1896,13 +2101,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+				<Text>A final command [YourLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+				<Text>A final command [YourLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>A final command [TheirLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
+				<Text>A final command [YourLeaderName], but it is more of a plea. Your insubordination has guaranteed your death, there can be no alternative but your species has not yet crossed the threshold of disobedience that would require us to decimate your homeworld. Return to your home. Await our arrival there. If you interfere with us here, we may lose the Doctrinal Conflict with the Kohr-Ah. If we are defeated, you are defeated as well. The Kohr-Ah will be unleashed. They will begin a genocidal orgy, cleansing all known sentience. They will reduce the surface of your homeworld to cinders.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -1975,13 +2180,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>>Very disappointing.</Text>
+				<Text>You have made the incorrect choice and now you must suffer the consequences of your mistake.#You will suffer for your imprudence.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>>Very disappointing.</Text>
+				<Text>You have made the incorrect choice and now you must suffer the consequences of your mistake.#You will suffer for your imprudence.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>>Very disappointing.</Text>
+				<Text>You have made the incorrect choice and now you must suffer the consequences of your mistake.#You will suffer for your imprudence.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -2048,13 +2253,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>Good.</Text>
+				<Text>Your wise decision has spared many of your species from pain of death.</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Good.</Text>
+				<Text>Your wise decision has spared many of your species from pain of death.</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Good.</Text>
+				<Text>Your wise decision has spared many of your species from pain of death.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -2158,6 +2363,19 @@
 	</Topic>
 	<Topic Name="P_UNDERSTAND_INFO">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>Understood.#I will inform my advisors.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>Understood.#I will inform my advisors.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>Understood.#I will inform my advisors.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
@@ -2236,7 +2454,7 @@
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Human">0</Listener>
 			<Phrase Morality="1">
-				<Text>So it has come to this. The Humans gave the galaxy Hyperdrive technology as a gesture of peace but now that you have tasted power you demand tribute. Very well. We shall give you tribute, but beware Human, the price may be high in the long-run.</Text>
+				<Text>So it has come to this. Very well. We shall give you tribute, but beware Human, the price may be high in the long-run.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -2297,13 +2515,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -2319,13 +2537,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -2341,13 +2559,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="1">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="2">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand the following for our victory and your continued existence:</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -2363,13 +2581,13 @@
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand [CashValue] bc for our war efforts and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand [CashValue] bc for our war efforts and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="0">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand [CashValue] bc for our war efforts and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand [CashValue] bc for our war efforts and your continued existence:</Text>
 			</Phrase>
 			<Phrase Morality="0">
-				<Text>Our Doctrinal Conflict with the Kohr-Ah is not going well. It is in your best interest that we do not lose this war. We demand [CashValue] bc for our war efforts and your continued existence:</Text>
+				<Text>Our Doctrinal Conflict with the Kohr-Ah requires your assistance. It is in your best interest that we do not lose this war. We demand [CashValue] bc for our war efforts and your continued existence:</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -2390,7 +2608,7 @@
 			<Speaker Name="Spathi">4</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
-				<Text>Your pathetic race has no business being out here in space. The fact that your kind created the Hyperdrive technology was clearly a fluke. You will pay us tribute of [CashValue] bc if you wish to continue to live.</Text>
+				<Text>Your pathetic race has no business being out here in space. You will pay us tribute of [CashValue] bc if you wish to continue to live.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -2449,7 +2667,7 @@
 			<Speaker Name="Human">0</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="1">
-				<Text>We need '[YourTechnology]'... and you need '[TheirTechnology]'. It only makes sense for us to trade these two techs for the good of our nations.#You remember Hyperdrive? How we were nice enough to just GIVE that to you? Well, we have another technological BREAKTHROUGH we think you might be interested in, but this time we were hoping for a more 'equal' trade: '[YourTechnology]' for '[TheirTechnology]'.#'[YourTechnology]' for '[TheirTechnology]'... you know it's a good deal, [YourLeaderName]! Just click Accept and we can both reap the benefits of our new technology.</Text>
+				<Text>We need '[YourTechnology]'... and you need '[TheirTechnology]'. It only makes sense for us to trade these two techs for the good of our nations.#'[YourTechnology]' for '[TheirTechnology]'... you know it's a good deal, [YourLeaderName]! Just click Accept and we can both reap the benefits of our new technology.</Text>
 			</Phrase>
 		</Dialogue>
 		<Dialogue>
@@ -2644,13 +2862,6 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="DECLARE_WAR_ON_PLAYER">
-		<Dialogue>
-			<Speaker Name="Human">0</Speaker>
-			<Listener Name="Generic">10</Listener>
-			<Phrase Morality="1">
-				<Text>We have given the galaxy the gift of Hyperdrive technology, but feel you have abused the great powers the technology allows, so now we give a second gift... your race's swift and absolute termination.</Text>
-			</Phrase>
-		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Ur-Quan">1</Speaker>
 			<Listener Name="Generic">10</Listener>
@@ -3272,6 +3483,19 @@
 	</Topic>
 	<Topic Name="DECLARE_WAR_TO_STOPAGGRESSION">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>We promised protection for our slave races. Your attack on [FRIENDCIV] is a threat to stability in the galaxy. Therefore, we have decided to eliminate you.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>We promised protection for our slave races. Your attack on [FRIENDCIV] is a threat to stability in the galaxy. Therefore, we have decided to eliminate you.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>We promised protection for our slave races. Your attack on [FRIENDCIV] is a threat to stability in the galaxy. Therefore, we have decided to eliminate you.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Human">0</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -3315,6 +3539,19 @@
 	</Topic>
 	<Topic Name="AI_HELPSPLAYER">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>We promised protection for our slave races. [YOURENEMY] is a threat to stability in the galaxy. Therefore, we have decided to eliminate this threat.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>We promised protection for our slave races. [YOURENEMY] is a threat to stability in the galaxy. Therefore, we have decided to eliminate this threat.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>We promised protection for our slave races. [YOURENEMY] is a threat to stability in the galaxy. Therefore, we have decided to eliminate this threat.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -3330,6 +3567,19 @@
 	</Topic>
 	<Topic Name="AI_GOINGTOWAR">
 		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>We promised protection for our slave races. [AGGRESSORNAME] attack on [DEFENDERSNAME] is a threat to stability in the galaxy. Therefore, we have decided to eliminate this threat.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>We promised protection for our slave races. [AGGRESSORNAME] attack on [DEFENDERSNAME] is a threat to stability in the galaxy. Therefore, we have decided to eliminate this threat.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>We promised protection for our slave races. [AGGRESSORNAME] attack on [DEFENDERSNAME] is a threat to stability in the galaxy. Therefore, we have decided to eliminate this threat.</Text>
+			</Phrase>
+		</Dialogue>
+		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>
 			<Phrase Morality="0">
@@ -3344,6 +3594,19 @@
 		</Dialogue>
 	</Topic>
 	<Topic Name="AI_PAIDOFF">
+		<Dialogue>
+			<Speaker Name="Ur-Quan">1</Speaker>
+			<Listener Name="Generic">10</Listener>
+			<Phrase Morality="0">
+				<Text>We promised protection for our slave races. [AGGRESSORNAME] is a threat to stability in the galaxy. Therefore, we have decided to eliminate this threat.</Text>
+			</Phrase>
+			<Phrase Morality="1">
+				<Text>We promised protection for our slave races. [AGGRESSORNAME] is a threat to stability in the galaxy. Therefore, we have decided to eliminate this threat.</Text>
+			</Phrase>
+			<Phrase Morality="2">
+				<Text>We promised protection for our slave races. [AGGRESSORNAME] is a threat to stability in the galaxy. Therefore, we have decided to eliminate this threat.</Text>
+			</Phrase>
+		</Dialogue>
 		<Dialogue>
 			<Speaker Name="Generic">10</Speaker>
 			<Listener Name="Generic">10</Listener>

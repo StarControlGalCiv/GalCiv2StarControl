@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
-
+<!-- Based on Drengin Techtree -->
 <TechTrees>
 	<TechTree InternalName="Druuge_TechTree">
 		<DataChecksum NoParse="1">
@@ -7,6 +7,15 @@
 			<Translate>DisplayName,Description,Details</Translate>
 		</DataChecksum>
 		<DisplayName>Druuge</DisplayName>
+		<Industry ID="Spacefaring">
+			<Description>Allows us to build shipyards.</Description>
+			<Details>Now without obstacles we may build space-faring vessels.</Details>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+			<Category>HULL</Category>
+			<Model>lrgbuilding0</Model>
+		</Industry>
 		<Culture ID="Xeno Communications">
 			<DisplayName>Xeno Communications</DisplayName>
 		</Culture>
@@ -938,6 +947,31 @@
 			<Alignment>None</Alignment>
 			<Requires>Industrial Starbase Construction</Requires>
 			<WillingnessToTrade>1</WillingnessToTrade>
+		</Industry>
+
+		<Culture ID="A history of Mercantilism">
+			<DisplayName>A history of Mercantilism</DisplayName>
+			<Description>A brief history of the Druuge</Description>
+			<Details>The Druuge home world was united long ago by a single corporate conglomerate. What humans might call libertarianism was the way of the Druuge in its purest form. Its unregulated capitalistic system eventually allowed a single mega corporation to emerge that effectively owned all of the resources of the Druuge world including the military.  As a result, technological and cultural progress stagnated for generations. Without competition, Druuge society moved forward on inertia from its past achievements.||Everything is for sale in Druuge society. Every resource, every service, everything one could possibly imagine -- and then some -- can be bought and sold. If there is a demand, the Druuge will find a way to provide for it.  For this reason, the Druuge tend to be found involved in every galactic war in some form as arms dealers and even mercenary soldiers on both sides.|</Details>
+			<Category>Ethics</Category>
+			<Cost>10</Cost>
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<Requires>None</Requires>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Culture>
+		<Computing ID="TraditionalResearch">
+			<Group>None</Group>
+			<Alignment>None</Alignment>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>50</WillingnessToTrade>
+		</Computing>
+		<Industry ID="IndustrialRevolution">
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
 		</Industry>
 	</TechTree>
 </TechTrees>

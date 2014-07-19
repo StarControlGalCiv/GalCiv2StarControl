@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
-
+<!-- Based on Drengin Techtree -->
 <TechTrees>
-	<TechTree InternalName="Drengin_TechTree">
+	<TechTree InternalName="Kzer-Za_TechTree">
 		<DataChecksum NoParse="1">
 			<Ignore>DisplayName,Description,Details,Model,xmlns</Ignore>
 			<Translate>DisplayName,Description,Details</Translate>
 		</DataChecksum>
-		<DisplayName>Ur-Quan</DisplayName>
+		<DisplayName>Kzer-Za</DisplayName>
+		<Industry ID="Spacefaring">
+			<Description>Allows us to build shipyards.</Description>
+			<Details>Now without obstacles we may build space-faring vessels.</Details>
+			<CanBeTraded>0</CanBeTraded>
+			<CanBeStolen>0</CanBeStolen>
+			<WillingnessToTrade>0</WillingnessToTrade>
+			<Category>HULL</Category>
+			<Model>lrgbuilding0</Model>
+		</Industry>
 		<Culture ID="Xeno Communications">
 			<DisplayName>Xeno Communications</DisplayName>
 		</Culture>
@@ -850,7 +859,7 @@
 		<Industry ID="DeathFurnaces">
 			<DisplayName>Death Furnaces</DisplayName>
 			<Description>Harvest the life force of slaves to improve production</Description>
-			<Details>Death furnaces are a technology uniquely Ur-Quan in nature.  How they work remains a mystery to most of the galaxy.||According to Ur-Quan scientists, Death furnaces work by harvesting what the Ur-Quan call the Aul. They claim the concept was originally from the Precursors (most likely the faction of Precursors called Dread Lords) who believed that Aul (what humans might call a ?soul?) can be harvested and turned into a form of powerful energy.||According to legend, the Precursors had immense amounts of this type of energy which, for lack of a better term, is called 'dark energy'. This energy was native to their existence and is the basis of their power.||Apparently, the 'younger races' such as Ur-Quan, human, Arcean, and so forth possess small amounts of this dark energy that can be extracted from the Aul through these death furnaces.||The net result is that Death Furnaces can greatly amplify the production capacity of factories, slave pits, etc.|</Details>
+			<Details>Death furnaces are a technology uniquely Ur-Quan in nature.  How they work remains a mystery to most of the galaxy.||According to Ur-Quan scientists, Death furnaces work by harvesting what the Ur-Quan call the Aul.||According to legend, the Precursors had immense amounts of this type of energy which, for lack of a better term, is called 'dark energy'. This energy was native to their existence and is the basis of their power.||The net result is that Death Furnaces can greatly amplify the production capacity of factories, slave pits, etc.|</Details>
 			<Category>Manufacturing</Category>
 			<Cost>5000</Cost>
 			<Group>None</Group>
